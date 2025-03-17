@@ -1,0 +1,14 @@
+def bubble_info(bubble_id, info):
+   url = f"{api_base_url}api/v1/bubble.info"
+
+
+   data = {
+       "bubble_id": bubble_id,
+   }
+
+
+   response = requests.post(url, headers=headers, json=data)
+   check_if_ok(response)
+   infolist = response.json().get('bubble')
+   piece = infolist.get(info)
+   return piece
