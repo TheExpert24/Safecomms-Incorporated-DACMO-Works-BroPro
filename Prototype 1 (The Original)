@@ -1,0 +1,278 @@
+mport sys
+import requests
+import uuid
+import json
+from datetime import datetime
+import pytz
+from PyQt5.QtWidgets import (
+   QApplication, QWidget, QVBoxLayout, QHBoxLayout,
+   QPushButton, QTextEdit, QLineEdit, QLabel,
+   QComboBox, QMessageBox, QDialog, QGridLayout
+)
+from PyQt5.QtGui import QFont
+
+
+
+
+class EmojiPicker(QDialog):
+   def __init__(self, parent=None):
+       super().__init__(parent)
+       self.setWindowTitle("Emoji Picker")
+       self.setLayout(QGridLayout())
+
+
+       emojis = [
+           "😀", "😂", "😃", "😄", "😅", "😆", "😉", "😊",
+           "😎", "😍", "😘", "😗", "😙", "😚", "🙂", "🤗",
+           "🤔", "🤨", "😐", "😑", "😶", "🙄", "😏", "😣",
+           # Tiny Jimbo and Sleepy Vajra can add more emojis later
+       ]
+
+
+       for i, emoji in enumerate(emojis):
+           button = QPushButton(emoji)
+           button.setFont(QFont("Arial", 20))
+           button.clicked.connect(lambda _, e=emoji: self.insert_emoji(e))
+           self.layout().addWidget(button, i // 4, i % 4)
+
+
+   def insert_emoji(self, emoji):
+       """Insert selected emoji into the message input."""
+       self.parent().message_input.insert(emoji)
+       self.close()
+
+
+
+
+class ChatApp(QWidget):
+   def __init__(self):
+       super().__init__()
+       self.api_base_url = "https://stanfordohs.pronto.io/"
+       self.user_id = ""
+       self.bubbleID = ""
+       self.accesstoken = ""
+       self.headers = {
+           "Content-Type": "application/json",
+           "Authorization": ""
+       }
+       self.selected_tz = pytz.timezone('UTC')
+       self.initUI()
+
+
+   def initUI(self):
+       layout = QVBoxLayout()
+
+
+       bubble_layout = QHBoxLayout()
+       bubble_layout.addWidget(QLabel("Bubble ID:"))
+       self.bubble_input = QLineEdit()
+       bubble_layout.addWidget(self.bubble_input)
+       layout.addLayout(bubble_layout)
+
+
+       token_layout = QHBoxLayout()
+       token_layout.addWidget(QLabel("Access Token:"))
+       self.token_input = QLineEdit()
+       token_layout.addWidget(self.token_input)
+       layout.addLayout(token_layout)
+
+
+       tz_layout = QHBoxLayout()
+       tz_layout.addWidget(QLabel("Timezone:"))
+
+
+       self.tz_combo = QComboBox()
+       timezones = [
+           'America/Los_Angeles', 'America/New_York',
+           'Europe/London', 'UTC', 'Asia/Tokyo',
+           'Australia/Sydney', 'America/Phoenix',
+           'America/Chicago'
+       ]
+
+
+       self.tz_combo.addItems(timezones)
+       self.tz_combo.currentTextChanged.connect(self.change_timezone)
+
+
+       tz_layout.addWidget(self.tz_combo)
+       layout.addLayout(tz_layout)
+
+
+       self.message_display = QTextEdit()
+       self.message_display.setReadOnly(True)
+       layout.addWidget(self.message_display)
+
+
+       input_layout = QHBoxLayout()
+       self.message_input = QLineEdit()
+
+
+       input_layout.addWidget(self.message_input)
+
+
+       emoji_button = QPushButton("😎")
+       emoji_button.clicked.connect(self.open_emoji_picker)
+
+
+       input_layout.addWidget(emoji_button)
+
+
+       self.send_button = QPushButton("Send")
+       self.send_button.clicked.connect(self.send_message)
+
+
+       input_layout.addWidget(self.send_button)
+
+
+       layout.addLayout(input_layout)
+
+
+       self.setLayout(layout)
+
+
+       self.setWindowTitle('Chat Application')
+
+
+       self.show()
+
+
+   def change_timezone(self, tz):
+       """Update the selected timezone."""
+       self.selected_tz = pytz.timezone(tz)
+
+
+   def open_emoji_picker(self):
+       """Open the emoji picker dialog."""
+       picker = EmojiPicker(self)
+       picker.exec_()
+
+
+   def update_credentials(self):
+       """Update credentials from input fields."""
+       self.bubbleID = self.bubble_input.text().strip()
+       self.accesstoken = self.token_input.text().strip()
+
+
+       if not self.bubbleID or not self.accesstoken:
+           QMessageBox.warning(self, "Warning", "Please enter both Bubble ID and Access Token.")
+           return
+
+
+       self.headers["Authorization"] = f"Bearer {self.accesstoken}"
+
+
+   def fetch_and_display_messages(self):
+       """Fetch messages from the API and display them."""
+       if not (self.bubbleID and self.accesstoken):
+           QMessageBox.warning(self, "Warning", "Please enter Bubble ID and Access Token.")
+           return
+
+
+       try:
+           messages = self.fetch_messages()
+           self.display_today_messages(messages)
+       except requests.RequestException as e:
+           QMessageBox.critical(self, "Error", f"Failed to fetch messages: {str(e)}")
+
+
+   def fetch_messages(self):
+       """Fetch messages from the API."""
+       data = {"bubble_id": self.bubbleID}
+       url = f"{self.api_base_url}api/v1/bubble.history"
+       response = requests.post(url, headers=self.headers, json=data)
+       response.raise_for_status()
+       return json.loads(response.text)['messages']
+
+
+   def display_today_messages(self, messages):
+       """Display today's messages in the message display area."""
+       today = datetime.now(self.selected_tz).date()
+       today_messages = []
+
+
+       for msg in reversed(messages):
+           utc_time = datetime.strptime(msg['created_at'], "%Y-%m-%d %H:%M:%S")
+           utc_time = utc_time.replace(tzinfo=pytz.utc)
+           local_time = utc_time.astimezone(self.selected_tz)
+
+
+           if local_time.date() == today:
+               today_messages.append(msg)
+
+
+       self.message_display.clear()
+
+
+       if not today_messages:
+           self.message_display.append("No messages for today.")
+           return
+
+
+       for msg in today_messages:
+           name = f"{msg['user']['firstname']} {msg['user']['lastname']}"
+           local_time_str = local_time.strftime("%I:%M %p %Z")
+           message_text = msg['message']
+           display_text = f"{name} ({local_time_str}):\n  {message_text}\n"
+           self.message_display.append(display_text)
+
+
+   def send_message(self):
+       """Send a message to the API."""
+       message_text = self.message_input.text().strip()
+
+
+       if not message_text:
+           QMessageBox.warning(self, "Warning", "Please enter a message before sending.")
+           return
+
+
+       self.update_credentials()
+
+
+       if not (self.bubbleID and self.accesstoken):
+           QMessageBox.warning(self, "Warning", "Please enter Bubble ID and Access Token.")
+           return
+
+
+       unique_uuid = str(uuid.uuid4())
+       created_at_str = datetime.now(self.selected_tz).strftime("%Y-%m-%d %H:%M:%S")
+
+
+       data = {
+           "id": "Null",
+           "uuid": unique_uuid,
+           "bubble_id": self.bubbleID,
+           "message": message_text,
+           "created_at": created_at_str,
+           "user_id": self.user_id,
+           "messagemedia": []
+       }
+
+
+       url = f"{self.api_base_url}api/v1/message.create"
+
+
+       try:
+           response = requests.post(url, headers=self.headers, json=data)
+           response.raise_for_status()
+
+
+           QMessageBox.information(self, "Success", "Message sent successfully!")
+
+
+           self.message_input.clear()
+
+
+           self.fetch_and_display_messages()
+
+
+       except requests.RequestException as e:
+           QMessageBox.critical(self, "Error", f"Failed to send message: {str(e)}")
+
+
+
+
+if __name__ == '__main__':
+   app = QApplication(sys.argv)
+   ex = ChatApp()
+   sys.exit(app.exec_())
