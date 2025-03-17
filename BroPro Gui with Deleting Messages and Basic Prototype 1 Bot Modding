@@ -1,0 +1,295 @@
+import sys
+import requests
+import uuid
+from datetime import datetime
+import pytz
+from PyQt5.QtWidgets import (
+    QApplication, QWidget, QVBoxLayout, QHBoxLayout,
+    QPushButton, QLineEdit, QLabel, QMessageBox,
+    QDialog, QGridLayout, QColorDialog, QScrollArea,
+    QListWidget, QListWidgetItem
+)
+from PyQt5.QtGui import QFont, QColor
+from PyQt5.QtCore import QTimer, Qt, QSize
+import re
+import json
+
+class EmojiPicker(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("Emoji Picker")
+        self.setLayout(QGridLayout())
+
+        emojis = [
+            "👍", "👎", "😭", "💀", "😔", "🔥", "🙏", "🫡",
+            "😎", "😍", "😘", "😗", "😙", "😚", "🙂", "🤗",
+            "🤔", "🤨", "😐", "😑", "😶", "🙄", "😏", "😣",
+        ]
+
+        for i, emoji in enumerate(emojis):
+            button = QPushButton(emoji)
+            button.setFont(QFont("Arial", 20))
+            button.clicked.connect(lambda _, e=emoji: self.insert_emoji(e))
+            self.layout().addWidget(button, i // 4, i % 4)
+
+    def insert_emoji(self, emoji):
+        self.parent().message_input.insert(emoji)
+        self.close()
+
+class ChatApp(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.api_base_url = "https://stanfordohs.pronto.io/"
+        self.user_id = ""
+        self.bubbleID = ""
+        self.accesstoken = ""
+        self.headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.accesstoken}"
+        }
+        self.selected_tz = pytz.timezone('America/Los_Angeles')
+        self.chats = []
+        self.selected_messages = set()
+
+        self.initUI()
+        self.setup_auto_refresh()
+
+    def setup_auto_refresh(self):
+        self.refresh_timer = QTimer(self)
+        self.refresh_timer.timeout.connect(self.fetch_and_display_messages)
+        self.refresh_timer.start(10000)
+
+    def initUI(self):
+        main_layout = QHBoxLayout(self)
+
+        self.sidebar_layout = QVBoxLayout()
+        self.sidebar = QWidget()
+        self.sidebar.setLayout(self.sidebar_layout)
+
+        scroll_area = QScrollArea()
+        scroll_area.setWidget(self.sidebar)
+        scroll_area.setWidgetResizable(True)
+        main_layout.addWidget(scroll_area, 1)
+
+        self.search_bar = QLineEdit()
+        self.search_bar.setPlaceholderText("Search chats...")
+        self.sidebar_layout.addWidget(self.search_bar)
+
+        layout = QVBoxLayout()
+
+        self.group_name_label = QLabel("OHS Student Bulletin - '24-25")
+        layout.addWidget(self.group_name_label)
+
+        self.message_display = QListWidget()
+        layout.addWidget(self.message_display)
+
+        input_layout = QHBoxLayout()
+        self.message_input = QLineEdit()
+        input_layout.addWidget(self.message_input)
+        self.send_button = QPushButton("Send")
+        self.send_button.clicked.connect(self.send_message)
+        input_layout.addWidget(self.send_button)
+
+        emoji_button = QPushButton("😊")
+        emoji_button.clicked.connect(self.open_emoji_picker)
+        input_layout.addWidget(emoji_button)
+
+        color_button = QPushButton("Change Text Color")
+        color_button.clicked.connect(self.change_text_color)
+        input_layout.addWidget(color_button)
+
+        layout.addLayout(input_layout)
+
+        self.delete_button = QPushButton("Delete Selected Messages")
+        self.delete_button.clicked.connect(self.delete_selected_messages)
+        layout.addWidget(self.delete_button)
+
+        main_layout.addLayout(layout, 4)
+
+        self.setLayout(main_layout)
+        self.setWindowTitle('Chat Application')
+
+        self.fetch_and_display_chats()
+        self.show()
+
+    def open_emoji_picker(self):
+        picker = EmojiPicker(self)
+        picker.exec_()
+
+    def change_text_color(self):
+        color = QColorDialog.getColor(QColor(0, 0, 0), self, "Select Text Color")
+        if color.isValid():
+            pass
+
+    def fetch_and_display_chats(self):
+        url = f"{self.api_base_url}api/v3/bubble.list"
+        try:
+            response = requests.post(url, headers=self.headers)
+            response.raise_for_status()
+            data = response.json()
+            self.chats = sorted([(chat['title'], chat['id']) for chat in data['bubbles']], key=lambda x: x[0].lower())
+            self.display_chats(self.chats)
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to fetch chat titles: {str(e)}")
+
+    def display_chats(self, chats):
+        for i in reversed(range(self.sidebar_layout.count())):
+            widget = self.sidebar_layout.itemAt(i).widget()
+            if widget is not None:
+                widget.deleteLater()
+        for chat_title, chat_id in chats:
+            button = QPushButton(chat_title)
+            button.clicked.connect(lambda _, chat_id=chat_id: self.select_chat(chat_id))
+            self.sidebar_layout.addWidget(button)
+
+    def select_chat(self, chat_id):
+        self.bubbleID = chat_id
+        selected_chat_title = next(title for title, id in self.chats if id == chat_id)
+        self.group_name_label.setText(selected_chat_title)
+        self.fetch_and_display_messages()
+
+    def fetch_and_display_messages(self):
+        if not (self.bubbleID and self.accesstoken):
+            QMessageBox.warning(self, "Warning", "Please enter Bubble ID and Access Token.")
+            return
+
+        try:
+            messages = self.fetch_messages()
+            self.display_today_messages(messages)
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to fetch messages: {str(e)}")
+
+    def fetch_messages(self):
+        data = {"bubble_id": self.bubbleID}
+        url = f"{self.api_base_url}api/v1/bubble.history"
+        try:
+            response = requests.post(url, headers=self.headers, json=data)
+            response.raise_for_status()
+            return response.json().get('messages', [])
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to fetch messages: {str(e)}")
+            return []
+
+    def display_today_messages(self, messages):
+        today = datetime.now(self.selected_tz).date()
+        self.message_display.clear()
+
+        for msg in reversed(messages):
+            message_time = datetime.strptime(msg['created_at'], "%Y-%m-%d %H:%M:%S")
+            message_time = message_time.replace(tzinfo=pytz.utc).astimezone(self.selected_tz)
+
+            if message_time.date() == today:
+                name = f"{msg['user']['firstname']} {msg['user']['lastname']}"
+                message_text = msg['message']
+                local_time_str = message_time.strftime("%I:%M %p %Z")
+                display_text = f"{name} ({local_time_str}): {message_text}"
+                message_id = msg['id']
+
+                alert = self.detect_suspicious_content(message_text)
+                if alert:
+                    display_text += f"  [ALERT] {alert}"
+
+                list_item = QListWidgetItem(display_text)
+                list_item.setSizeHint(QSize(0, 40))
+                list_item.setFlags(Qt.ItemIsUserCheckable | Qt.ItemIsEnabled)
+                list_item.setCheckState(Qt.Unchecked)
+                list_item.setData(Qt.UserRole, message_id)
+
+                self.message_display.addItem(list_item)
+
+        if not self.message_display.count():
+            self.message_display.addItem("No messages for today.")
+
+    def detect_suspicious_content(self, message):
+        suspicious_keywords = ["hate", "violence", "abuse", "kill", "bully", "racist"]
+        profanity_keywords = ["badword1", "badword2"]
+
+        for keyword in suspicious_keywords:
+            if re.search(rf'\b{keyword}\b', message, re.IGNORECASE):
+                return f"Suspicious Keyword Detected: {keyword}"
+
+        for word in profanity_keywords:
+            if re.search(rf'\b{word}\b', message, re.IGNORECASE):
+                return "Profanity Detected"
+
+        return None
+
+    def delete_selected_messages(self):
+        messages_to_delete = []
+        for index in range(self.message_display.count()):
+            item = self.message_display.item(index)            
+            if item.checkState() == Qt.Checked:
+                message_id = item.data(Qt.UserRole)
+                if message_id is not None:
+                    messages_to_delete.append(str(message_id))
+
+        if not messages_to_delete:
+            QMessageBox.warning(self, "Warning", "No messages selected for deletion.")
+            return
+
+        confirmation = QMessageBox.question(
+            self, "Confirm Deletion",
+            f"Are you sure you want to delete {len(messages_to_delete)} messages?",
+            QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+
+        if confirmation == QMessageBox.No:
+            return
+
+        url = f"{self.api_base_url}api/v1/message.delete"
+        data = {"message_ids": messages_to_delete}
+
+        try:
+            response = requests.post(url, headers=self.headers, json=data)
+            response.raise_for_status()
+
+            server_response = response.json()
+            if server_response.get("success", False):
+                QMessageBox.information(self, "Success", "Messages deleted successfully!")
+                self.fetch_and_display_messages()
+            else:
+                QMessageBox.warning(self, "Failure", f"Failed to delete messages: {server_response.get('error', 'Unknown error')}")
+
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to delete messages: {str(e)}")
+
+    def send_message(self):
+        message_text = self.message_input.text().strip()
+        if not message_text:
+            QMessageBox.warning(self, "Warning", "Please enter a message before sending.")
+            return
+
+        if not (self.bubbleID and self.accesstoken):
+            QMessageBox.warning(self, "Warning", "Please enter Bubble ID and Access Token.")
+            return
+
+        unique_uuid = str(uuid.uuid4())
+        created_at_str = datetime.now(self.selected_tz).strftime("%Y-%m-%d %H:%M:%S")
+
+        data = {
+            "id": "Null",
+            "uuid": unique_uuid,
+            "bubble_id": self.bubbleID,
+            "message": message_text,
+            "created_at": created_at_str,
+            "user_id": self.user_id,
+            "messagemedia": []
+        }
+
+        url = f"{self.api_base_url}api/v1/message.create"
+
+        try:
+            response = requests.post(url, headers=self.headers, json=data)
+            response.raise_for_status()
+
+            self.message_input.clear()
+            self.fetch_and_display_messages()
+
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to send message: {str(e)}")
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = ChatApp()
+    sys.exit(app.exec_())
+
+
