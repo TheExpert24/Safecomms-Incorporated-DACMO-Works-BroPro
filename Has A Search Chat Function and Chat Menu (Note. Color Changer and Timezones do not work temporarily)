@@ -1,0 +1,294 @@
+import sys
+import requests
+import uuid
+import json
+from datetime import datetime
+import pytz
+from PyQt5.QtWidgets import (
+    QApplication, QWidget, QVBoxLayout, QHBoxLayout,
+    QPushButton, QTextEdit, QLineEdit, QLabel,
+    QComboBox, QMessageBox, QDialog, QGridLayout, QColorDialog
+)
+
+from PyQt5.QtWidgets import QScrollArea, QVBoxLayout, QPushButton
+from PyQt5.QtGui import QFont, QColor
+from PyQt5.QtWidgets import QSizePolicy
+
+from PyQt5.QtCore import QTimer
+
+class color:
+    PURPLE = '\033[95m'
+    CYAN = '\033[96m'
+    DARKCYAN = '\033[36m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+    END = '\033[0m'
+
+class EmojiPicker(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("Emoji Picker")
+        self.setLayout(QGridLayout())
+        
+        emojis = [
+            "👍", "👎", "😭", "💀", "😔", "🔥", "🙏", "🫡",
+            "😎", "😍", "😘", "😗", "😙", "😚", "🙂", "🤗",
+            "🤔", "🤨", "😐", "😑", "😶", "🙄", "😏", "😣",
+        ]
+        
+        for i, emoji in enumerate(emojis):
+            button = QPushButton(emoji)
+            button.setFont(QFont("Arial", 20))
+            button.clicked.connect(lambda _, e=emoji: self.insert_emoji(e))
+            self.layout().addWidget(button, i // 4, i % 4)
+
+    def insert_emoji(self, emoji):
+        """Insert selected emoji into the message input."""
+        self.parent().message_input.insert(emoji)
+        self.close()
+
+class ChatApp(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.api_base_url = "https://stanfordohs.pronto.io/"
+        self.user_id = ""
+        self.bubbleID = ""
+        self.accesstoken = ""
+        self.headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.accesstoken}"
+        }
+        self.selected_tz = pytz.timezone('America/Los_Angeles')
+        self.text_color = QColor(0, 0, 0)
+        self.initUI()
+
+    def setup_auto_refresh(self):
+        """Set up a timer to refresh messages automatically."""
+        self.refresh_timer = QTimer(self)
+        self.refresh_timer.timeout.connect(self.fetch_and_display_messages)
+        self.refresh_timer.start(1000)  # changed to 1 second
+
+    def initUI(self):
+        main_layout = QHBoxLayout(self)
+
+        # Sidebar for chat titles
+        self.sidebar_layout = QVBoxLayout()
+        self.sidebar = QWidget()
+        self.sidebar.setLayout(self.sidebar_layout)
+
+        scroll_area = QScrollArea()
+        scroll_area.setWidget(self.sidebar)
+        scroll_area.setWidgetResizable(True)
+        main_layout.addWidget(scroll_area, 1)
+
+
+        self.search_bar = QLineEdit()
+        self.search_bar.setPlaceholderText("Search chats...")
+        self.search_bar.returnPressed.connect(self.search_chats)
+        self.sidebar_layout.addWidget(self.search_bar)
+
+        # Main chat UI layout
+        layout = QVBoxLayout()
+        
+        self.group_name_label = QLabel("Select a group")
+        layout.addWidget(self.group_name_label)
+        
+        self.message_display = QTextEdit()
+        self.message_display.setReadOnly(True)
+        layout.addWidget(self.message_display)
+        
+        input_layout = QHBoxLayout()
+        self.message_input = QLineEdit()
+        input_layout.addWidget(self.message_input)
+        self.send_button = QPushButton("Send")
+        self.send_button.clicked.connect(self.send_message)
+        input_layout.addWidget(self.send_button)
+        layout.addLayout(input_layout)
+
+        main_layout.addLayout(layout, 4)
+
+
+
+        emoji_button = QPushButton("😎")
+        emoji_button.clicked.connect(self.open_emoji_picker)
+        input_layout.addWidget(emoji_button)
+
+        # Change text color button
+        color_button = QPushButton("Change Text Color")
+        color_button.clicked.connect(self.change_text_color)
+        input_layout.addWidget(color_button)
+
+        
+        
+        self.setLayout(main_layout)
+        self.setWindowTitle('Chat Application')
+        
+        self.fetch_and_display_chats()
+        self.setup_auto_refresh()
+        self.show()
+
+    def change_timezone(self, tz):
+        """Update the selected timezone."""
+        self.selected_tz = pytz.timezone(tz)
+
+    def open_emoji_picker(self):
+        """Open the emoji picker dialog."""
+        picker = EmojiPicker(self)
+        picker.exec_()
+
+    def change_text_color(self):
+        """Open a color dialog for the user to change text color."""
+        color = QColorDialog.getColor(self.text_color, self, "Select Text Color")
+        if color.isValid():
+            self.text_color = color
+            self.message_display.setTextColor(self.text_color)  # Apply the color to text display
+
+
+
+        self.headers["Authorization"] = f"Bearer {self.accesstoken}"
+
+    def fetch_and_display_chats(self):
+        url = f"{self.api_base_url}api/v3/bubble.list"
+        try:
+            response = requests.post(url, headers=self.headers)
+            response.raise_for_status()
+            data = response.json()
+            self.chats = sorted([(chat['title'], chat['id']) for chat in data['bubbles']], key=lambda x: x[0].lower())
+            self.display_chats(self.chats)
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to fetch chat titles: {str(e)}")
+
+
+    def display_chats(self, chats):
+       """Display chat titles as buttons in the sidebar."""
+       search_bar_widget = self.search_bar
+       for i in reversed(range(self.sidebar_layout.count())):
+          widget = self.sidebar_layout.itemAt(i).widget()
+          if widget is not None and widget != search_bar_widget:
+             widget.deleteLater()  # Remove each widget (chat button)
+       for chat_title, chat_id in chats:
+          button = QPushButton(chat_title)
+          button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)  # Make the button expand horizontally
+          button.setMaximumWidth(self.sidebar.width())  # Ensure the button fits within the sidebar width
+          button.setStyleSheet("text-align: left; padding-left: 5px;")
+          button.clicked.connect(lambda _, id=chat_id: self.select_chat(id))
+          self.sidebar_layout.addWidget(button)
+
+       
+
+    def select_chat(self, chat_id):
+        """Handle chat selection."""
+        self.bubbleID = chat_id
+        selected_chat_title = next(title for title, id in self.chats if id == chat_id)
+        self.group_name_label.setText(selected_chat_title)
+
+        
+    def search_chats(self):
+       search_text = self.search_bar.text().lower()
+
+       # Separate matching chats from non-matching chats
+       matching_chats = [(title, id) for title, id in self.chats if search_text in title.lower()]
+       non_matching_chats = [(title, id) for title, id in self.chats if search_text not in title.lower()]
+
+       # Combine them so that matching chats come first
+       sorted_chats = matching_chats + non_matching_chats
+
+       # Display the combined list of chats with relevant ones at the top
+       self.display_chats(sorted_chats)
+
+       
+
+    def fetch_and_display_messages(self):
+        """Fetch messages from the API and display them."""
+        if not (self.bubbleID and self.accesstoken):
+            QMessageBox.warning(self, "Warning", "Please enter Bubble ID and Access Token.")
+            return
+
+        try:
+            messages = self.fetch_messages()
+            self.display_today_messages(messages)
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to fetch messages: {str(e)}")
+
+    def fetch_messages(self):
+        """Fetch messages from the API."""
+        data = {"bubble_id": self.bubbleID}
+        url = f"{self.api_base_url}api/v1/bubble.history"
+        response = requests.post(url, headers=self.headers, json=data)
+        response.raise_for_status()  
+        return json.loads(response.text)['messages']
+
+    def display_today_messages(self, messages):
+        """Display today's messages in the message display area."""
+        today = datetime.now(self.selected_tz).date()
+        today_messages = []
+
+        for msg in reversed(messages):
+            utc_time = datetime.strptime(msg['created_at'], "%Y-%m-%d %H:%M:%S")
+            utc_time = utc_time.replace(tzinfo=pytz.utc) 
+            local_time = utc_time.astimezone(self.selected_tz)  
+
+            if local_time.date() == today:
+                today_messages.append(msg)
+
+        self.message_display.clear()  
+
+        if not today_messages:
+            self.message_display.append("No messages for today.")
+            return
+
+        for msg in today_messages:
+            name = f"{msg['user']['firstname']} {msg['user']['lastname']}"
+            local_time_str = local_time.strftime("%I:%M %p %Z")  
+            message_text = msg['message']
+            display_text = name + " (" + local_time_str + "):\n" + message_text + "\n"
+            self.message_display.append(display_text)
+
+    def send_message(self):
+        """Send a message to the API."""
+        message_text = self.message_input.text().strip()  
+       
+        if not message_text:
+            QMessageBox.warning(self, "Warning", "Please enter a message before sending.")
+            return
+
+
+        if not (self.bubbleID and self.accesstoken):
+            QMessageBox.warning(self, "Warning", "Please enter Bubble ID and Access Token.")
+            return
+
+        unique_uuid = str(uuid.uuid4())
+        created_at_str = datetime.now(self.selected_tz).strftime("%Y-%m-%d %H:%M:%S")
+
+        data = {
+            "id": "Null",
+            "uuid": unique_uuid,
+            "bubble_id": self.bubbleID,
+            "message": message_text,
+            "created_at": created_at_str,
+            "user_id": self.user_id,
+            "messagemedia": []
+        }
+
+        url = f"{self.api_base_url}api/v1/message.create"
+
+        try:
+            response = requests.post(url, headers=self.headers, json=data)
+            response.raise_for_status()  
+
+            self.message_input.clear()
+
+            self.fetch_and_display_messages()
+
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to send message: {str(e)}")
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = ChatApp()
+    sys.exit(app.exec_())
+
