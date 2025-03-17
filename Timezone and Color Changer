@@ -51,9 +51,9 @@ class ChatApp(QWidget):
     def __init__(self):
         super().__init__()
         self.api_base_url = "https://stanfordohs.pronto.io/"
-        self.user_id = "5301953"
-        self.bubbleID = "3436833"
-        self.accesstoken = "FrDkU3QbKLov1aRSTuGMJUxINDKVXd93WddDbTlm.1319020607"
+        self.user_id = ""
+        self.bubbleID = ""
+        self.accesstoken = ""
         self.headers = {
             "Content-Type": "application/json",
             "Authorization": ""
