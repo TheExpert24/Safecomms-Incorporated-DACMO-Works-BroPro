@@ -1,0 +1,34 @@
+Websocket Notes
+One Websocket: You can connect to it using "wss://ws-mt1.pusher.com/app/f44139496d9b75f37d27?protocol=7&client=js&version=8.3.0&flash=false"
+
+5 Channels:
+Using Pusher.auth you can get a auth code for the channel, like so:
+await websocket.send(json.dumps(data))
+
+This allows you to connect to a specific channel, and listen to it on that channel.
+
+Most useful one is private-bubble.{bubble_id}.{bubble_sid
+
+Lets you see messages at a live pace in a specific channel (channelcode)
+
+def bubble_info(bubble_id, info):
+   url = f"{api_base_url}api/v1/bubble.info"
+
+
+   data = {
+       "bubble_id": bubble_id,
+   }
+
+
+   response = requests.post(url, headers=headers, json=data)
+   check_if_ok(response)
+   infolist = response.json().get('bubble')
+   piece = infolist.get(info)
+   return piece
+
+channelcode = bubble_info(bubble_id, ‘channelcode’):
+
+
+channelcode and bubble_sid is the same
+
+
