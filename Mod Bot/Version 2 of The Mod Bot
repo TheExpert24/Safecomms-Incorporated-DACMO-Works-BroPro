@@ -1,0 +1,194 @@
+import websockets
+import asyncio
+import json
+import requests
+import sys
+import uuid
+import re
+from datetime import datetime, timezone
+import time
+
+# API Base URL and Credentials
+api_base_url = "https://stanfordohs.pronto.io/"
+accesstoken = ""
+user_id = "5301953"
+int_user_id = 5301953
+main_bubble_ID = "4066670"
+log_channel_ID = "4249268"
+global media
+media = []
+headers = {
+    "Content-Type": "application/json",
+    "Authorization": f"Bearer {accesstoken}",
+}
+settings = [1, 1, 1, 1]
+flagsetting = 3
+stored_messages = []
+warning_message = ""
+log_message = ""
+last_message_id = ""
+
+# Bad Words List URL
+URL = "https://raw.githubusercontent.com/MrSpots1/MrSpots1.github.io/main/words%20%5BMConverter.eu%5D.txt"
+
+# Download Bad Words List
+def download_wordlist(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        words = response.text.split("\n")
+        return set(word.strip().lower() for word in words if word.strip())
+    else:
+        print("Failed to download word list.")
+        return set()
+
+BAD_WORDS = download_wordlist(URL)
+BAD_WORDS_REGEX = re.compile(r"\b(" + "|".join(re.escape(word) for word in BAD_WORDS) + r")\b", re.IGNORECASE)
+
+# WebSocket and API Functions
+def chat_auth(bubble_id, bubble_sid, socket_id):
+    url = f"{api_base_url}api/v1/pusher.auth"
+    data = {
+        "socket_id": socket_id,
+        "channel_name": f"private-bubble.{bubble_id}.{bubble_sid}"
+    }
+    response = requests.post(url, headers=headers, json=data)
+    response.raise_for_status()
+    bubble_auth = response.json().get("auth")
+    print("Bubble Connection Established.")
+    return bubble_auth
+
+async def connect_and_listen(bubble_id, bubble_sid):
+    uri = "wss://ws-mt1.pusher.com/app/f44139496d9b75f37d27?protocol=7&client=js&version=8.3.0&flash=false"
+    async with websockets.connect(uri) as websocket:
+        response = await websocket.recv()
+        print(f"Received: {response}")
+
+        data = json.loads(response)
+        if "data" in data:
+            inner_data = json.loads(data["data"])
+            socket_id = inner_data.get("socket_id", None)
+
+            data = {
+                "event": "pusher:subscribe",
+                "data": {
+                    "channel": f"private-bubble.{bubble_id}.{bubble_sid}",
+                    "auth": chat_auth(bubble_id, bubble_sid, socket_id)
+                }
+            }
+            await websocket.send(json.dumps(data))
+
+            if socket_id:
+                print(f"Socket ID: {socket_id}")
+            else:
+                print("Socket ID not found in response")
+
+        # Listen for incoming messages
+        async for message in websocket:
+            if message == "ping":
+                await websocket.send("pong")
+            else:
+                msg_data = json.loads(message)
+                event_name = msg_data.get("event", "")
+                if event_name == "App\\Events\\MessageAdded":
+                    msg_content = json.loads(msg_data.get("data", "{}"))
+                    msg_text = msg_content.get("message", {}).get("message", "")
+                    msg_user = msg_content.get("message", {}).get("user", {})
+                    user_firstname = msg_user.get("firstname", "Unknown")
+                    user_lastname = msg_user.get("lastname", "User")
+                    timestamp = msg_content.get("message", {}).get("created_at", "Unknown timestamp")
+                    msg_media = msg_content.get("message", {}).get("messagemedia", [])
+
+                    process_message(msg_text, user_firstname, user_lastname, timestamp, msg_media)
+
+async def main(bubble_id, bubble_sid):
+    await connect_and_listen(bubble_id, bubble_sid)
+
+# Mod Bot Logic for Processing Messages
+def process_message(msg_text, user_firstname, user_lastname, timestamp, msg_media):
+    msg_text_lower = msg_text.lower()
+    msg_id = str(uuid.uuid4())  # Simulate unique message ID
+    sent_user_id = user_id  # This would be the actual user ID for the message sender
+
+    # Bad Word Check
+    if settings[0] == 1:
+        count = check_bad_words(msg_text_lower, sent_user_id)
+    
+    # Logging
+    if settings[1] == 1:
+        log(msg_text, sent_user_id, msg_media)
+
+    # Repeat Check
+    if settings[2] == 1:
+        repeat_check(msg_text_lower, sent_user_id, count)
+    
+    # Message Length Check
+    if settings[3] == 1:
+        check_length(msg_text_lower, sent_user_id)
+
+def check_bad_words(msg_text, sent_user_id):
+    """Check if the message contains any flagged words."""
+    if bool(BAD_WORDS_REGEX.search(msg_text)):
+        countflags = BAD_WORDS_REGEX.findall(msg_text)
+        warning_message = f"Warning: <@{sent_user_id}> sent a flagged message with {len(countflags)} flagged section(s)!"
+        print(warning_message)
+        send_message(warning_message, main_bubble_ID, media)
+        return len(countflags)
+    return 0
+
+def log(msg_text, sent_user_id, msg_media):
+    """Log message details to another channel."""
+    log_message = f"Message sent by <@{sent_user_id}>: {msg_text}"
+    send_message(log_message, log_channel_ID, msg_media)
+    print(log_message)
+
+def check_length(msg_text, sent_user_id):
+    """Check if the message exceeds a set length."""
+    if len(msg_text) > 750:
+        warning_message = f"Warning: <@{sent_user_id}> sent a message that is {len(msg_text)} characters long!"
+        send_message(warning_message, main_bubble_ID, media)
+        print(warning_message)
+
+def repeat_check(msg_text, sent_user_id, flagcount):
+    """Check if the user is repeating a message."""
+    matches = list(filter(lambda row: row[0] == sent_user_id, stored_messages))
+    if matches:
+        index = stored_messages.index(matches[0])
+        stored_messages[index][1] = stored_messages[index][3]
+        stored_messages[index][2] = stored_messages[index][4]
+        stored_messages[index][3] = stored_messages[index][5]
+        stored_messages[index][4] = stored_messages[index][6]
+        stored_messages[index][5] = msg_text
+        stored_messages[index][6] = flagcount
+        if stored_messages[index][1] == stored_messages[index][3] and stored_messages[index][3] == stored_messages[index][5]:
+            warning_message = f"Warning: <@{sent_user_id}> sent a repeated message!"
+            send_message(warning_message, main_bubble_ID, media)
+        if settings[0] == 1 and flagsetting > 1:
+            totalcount = stored_messages[index][6] + stored_messages[index][4] + stored_messages[index][2]
+            if totalcount >= flagsetting:
+                warning_message = f"Warning: <@{sent_user_id}> has had {totalcount} flagged sections in the last 3 messages!"
+                send_message(warning_message, main_bubble_ID, media)
+                stored_messages[index][6] = 0
+                stored_messages[index][4] = 0
+                stored_messages[index][2] = 0
+
+def send_message(message, bubble, send_media):
+    """Send a message to the API."""
+    unique_uuid = str(uuid.uuid4())
+    messageCreatedat = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    data = {
+        "id": "Null",
+        "uuid": unique_uuid,
+        "bubble_id": bubble,
+        "message": message,
+        "created_at": messageCreatedat,
+        "user_id": user_id,
+        "messagemedia": send_media
+    }
+    url = f"{api_base_url}api/v1/message.create"
+    response = requests.post(url, headers=headers, json=data)
+    response.raise_for_status()
+
+# Start WebSocket Listening
+bubble_id = "4066670"
+bubble_sid = "dRRIOchii2zlTboeIW12ARtDz6eANFO9Pux16dmX"
+asyncio.run(main(bubble_id, bubble_sid))
