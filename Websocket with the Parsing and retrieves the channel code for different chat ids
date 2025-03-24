@@ -1,0 +1,164 @@
+import websockets
+import asyncio
+import json
+import requests
+import sys
+
+api_base_url = "https://stanfordohs.pronto.io/"
+accesstoken = "ET8DUU4e3PCeUNtfDHd8wmcZZOM4s6dDWA3aAN6M.1323771141"
+user_id = "5301953"
+chat_link = "3436833"
+
+# Extract the bubble_id dynamically from chat_link
+bubble_id = chat_link[-7:]
+
+if bubble_id.isdigit():
+    print("Chat Registered")
+else:
+    print("Error: Not a valid link.")
+    sys.exit()
+
+headers = {
+    "Content-Type": "application/json",
+    "Authorization": f"Bearer {accesstoken}",
+}
+
+# Dynamically retrieve channel_code using bubble_id
+def bubble_info(bubble_id, info='channelid'):
+    url = f"{api_base_url}api/v1/bubble.info"
+
+    if bubble_id != 3640189:  # Assuming this is some specific exception case for a certain bubble_id
+        data = {
+            "bubble_id": bubble_id,
+        }
+
+        response = requests.post(url, headers=headers, json=data)
+        print(f"Response from bubble.info: {response.status_code}, {response.json()}")  # Debugging output
+
+        if response.status_code == 200:
+            infolist = response.json().get('bubble')
+
+            if infolist is None:
+                print(f"Response of Infolist is NONE: {response.json()}")
+                return 'skip'
+
+            else:
+                piece = infolist.get(info)
+                if piece:
+                    print(f"Found {info}: {piece}")
+                    return piece
+                else:
+                    print(f"Could not find {info} in the response")
+                    return 'skip'
+        else:
+            print(f"Error in response: {response.status_code}, {response.text}")
+            return 'skip'
+    else:
+        return 'skip'
+
+# Get channel_code using bubble_info
+channel_code = bubble_info(bubble_id, 'channelcode')
+
+# Check the value of channel_code here before continuing
+print(f"Channel Code Retrieved: {channel_code}")
+
+if not channel_code or channel_code == 'skip':
+    print("Error: Unable to retrieve channel code.")
+    sys.exit()
+
+def chat_auth(bubble_id, channel_code, socket_id):
+    url = f"{api_base_url}api/v1/pusher.auth"
+
+    data = {
+        "socket_id": socket_id,
+        "channel_name": f"private-bubble.{bubble_id}.{channel_code}"  # Use channel_code instead of bubble_sid
+    }
+
+    print(f"Attempting to authenticate with Pusher: {data}")  # Debugging output
+
+    response = requests.post(url, headers=headers, json=data)
+    print(f"Response from pusher.auth: {response.status_code}, {response.text}")  # Debugging output
+
+    if response.status_code == 403:
+        print(f"HTTP Error 403: Unauthorized - {response.json()}")  # More detailed error output
+        return None
+
+    response.raise_for_status()  # Raise an exception if status code is not 2xx
+    bubble_auth = response.json().get("auth")
+    print("Bubble Connection Established.")
+    print(f"Bubble Auth: {bubble_auth}")
+    return bubble_auth
+
+def start_push(bubble_id, channel_code):
+    async def connect_and_listen():
+        uri = "wss://ws-mt1.pusher.com/app/f44139496d9b75f37d27?protocol=7&client=js&version=8.3.0&flash=false"
+
+        async with websockets.connect(uri) as websocket:
+            # wait for the connection established message, which should theoretically contain the socket_id
+            response = await websocket.recv()
+            print(f"Received: {response}")
+
+            # Extract socket_id from the response
+            data = json.loads(response)
+            if "data" in data:
+                inner_data = json.loads(data["data"])
+                socket_id = inner_data.get("socket_id", None)
+
+                if socket_id:
+                    print(f"Socket ID retrieved: {socket_id}")
+
+                    # Now we need to subscribe to the private channel using the retrieved socket_id
+                    auth_token = chat_auth(bubble_id, channel_code, socket_id)
+                    if auth_token is None:
+                        print("Failed to authenticate with Pusher.")
+                        return
+                    
+                    data = {
+                        "event": "pusher:subscribe",
+                        "data": {
+                            "channel": f"private-bubble.{bubble_id}.{channel_code}",
+                            "auth": str(auth_token)
+                        }
+                    }
+                    await websocket.send(json.dumps(data))
+                    print(f"Subscribed to channel: private-bubble.{bubble_id}.{channel_code}")
+                else:
+                    print("Error: Socket ID not found in response.")
+                    return
+
+            else:
+                print("Error: Socket ID not found in connection response.")
+
+            # Keep listening for incoming messages
+            async for message in websocket:
+                if message == "ping":
+                    await websocket.send("pong")  # Keep the connection alive
+                else:
+                    # Parse and process the incoming message
+                    try:
+                        msg_data = json.loads(message)
+                        event_name = msg_data.get("event", "")
+
+                        # Check for 'MessageAdded' event
+                        if event_name == "App\\Events\\MessageAdded":
+                            msg_content = json.loads(msg_data.get("data", "{}"))
+                            msg_text = msg_content.get("message", {}).get("message", "")
+                            msg_user = msg_content.get("message", {}).get("user", {})
+                            user_firstname = msg_user.get("firstname", "Unknown")
+                            user_lastname = msg_user.get("lastname", "User")
+                            timestamp = msg_content.get("message", {}).get("created_at", "Unknown timestamp")
+
+                            # Print the message in the desired format
+                            print(f"{user_firstname} {user_lastname} ({timestamp}):\n  {msg_text}\n")
+
+                    except json.JSONDecodeError:
+                        print("Failed to parse message as JSON")
+                        continue
+
+    async def main():
+        await connect_and_listen()
+
+    asyncio.run(main())
+
+# Start the WebSocket listener with the dynamically retrieved channel_code
+start_push(bubble_id, channel_code)
