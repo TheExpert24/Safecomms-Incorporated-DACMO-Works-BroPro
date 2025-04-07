@@ -5,7 +5,7 @@ import requests
 import sys
 
 api_base_url = "https://stanfordohs.pronto.io/"
-accesstoken = "ET8DUU4e3PCeUNtfDHd8wmcZZOM4s6dDWA3aAN6M.1323771141"
+accesstoken = ""
 user_id = "5301953"
 chat_link = "3436833"
 
