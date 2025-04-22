@@ -1,0 +1,387 @@
+#!/usr/bin/env python3
+import sys
+import requests
+import uuid
+import json
+import os
+import pathlib
+import mimetypes
+import time
+import logging
+from datetime import datetime
+import pytz
+from PyQt5.QtWidgets import (
+    QApplication, QWidget, QVBoxLayout, QHBoxLayout,
+    QPushButton, QTextEdit, QLineEdit, QLabel,
+    QMessageBox, QDialog, QGridLayout, QColorDialog,
+    QScrollArea, QSizePolicy, QFileDialog
+)
+from PyQt5.QtGui import QFont, QColor, QTextCursor, QTextCharFormat
+from PyQt5.QtCore import QTimer
+import asyncio
+import websockets
+import base64
+
+class EmojiPicker(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("Emoji Picker")
+        self.setLayout(QGridLayout())
+
+        emojis = [
+            "👍", "👎", "😭", "💀", "😔", "🔥", "🙏", "🫡",
+            "😎", "😍", "😘", "😗", "😙", "😚", "🙂", "🤗",
+            "🤔", "🤨", "😐", "😑", "😶", "🙄", "😏", "😣",
+        ]
+
+        for i, emoji in enumerate(emojis):
+            button = QPushButton(emoji)
+            button.setFont(QFont("Arial", 20))
+            button.clicked.connect(lambda _, e=emoji: self.insert_emoji(e))
+            self.layout().addWidget(button, i // 4, i % 4)
+
+    def insert_emoji(self, emoji):
+        self.parent().message_input.insert(emoji)
+        self.close()
+
+class ChatApp(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.api_base_url = "https://stanfordohs.pronto.io/"
+        self.user_id = "5301953"
+        self.bubbleID = "3832006"
+        self.accesstoken = "XjwyjiOxMHKYrDVLFFxbAENCskgzob2YpMxZcG1C.1370180367"
+        self.headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.accesstoken}"
+        }
+        self.selected_tz = pytz.timezone('America/Los_Angeles')
+        self.text_color = QColor(255, 255, 255)
+
+        self.last_message_ids = set()
+        self.chats = []
+
+        self.initUI()
+        self.socket_thread = None
+        self.websocket_uri = "wss://ws-mt1.pusher.com/app/f44139496d9b75f37d27?protocol=7&client=js&version=8.3.0&flash=false"
+        self.channel_code = None
+        self.socket_id = None
+        self.typing_timer = QTimer(self)
+        self.typing_timer.timeout.connect(self.clear_typing_indicator)
+        self.typing_active = False
+
+    def setup_auto_refresh(self):
+        self.refresh_timer = QTimer(self)
+        self.refresh_timer.timeout.connect(self.fetch_and_display_messages)
+        self.refresh_timer.start(4000)
+
+    def initUI(self):
+        main_layout = QHBoxLayout(self)
+
+        self.sidebar_layout = QVBoxLayout()
+        self.sidebar = QWidget()
+        self.sidebar.setLayout(self.sidebar_layout)
+
+        scroll_area = QScrollArea()
+        scroll_area.setWidget(self.sidebar)
+        scroll_area.setWidgetResizable(True)
+        main_layout.addWidget(scroll_area, 1)
+
+        self.search_bar = QLineEdit()
+        self.search_bar.setPlaceholderText("Search chats...")
+        self.search_bar.returnPressed.connect(self.search_chats)
+        self.sidebar_layout.addWidget(self.search_bar)
+
+        layout = QVBoxLayout()
+        self.group_name_label = QLabel("Select a group")
+        layout.addWidget(self.group_name_label)
+
+        self.message_display = QTextEdit()
+        self.message_display.setReadOnly(True)
+        layout.addWidget(self.message_display)
+
+        input_layout = QHBoxLayout()
+        self.message_input = QLineEdit()
+        self.message_input.textChanged.connect(self.on_text_changed)
+        self.message_input.returnPressed.connect(self.send_message)
+        input_layout.addWidget(self.message_input)
+
+        self.send_button = QPushButton("Send")
+        self.send_button.clicked.connect(self.send_message)
+        input_layout.addWidget(self.send_button)
+
+        upload_button = QPushButton("Upload Image")
+        upload_button.clicked.connect(self.upload_image)
+        input_layout.addWidget(upload_button)
+
+        emoji_button = QPushButton("😎")
+        emoji_button.clicked.connect(self.open_emoji_picker)
+        input_layout.addWidget(emoji_button)
+
+        color_button = QPushButton("Change Text Color")
+        color_button.clicked.connect(self.change_text_color)
+        input_layout.addWidget(color_button)
+
+        layout.addLayout(input_layout)
+        main_layout.addLayout(layout, 4)
+
+        self.setLayout(main_layout)
+        self.setWindowTitle('Chat Application')
+
+        self.fetch_and_display_chats()
+        self.setup_auto_refresh()
+        self.show()
+
+    def upload_image(self):
+        file_path, _ = QFileDialog.getOpenFileName(
+            self,
+            "Select Image",
+            "",
+            "Images (*.png *.jpg *.jpeg *.gif);;All Files (*.*)"
+        )
+        
+        if file_path:
+            try:
+                # Upload file
+                p = pathlib.Path(file_path)
+                if not p.exists():
+                    raise FileNotFoundError(f"File not found: {file_path}")
+                    
+                mime = mimetypes.guess_type(p.name)[0] or "application/octet-stream"
+                size = p.stat().st_size
+                url = f"{self.api_base_url}api/files"
+                headers = {
+                    **self.headers,
+                    "Content-Type": mime,
+                    "Content-Length": str(size)
+                }
+                
+                with p.open("rb") as fh:
+                    r = requests.put(
+                        url,
+                        params={"filename": p.name, "normalize_image": "true"},
+                        data=fh,
+                        headers=headers
+                    )
+                r.raise_for_status()
+                orig_key = r.json()["data"]["key"]
+
+                # Wait for normalization
+                norm_url = f"{self.api_base_url}api/clients/files/{orig_key}/normalized"
+                for attempt in range(1, 6):
+                    r = requests.get(norm_url, params={"preset": "PHOTO"}, headers=self.headers)
+                    r.raise_for_status()
+                    if "normalized" in r.json().get("data", {}):
+                        break
+                    time.sleep(0.5)
+
+                # Get normalized data
+                r = requests.get(norm_url, params={"preset": "PHOTO"}, headers=self.headers)
+                r.raise_for_status()
+                norm_data = r.json()["data"]["normalized"]
+                
+                # Create message with image
+                data = {
+                    "uuid": str(uuid.uuid4()),
+                    "bubble_id": self.bubbleID,
+                    "message": "",
+                    "messagemedia": [{
+                        "mediatype": "PHOTO",
+                        "title": norm_data["name"],
+                        "filesize": norm_data["filesize"],
+                        "mimetype": norm_data["mimetype"],
+                        "width": norm_data.get("width"),
+                        "height": norm_data.get("height"),
+                        "uuid": norm_data["key"]
+                    }]
+                }
+
+                url = f"{self.api_base_url}api/v1/message.create"
+                response = requests.post(url, headers=self.headers, json=data)
+                response.raise_for_status()
+                
+                self.fetch_and_display_messages()
+                QMessageBox.information(self, "Success", "Image uploaded successfully!")
+            except Exception as e:
+                QMessageBox.critical(self, "Error", f"Failed to upload image: {str(e)}")
+
+    def open_emoji_picker(self):
+        picker = EmojiPicker(self)
+        picker.exec_()
+
+    def change_text_color(self):
+        color = QColorDialog.getColor(self.text_color, self, "Select Text Color")
+        if color.isValid():
+            self.text_color = color
+            palette = self.message_input.palette()
+            palette.setColor(self.message_input.foregroundRole(), self.text_color)
+            self.message_input.setPalette(palette)
+
+    def fetch_and_display_chats(self):
+        url = f"{self.api_base_url}api/v3/bubble.list"
+        try:
+            response = requests.post(url, headers=self.headers)
+            response.raise_for_status()
+            data = response.json()
+            self.chats = sorted([(chat['title'], chat['id']) for chat in data['bubbles']], key=lambda x: x[0].lower())
+            self.display_chats(self.chats)
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to fetch chat titles: {str(e)}")
+
+    def display_chats(self, chats):
+        search_bar_widget = self.search_bar
+        for i in reversed(range(self.sidebar_layout.count())):
+            widget = self.sidebar_layout.itemAt(i).widget()
+            if widget is not None and widget != search_bar_widget:
+                widget.setParent(None)
+        for chat_title, chat_id in chats:
+            button = QPushButton(chat_title)
+            button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
+            button.setMaximumWidth(self.sidebar.width())
+            button.setStyleSheet("text-align: left; padding-left: 5px;")
+            button.clicked.connect(lambda _, id=chat_id: self.select_chat(id))
+            self.sidebar_layout.addWidget(button)
+
+    def search_chats(self):
+        search_text = self.search_bar.text().lower()
+        filtered_chats = [(title, cid) for title, cid in self.chats if search_text in title.lower()]
+        self.display_chats(filtered_chats)
+
+    def select_chat(self, chat_id):
+        self.bubbleID = chat_id
+        title = next(t for t, id in self.chats if id == chat_id)
+        self.group_name_label.setText(title)
+        self.last_message_ids.clear()
+        self.fetch_and_display_messages()
+
+    def fetch_and_display_messages(self):
+        if not (self.bubbleID and self.accesstoken):
+            return
+
+        try:
+            messages = self.fetch_messages()
+            self.display_today_messages(messages)
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to fetch messages: {str(e)}")
+
+    def fetch_messages(self):
+        url = f"{self.api_base_url}api/v1/bubble.history"
+        response = requests.post(url, headers=self.headers, json={"bubble_id": self.bubbleID})
+        response.raise_for_status()
+        return json.loads(response.text)['messages']
+
+    def display_today_messages(self, messages):
+        today = datetime.now(self.selected_tz).date()
+        new_ids = {msg['id'] for msg in messages}
+
+        if new_ids == self.last_message_ids:
+            return
+
+        self.last_message_ids = new_ids
+        self.message_display.clear()
+
+        today_msgs = []
+        for msg in reversed(messages):
+            utc_time = datetime.strptime(msg['created_at'], "%Y-%m-%d %H:%M:%S").replace(tzinfo=pytz.utc)
+            local_time = utc_time.astimezone(self.selected_tz)
+            if local_time.date() == today:
+                today_msgs.append((msg, local_time.strftime("%I:%M %p %Z")))
+
+        if not today_msgs:
+            self.message_display.append("No messages for today.")
+            return
+
+        for msg, local_time_str in today_msgs:
+            name = f"{msg['user']['firstname']} {msg['user']['lastname']}"
+            text = msg['message']
+            if text:
+                formatted = (
+                    f"<b>{name} ({local_time_str}):</b><br>"
+                    f"<span style='color:{self.text_color.name()}'>{text}</span><br>"
+                )
+            else:
+                formatted = f"<b>{name} ({local_time_str}):</b><br>"
+
+            self.message_display.append(formatted)
+
+            if 'messagemedia' in msg:
+                for media in msg['messagemedia']:
+                    try:
+                        img_url = media['url']
+                        headers = {"Authorization": f"Bearer {self.accesstoken}"}
+                        img_data = requests.get(img_url, headers=headers).content
+                        img_b64 = base64.b64encode(img_data).decode()
+                        img_html = f'<img src="data:image/png;base64,{img_b64}" width="100" />'
+                        self.message_display.append(img_html + "<br>")
+                    except Exception as e:
+                        self.message_display.append(f"<i>Image error: {str(e)}</i><br>")
+
+        self.message_display.moveCursor(QTextCursor.End)
+
+    def send_message(self):
+        message_text = self.message_input.text().strip()
+        if not message_text:
+            return
+
+        data = {
+            "id": "Null",
+            "uuid": str(uuid.uuid4()),
+            "bubble_id": self.bubbleID,
+            "message": message_text,
+            "created_at": datetime.now(self.selected_tz).strftime("%Y-%m-%d %H:%M:%S"),
+            "user_id": self.user_id,
+            "messagemedia": []
+        }
+
+        url = f"{self.api_base_url}api/v1/message.create"
+        try:
+            requests.post(url, headers=self.headers, json=data).raise_for_status()
+            self.message_input.clear()
+            self.fetch_and_display_messages()
+        except requests.RequestException as e:
+            QMessageBox.critical(self, "Error", f"Failed to send message: {str(e)}")
+
+    def on_text_changed(self):
+        if not self.typing_active:
+            self.typing_active = True
+            self.show_typing_indicator()
+
+        if self.socket_id:
+            self.send_typing_event()
+
+        self.typing_timer.start(2000)
+
+    def send_typing_event(self):
+        if self.socket_id and self.bubbleID:
+            typing_data = {
+                "event": "UserTyping",
+                "data": {"socket_id": self.socket_id, "firstname": "YourFirstName", "lastname": "YourLastName"}
+            }
+            asyncio.run(self.send_websocket_message(typing_data))
+
+    async def send_websocket_message(self, data):
+        if self.websocket_uri:
+            async with websockets.connect(self.websocket_uri) as ws:
+                await ws.send(json.dumps(data))
+
+    def clear_typing_indicator(self):
+        if self.typing_active:
+            self.typing_active = False
+            self.clear_other_user_typing_indicator()
+
+    def clear_other_user_typing_indicator(self):
+        self.message_display.append("<i>Typing indicator cleared</i><br>")
+        self.message_display.moveCursor(QTextCursor.End)
+
+    def show_typing_indicator(self):
+        self.message_display.append("<i>You are typing...</i><br>")
+        self.message_display.moveCursor(QTextCursor.End)
+
+    def show_other_user_typing(self, firstname, lastname):
+        self.message_display.append(f"<i>{firstname} {lastname} is typing...</i><br>")
+        self.message_display.moveCursor(QTextCursor.End)
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    chat_app = ChatApp()
+    sys.exit(app.exec_())
