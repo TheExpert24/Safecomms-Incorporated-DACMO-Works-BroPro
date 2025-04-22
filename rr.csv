@@ -1,0 +1,5325 @@
+State Name,County Name,NAICS Description,Establishments
+Alabama,Autauga,Real Estate,42
+Alabama,Autauga,Religious,69
+Alabama,Baldwin,Real Estate,425
+Alabama,Baldwin,Religious,249
+Alabama,Barbour,Real Estate,14
+Alabama,Barbour,Religious,26
+Alabama,Bibb,Real Estate,9
+Alabama,Bibb,Religious,21
+Alabama,Blount,Real Estate,9
+Alabama,Blount,Religious,42
+Alabama,Bullock,Real Estate,4
+Alabama,Bullock,Religious,10
+Alabama,Butler,Real Estate,20
+Alabama,Butler,Religious,20
+Alabama,Calhoun,Real Estate,57
+Alabama,Calhoun,Religious,160
+Alabama,Chambers,Real Estate,13
+Alabama,Chambers,Religious,64
+Alabama,Cherokee,Real Estate,9
+Alabama,Cherokee,Religious,27
+Alabama,Chilton,Real Estate,23
+Alabama,Chilton,Religious,72
+Alabama,Choctaw,Real Estate,3
+Alabama,Choctaw,Religious,29
+Alabama,Clarke,Real Estate,13
+Alabama,Clarke,Religious,39
+Alabama,Clay,Real Estate,6
+Alabama,Clay,Religious,17
+Alabama,Cleburne,Real Estate,3
+Alabama,Cleburne,Religious,13
+Alabama,Coffee,Real Estate,39
+Alabama,Coffee,Religious,71
+Alabama,Colbert,Real Estate,32
+Alabama,Colbert,Religious,83
+Alabama,Conecuh,Real Estate,6
+Alabama,Conecuh,Religious,9
+Alabama,Coosa,Real Estate,6
+Alabama,Coosa,Religious,10
+Alabama,Covington,Real Estate,24
+Alabama,Covington,Religious,45
+Alabama,Crenshaw,Real Estate,5
+Alabama,Crenshaw,Religious,15
+Alabama,Cullman,Real Estate,42
+Alabama,Cullman,Religious,90
+Alabama,Dale,Real Estate,24
+Alabama,Dale,Religious,55
+Alabama,Dallas,Real Estate,16
+Alabama,Dallas,Religious,58
+Alabama,DeKalb,Real Estate,28
+Alabama,DeKalb,Religious,67
+Alabama,Elmore,Real Estate,52
+Alabama,Elmore,Religious,92
+Alabama,Escambia,Real Estate,26
+Alabama,Escambia,Religious,59
+Alabama,Etowah,Real Estate,45
+Alabama,Etowah,Religious,148
+Alabama,Fayette,Real Estate,3
+Alabama,Fayette,Religious,15
+Alabama,Franklin,Real Estate,19
+Alabama,Franklin,Religious,27
+Alabama,Geneva,Real Estate,12
+Alabama,Geneva,Religious,24
+Alabama,Hale,Real Estate,3
+Alabama,Hale,Religious,10
+Alabama,Henry,Real Estate,3
+Alabama,Henry,Religious,27
+Alabama,Houston,Real Estate,94
+Alabama,Houston,Religious,114
+Alabama,Jackson,Real Estate,20
+Alabama,Jackson,Religious,50
+Alabama,Jefferson,Real Estate,733
+Alabama,Jefferson,Religious,937
+Alabama,Lauderdale,Real Estate,91
+Alabama,Lauderdale,Religious,129
+Alabama,Lawrence,Real Estate,7
+Alabama,Lawrence,Religious,35
+Alabama,Lee,Real Estate,172
+Alabama,Lee,Religious,141
+Alabama,Limestone,Real Estate,58
+Alabama,Limestone,Religious,86
+Alabama,Lowndes,Real Estate,8
+Alabama,Lowndes,Religious,6
+Alabama,Macon,Real Estate,12
+Alabama,Macon,Religious,17
+Alabama,Madison,Real Estate,494
+Alabama,Madison,Religious,374
+Alabama,Marengo,Real Estate,4
+Alabama,Marengo,Religious,30
+Alabama,Marion,Real Estate,6
+Alabama,Marion,Religious,27
+Alabama,Marshall,Real Estate,66
+Alabama,Marshall,Religious,87
+Alabama,Mobile,Real Estate,366
+Alabama,Mobile,Religious,445
+Alabama,Monroe,Real Estate,10
+Alabama,Monroe,Religious,30
+Alabama,Montgomery,Real Estate,218
+Alabama,Montgomery,Religious,349
+Alabama,Morgan,Real Estate,68
+Alabama,Morgan,Religious,140
+Alabama,Perry,Real Estate,5
+Alabama,Perry,Religious,10
+Alabama,Pike,Real Estate,25
+Alabama,Pike,Religious,36
+Alabama,Randolph,Real Estate,10
+Alabama,Randolph,Religious,23
+Alabama,Russell,Real Estate,40
+Alabama,Russell,Religious,60
+Alabama,Shelby,Real Estate,253
+Alabama,Shelby,Religious,212
+Alabama,St. Clair,Real Estate,39
+Alabama,St. Clair,Religious,75
+Alabama,Talladega,Real Estate,36
+Alabama,Talladega,Religious,97
+Alabama,Tallapoosa,Real Estate,28
+Alabama,Tallapoosa,Religious,60
+Alabama,Tuscaloosa,Real Estate,186
+Alabama,Tuscaloosa,Religious,216
+Alabama,Walker,Real Estate,35
+Alabama,Walker,Religious,93
+Alabama,Wilcox,Real Estate,7
+Alabama,Wilcox,Religious,11
+Alabama,Winston,Real Estate,9
+Alabama,Winston,Religious,23
+Alaska,Aleutians East Borough,Real Estate,3
+Alaska,Aleutians East Borough,Religious,3
+Alaska,Anchorage Municipality,Real Estate,397
+Alaska,Anchorage Municipality,Religious,391
+Alaska,Bethel Census Area,Real Estate,7
+Alaska,Bethel Census Area,Religious,7
+Alaska,Fairbanks North Star Borough,Real Estate,151
+Alaska,Fairbanks North Star Borough,Religious,100
+Alaska,Haines Borough,Real Estate,4
+Alaska,Haines Borough,Religious,7
+Alaska,Juneau City and Borough,Real Estate,47
+Alaska,Juneau City and Borough,Religious,56
+Alaska,Kenai Peninsula Borough,Real Estate,79
+Alaska,Kenai Peninsula Borough,Religious,100
+Alaska,Ketchikan Gateway Borough,Real Estate,27
+Alaska,Ketchikan Gateway Borough,Religious,24
+Alaska,Kodiak Island Borough,Real Estate,9
+Alaska,Kodiak Island Borough,Religious,22
+Alaska,Lake and Peninsula Borough,Real Estate,3
+Alaska,Lake and Peninsula Borough,Religious,3
+Alaska,Matanuska-Susitna Borough,Real Estate,102
+Alaska,Matanuska-Susitna Borough,Religious,100
+Alaska,Nome Census Area,Real Estate,7
+Alaska,Nome Census Area,Religious,11
+Alaska,North Slope Borough,Real Estate,3
+Alaska,North Slope Borough,Religious,7
+Alaska,Petersburg Borough,Real Estate,4
+Alaska,Petersburg Borough,Religious,10
+Alaska,Sitka City and Borough,Real Estate,15
+Alaska,Sitka City and Borough,Religious,15
+Alaska,Southeast Fairbanks Census Area,Real Estate,4
+Alaska,Southeast Fairbanks Census Area,Religious,7
+Alaska,Valdez-Cordova Census Area,Real Estate,8
+Alaska,Valdez-Cordova Census Area,Religious,20
+Arizona,Apache,Real Estate,11
+Arizona,Apache,Religious,25
+Arizona,Cochise,Real Estate,107
+Arizona,Cochise,Religious,115
+Arizona,Coconino,Real Estate,234
+Arizona,Coconino,Religious,152
+Arizona,Gila,Real Estate,71
+Arizona,Gila,Religious,50
+Arizona,Graham,Real Estate,14
+Arizona,Graham,Religious,17
+Arizona,Greenlee,Real Estate,3
+Arizona,Greenlee,Religious,5
+Arizona,La Paz,Real Estate,20
+Arizona,La Paz,Religious,14
+Arizona,Maricopa,Real Estate,"8,055"
+Arizona,Maricopa,Religious,"2,183"
+Arizona,Mohave,Real Estate,231
+Arizona,Mohave,Religious,117
+Arizona,Navajo,Real Estate,93
+Arizona,Navajo,Religious,81
+Arizona,Pima,Real Estate,"1,400"
+Arizona,Pima,Religious,667
+Arizona,Pinal,Real Estate,273
+Arizona,Pinal,Religious,146
+Arizona,Santa Cruz,Real Estate,40
+Arizona,Santa Cruz,Religious,29
+Arizona,Yavapai,Real Estate,487
+Arizona,Yavapai,Religious,194
+Arizona,Yuma,Real Estate,162
+Arizona,Yuma,Religious,90
+Arkansas,Arkansas,Real Estate,14
+Arkansas,Arkansas,Religious,30
+Arkansas,Ashley,Real Estate,4
+Arkansas,Ashley,Religious,29
+Arkansas,Baxter,Real Estate,40
+Arkansas,Baxter,Religious,43
+Arkansas,Benton,Real Estate,391
+Arkansas,Benton,Religious,235
+Arkansas,Boone,Real Estate,31
+Arkansas,Boone,Religious,50
+Arkansas,Bradley,Real Estate,5
+Arkansas,Bradley,Religious,18
+Arkansas,Carroll,Real Estate,20
+Arkansas,Carroll,Religious,46
+Arkansas,Chicot,Real Estate,9
+Arkansas,Chicot,Religious,11
+Arkansas,Clark,Real Estate,30
+Arkansas,Clark,Religious,46
+Arkansas,Clay,Real Estate,7
+Arkansas,Clay,Religious,25
+Arkansas,Cleburne,Real Estate,24
+Arkansas,Cleburne,Religious,39
+Arkansas,Columbia,Real Estate,15
+Arkansas,Columbia,Religious,35
+Arkansas,Conway,Real Estate,8
+Arkansas,Conway,Religious,27
+Arkansas,Craighead,Real Estate,120
+Arkansas,Craighead,Religious,97
+Arkansas,Crawford,Real Estate,35
+Arkansas,Crawford,Religious,46
+Arkansas,Crittenden,Real Estate,42
+Arkansas,Crittenden,Religious,44
+Arkansas,Cross,Real Estate,16
+Arkansas,Cross,Religious,27
+Arkansas,Desha,Real Estate,9
+Arkansas,Desha,Religious,20
+Arkansas,Drew,Real Estate,18
+Arkansas,Drew,Religious,20
+Arkansas,Faulkner,Real Estate,130
+Arkansas,Faulkner,Religious,114
+Arkansas,Franklin,Real Estate,6
+Arkansas,Franklin,Religious,25
+Arkansas,Fulton,Real Estate,4
+Arkansas,Fulton,Religious,11
+Arkansas,Garland,Real Estate,143
+Arkansas,Garland,Religious,124
+Arkansas,Grant,Real Estate,4
+Arkansas,Grant,Religious,24
+Arkansas,Greene,Real Estate,29
+Arkansas,Greene,Religious,44
+Arkansas,Hempstead,Real Estate,14
+Arkansas,Hempstead,Religious,24
+Arkansas,Hot Spring,Real Estate,13
+Arkansas,Hot Spring,Religious,41
+Arkansas,Howard,Real Estate,4
+Arkansas,Howard,Religious,15
+Arkansas,Independence,Real Estate,17
+Arkansas,Independence,Religious,50
+Arkansas,Izard,Real Estate,6
+Arkansas,Izard,Religious,17
+Arkansas,Jackson,Real Estate,13
+Arkansas,Jackson,Religious,22
+Arkansas,Jefferson,Real Estate,45
+Arkansas,Jefferson,Religious,94
+Arkansas,Johnson,Real Estate,15
+Arkansas,Johnson,Religious,22
+Arkansas,Lawrence,Real Estate,5
+Arkansas,Lawrence,Religious,15
+Arkansas,Lee,Real Estate,4
+Arkansas,Lee,Religious,9
+Arkansas,Lincoln,Real Estate,6
+Arkansas,Lincoln,Religious,7
+Arkansas,Logan,Real Estate,12
+Arkansas,Logan,Religious,31
+Arkansas,Lonoke,Real Estate,61
+Arkansas,Lonoke,Religious,57
+Arkansas,Madison,Real Estate,8
+Arkansas,Madison,Religious,10
+Arkansas,Marion,Real Estate,12
+Arkansas,Marion,Religious,16
+Arkansas,Miller,Real Estate,38
+Arkansas,Miller,Religious,48
+Arkansas,Mississippi,Real Estate,23
+Arkansas,Mississippi,Religious,45
+Arkansas,Monroe,Real Estate,4
+Arkansas,Monroe,Religious,9
+Arkansas,Montgomery,Real Estate,6
+Arkansas,Montgomery,Religious,6
+Arkansas,Nevada,Real Estate,4
+Arkansas,Nevada,Religious,11
+Arkansas,Ouachita,Real Estate,17
+Arkansas,Ouachita,Religious,38
+Arkansas,Perry,Real Estate,4
+Arkansas,Perry,Religious,12
+Arkansas,Phillips,Real Estate,12
+Arkansas,Phillips,Religious,23
+Arkansas,Pike,Real Estate,7
+Arkansas,Pike,Religious,9
+Arkansas,Poinsett,Real Estate,8
+Arkansas,Poinsett,Religious,25
+Arkansas,Polk,Real Estate,13
+Arkansas,Polk,Religious,35
+Arkansas,Pope,Real Estate,65
+Arkansas,Pope,Religious,76
+Arkansas,Prairie,Real Estate,6
+Arkansas,Prairie,Religious,12
+Arkansas,Pulaski,Real Estate,600
+Arkansas,Pulaski,Religious,667
+Arkansas,Randolph,Real Estate,12
+Arkansas,Randolph,Religious,13
+Arkansas,Saline,Real Estate,111
+Arkansas,Saline,Religious,88
+Arkansas,Scott,Real Estate,4
+Arkansas,Scott,Religious,12
+Arkansas,Searcy,Real Estate,4
+Arkansas,Searcy,Religious,5
+Arkansas,Sebastian,Real Estate,141
+Arkansas,Sebastian,Religious,116
+Arkansas,Sevier,Real Estate,7
+Arkansas,Sevier,Religious,17
+Arkansas,Sharp,Real Estate,10
+Arkansas,Sharp,Religious,28
+Arkansas,St. Francis,Real Estate,18
+Arkansas,St. Francis,Religious,27
+Arkansas,Stone,Real Estate,9
+Arkansas,Stone,Religious,18
+Arkansas,Union,Real Estate,24
+Arkansas,Union,Religious,85
+Arkansas,Van Buren,Real Estate,8
+Arkansas,Van Buren,Religious,27
+Arkansas,Washington,Real Estate,358
+Arkansas,Washington,Religious,209
+Arkansas,White,Real Estate,62
+Arkansas,White,Religious,80
+Arkansas,Woodruff,Real Estate,4
+Arkansas,Woodruff,Religious,11
+Arkansas,Yell,Real Estate,7
+Arkansas,Yell,Religious,25
+California,Alameda,Real Estate,"2,193"
+California,Alameda,Religious,"1,315"
+California,Alpine,Real Estate,3
+California,Alpine,Religious,3
+California,Amador,Real Estate,37
+California,Amador,Religious,38
+California,Butte,Real Estate,218
+California,Butte,Religious,166
+California,Calaveras,Real Estate,43
+California,Calaveras,Religious,49
+California,Colusa,Real Estate,16
+California,Colusa,Religious,15
+California,Contra Costa,Real Estate,"1,561"
+California,Contra Costa,Religious,616
+California,Del Norte,Real Estate,28
+California,Del Norte,Religious,16
+California,El Dorado,Real Estate,287
+California,El Dorado,Religious,125
+California,Fresno,Real Estate,798
+California,Fresno,Religious,522
+California,Glenn,Real Estate,13
+California,Glenn,Religious,28
+California,Humboldt,Real Estate,157
+California,Humboldt,Religious,139
+California,Imperial,Real Estate,141
+California,Imperial,Religious,88
+California,Inyo,Real Estate,22
+California,Inyo,Religious,21
+California,Kern,Real Estate,592
+California,Kern,Religious,390
+California,Kings,Real Estate,97
+California,Kings,Religious,53
+California,Lake,Real Estate,61
+California,Lake,Religious,45
+California,Lassen,Real Estate,23
+California,Lassen,Religious,20
+California,Los Angeles,Real Estate,"16,826"
+California,Los Angeles,Religious,"6,240"
+California,Madera,Real Estate,100
+California,Madera,Religious,64
+California,Marin,Real Estate,645
+California,Marin,Religious,280
+California,Mariposa,Real Estate,21
+California,Mariposa,Religious,23
+California,Mendocino,Real Estate,133
+California,Mendocino,Religious,92
+California,Merced,Real Estate,131
+California,Merced,Religious,92
+California,Modoc,Real Estate,4
+California,Modoc,Religious,8
+California,Mono,Real Estate,70
+California,Mono,Religious,45
+California,Monterey,Real Estate,458
+California,Monterey,Religious,264
+California,Napa,Real Estate,216
+California,Napa,Religious,110
+California,Nevada,Real Estate,204
+California,Nevada,Religious,121
+California,Orange,Real Estate,"7,030"
+California,Orange,Religious,"1,862"
+California,Placer,Real Estate,852
+California,Placer,Religious,289
+California,Plumas,Real Estate,34
+California,Plumas,Religious,29
+California,Riverside,Real Estate,"2,457"
+California,Riverside,Religious,927
+California,Sacramento,Real Estate,"1,736"
+California,Sacramento,Religious,"1,140"
+California,San Benito,Real Estate,52
+California,San Benito,Religious,24
+California,San Bernardino,Real Estate,"1,822"
+California,San Bernardino,Religious,884
+California,San Diego,Real Estate,"6,625"
+California,San Diego,Religious,"2,111"
+California,San Francisco,Real Estate,"2,000"
+California,San Francisco,Religious,"1,152"
+California,San Joaquin,Real Estate,555
+California,San Joaquin,Religious,334
+California,San Luis Obispo,Real Estate,471
+California,San Luis Obispo,Religious,252
+California,San Mateo,Real Estate,"1,317"
+California,San Mateo,Religious,458
+California,Santa Barbara,Real Estate,734
+California,Santa Barbara,Religious,442
+California,Santa Clara,Real Estate,"2,920"
+California,Santa Clara,Religious,"1,080"
+California,Santa Cruz,Real Estate,387
+California,Santa Cruz,Religious,237
+California,Shasta,Real Estate,199
+California,Shasta,Religious,147
+California,Siskiyou,Real Estate,47
+California,Siskiyou,Religious,68
+California,Solano,Real Estate,378
+California,Solano,Religious,219
+California,Sonoma,Real Estate,640
+California,Sonoma,Religious,378
+California,Stanislaus,Real Estate,427
+California,Stanislaus,Religious,270
+California,Statewide California,Real Estate,4
+California,Statewide California,Religious,19
+California,Sutter,Real Estate,82
+California,Sutter,Religious,51
+California,Tehama,Real Estate,37
+California,Tehama,Religious,42
+California,Trinity,Real Estate,7
+California,Trinity,Religious,9
+California,Tulare,Real Estate,315
+California,Tulare,Religious,206
+California,Tuolumne,Real Estate,67
+California,Tuolumne,Religious,47
+California,Ventura,Real Estate,"1,138"
+California,Ventura,Religious,530
+California,Yolo,Real Estate,270
+California,Yolo,Religious,135
+California,Yuba,Real Estate,34
+California,Yuba,Religious,34
+Colorado,Adams,Real Estate,543
+Colorado,Adams,Religious,218
+Colorado,Alamosa,Real Estate,18
+Colorado,Alamosa,Religious,22
+Colorado,Arapahoe,Real Estate,"1,461"
+Colorado,Arapahoe,Religious,512
+Colorado,Archuleta,Real Estate,47
+Colorado,Archuleta,Religious,22
+Colorado,Baca,Real Estate,3
+Colorado,Baca,Religious,9
+Colorado,Bent,Real Estate,3
+Colorado,Bent,Religious,3
+Colorado,Boulder,Real Estate,881
+Colorado,Boulder,Religious,372
+Colorado,Broomfield,Real Estate,182
+Colorado,Broomfield,Religious,50
+Colorado,Chaffee,Real Estate,86
+Colorado,Chaffee,Religious,39
+Colorado,Clear Creek,Real Estate,19
+Colorado,Clear Creek,Religious,6
+Colorado,Crowley,Real Estate,4
+Colorado,Crowley,Religious,4
+Colorado,Custer,Real Estate,11
+Colorado,Custer,Religious,17
+Colorado,Delta,Real Estate,40
+Colorado,Delta,Religious,48
+Colorado,Denver,Real Estate,"2,214"
+Colorado,Denver,Religious,907
+Colorado,Douglas,Real Estate,900
+Colorado,Douglas,Religious,196
+Colorado,Eagle,Real Estate,436
+Colorado,Eagle,Religious,101
+Colorado,El Paso,Real Estate,"1,527"
+Colorado,El Paso,Religious,677
+Colorado,Elbert,Real Estate,33
+Colorado,Elbert,Religious,22
+Colorado,Fremont,Real Estate,51
+Colorado,Fremont,Religious,51
+Colorado,Garfield,Real Estate,170
+Colorado,Garfield,Religious,76
+Colorado,Gilpin,Real Estate,5
+Colorado,Gilpin,Religious,3
+Colorado,Grand,Real Estate,97
+Colorado,Grand,Religious,25
+Colorado,Gunnison,Real Estate,99
+Colorado,Gunnison,Religious,48
+Colorado,Hinsdale,Real Estate,8
+Colorado,Hinsdale,Religious,5
+Colorado,Huerfano,Real Estate,10
+Colorado,Huerfano,Religious,8
+Colorado,Jefferson,Real Estate,"1,205"
+Colorado,Jefferson,Religious,434
+Colorado,Kit Carson,Real Estate,9
+Colorado,Kit Carson,Religious,9
+Colorado,La Plata,Real Estate,172
+Colorado,La Plata,Religious,86
+Colorado,Lake,Real Estate,14
+Colorado,Lake,Religious,12
+Colorado,Larimer,Real Estate,806
+Colorado,Larimer,Religious,323
+Colorado,Las Animas,Real Estate,18
+Colorado,Las Animas,Religious,16
+Colorado,Lincoln,Real Estate,5
+Colorado,Lincoln,Religious,8
+Colorado,Logan,Real Estate,19
+Colorado,Logan,Religious,27
+Colorado,Mesa,Real Estate,330
+Colorado,Mesa,Religious,145
+Colorado,Mineral,Real Estate,3
+Colorado,Mineral,Religious,5
+Colorado,Moffat,Real Estate,9
+Colorado,Moffat,Religious,11
+Colorado,Montezuma,Real Estate,30
+Colorado,Montezuma,Religious,32
+Colorado,Montrose,Real Estate,60
+Colorado,Montrose,Religious,42
+Colorado,Morgan,Real Estate,29
+Colorado,Morgan,Religious,33
+Colorado,Otero,Real Estate,9
+Colorado,Otero,Religious,29
+Colorado,Ouray,Real Estate,11
+Colorado,Ouray,Religious,15
+Colorado,Park,Real Estate,32
+Colorado,Park,Religious,23
+Colorado,Phillips,Real Estate,3
+Colorado,Phillips,Religious,12
+Colorado,Pitkin,Real Estate,261
+Colorado,Pitkin,Religious,58
+Colorado,Prowers,Real Estate,11
+Colorado,Prowers,Religious,18
+Colorado,Pueblo,Real Estate,140
+Colorado,Pueblo,Religious,137
+Colorado,Rio Blanco,Real Estate,8
+Colorado,Rio Blanco,Religious,9
+Colorado,Rio Grande,Real Estate,20
+Colorado,Rio Grande,Religious,19
+Colorado,Routt,Real Estate,166
+Colorado,Routt,Religious,46
+Colorado,Saguache,Real Estate,6
+Colorado,Saguache,Religious,14
+Colorado,San Juan,Real Estate,5
+Colorado,San Juan,Religious,3
+Colorado,San Miguel,Real Estate,96
+Colorado,San Miguel,Religious,24
+Colorado,Statewide Colorado,Real Estate,5
+Colorado,Statewide Colorado,Religious,9
+Colorado,Summit,Real Estate,337
+Colorado,Summit,Religious,52
+Colorado,Teller,Real Estate,67
+Colorado,Teller,Religious,37
+Colorado,Washington,Real Estate,6
+Colorado,Washington,Religious,8
+Colorado,Weld,Real Estate,376
+Colorado,Weld,Religious,208
+Colorado,Yuma,Real Estate,15
+Colorado,Yuma,Religious,16
+Connecticut,Fairfield,Real Estate,"1,039"
+Connecticut,Fairfield,Religious,887
+Connecticut,Hartford,Real Estate,697
+Connecticut,Hartford,Religious,861
+Connecticut,Litchfield,Real Estate,125
+Connecticut,Litchfield,Religious,176
+Connecticut,Middlesex,Real Estate,115
+Connecticut,Middlesex,Religious,162
+Connecticut,New Haven,Real Estate,625
+Connecticut,New Haven,Religious,681
+Connecticut,New London,Real Estate,183
+Connecticut,New London,Religious,250
+Connecticut,Statewide Connecticut,Real Estate,4
+Connecticut,Statewide Connecticut,Religious,6
+Connecticut,Tolland,Real Estate,76
+Connecticut,Tolland,Religious,89
+Connecticut,Windham,Real Estate,39
+Connecticut,Windham,Religious,86
+Delaware,Kent,Real Estate,187
+Delaware,Kent,Religious,162
+Delaware,New Castle,Real Estate,730
+Delaware,New Castle,Religious,616
+Delaware,Sussex,Real Estate,298
+Delaware,Sussex,Religious,222
+District of Columbia,District of Columbia,Real Estate,"1,394"
+District of Columbia,District of Columbia,Religious,"3,256"
+Florida,Alachua,Real Estate,377
+Florida,Alachua,Religious,272
+Florida,Baker,Real Estate,10
+Florida,Baker,Religious,22
+Florida,Bay,Real Estate,300
+Florida,Bay,Religious,189
+Florida,Bradford,Real Estate,11
+Florida,Bradford,Religious,36
+Florida,Brevard,Real Estate,937
+Florida,Brevard,Religious,493
+Florida,Broward,Real Estate,"4,313"
+Florida,Broward,Religious,"1,313"
+Florida,Calhoun,Real Estate,4
+Florida,Calhoun,Religious,13
+Florida,Charlotte,Real Estate,327
+Florida,Charlotte,Religious,136
+Florida,Citrus,Real Estate,178
+Florida,Citrus,Religious,115
+Florida,Clay,Real Estate,273
+Florida,Clay,Religious,148
+Florida,Collier,Real Estate,"1,387"
+Florida,Collier,Religious,381
+Florida,Columbia,Real Estate,48
+Florida,Columbia,Religious,53
+Florida,DeSoto,Real Estate,18
+Florida,DeSoto,Religious,38
+Florida,Dixie,Real Estate,5
+Florida,Dixie,Religious,14
+Florida,Duval,Real Estate,"1,498"
+Florida,Duval,Religious,846
+Florida,Escambia,Real Estate,374
+Florida,Escambia,Religious,298
+Florida,Flagler,Real Estate,214
+Florida,Flagler,Religious,86
+Florida,Franklin,Real Estate,17
+Florida,Franklin,Religious,23
+Florida,Gadsden,Real Estate,19
+Florida,Gadsden,Religious,49
+Florida,Gilchrist,Real Estate,6
+Florida,Gilchrist,Religious,17
+Florida,Glades,Real Estate,7
+Florida,Glades,Religious,9
+Florida,Gulf,Real Estate,30
+Florida,Gulf,Religious,20
+Florida,Hamilton,Real Estate,5
+Florida,Hamilton,Religious,14
+Florida,Hardee,Real Estate,19
+Florida,Hardee,Religious,29
+Florida,Hendry,Real Estate,23
+Florida,Hendry,Religious,37
+Florida,Hernando,Real Estate,211
+Florida,Hernando,Religious,114
+Florida,Highlands,Real Estate,97
+Florida,Highlands,Religious,119
+Florida,Hillsborough,Real Estate,"2,587"
+Florida,Hillsborough,Religious,943
+Florida,Holmes,Real Estate,6
+Florida,Holmes,Religious,28
+Florida,Indian River,Real Estate,310
+Florida,Indian River,Religious,160
+Florida,Jackson,Real Estate,30
+Florida,Jackson,Religious,56
+Florida,Jefferson,Real Estate,8
+Florida,Jefferson,Religious,18
+Florida,Lake,Real Estate,513
+Florida,Lake,Religious,272
+Florida,Lee,Real Estate,"1,767"
+Florida,Lee,Religious,496
+Florida,Leon,Real Estate,427
+Florida,Leon,Religious,422
+Florida,Levy,Real Estate,28
+Florida,Levy,Religious,40
+Florida,Madison,Real Estate,10
+Florida,Madison,Religious,21
+Florida,Manatee,Real Estate,747
+Florida,Manatee,Religious,297
+Florida,Marion,Real Estate,453
+Florida,Marion,Religious,255
+Florida,Martin,Real Estate,369
+Florida,Martin,Religious,153
+Florida,Miami-Dade,Real Estate,"6,213"
+Florida,Miami-Dade,Religious,"1,733"
+Florida,Monroe,Real Estate,364
+Florida,Monroe,Religious,151
+Florida,Nassau,Real Estate,150
+Florida,Nassau,Religious,94
+Florida,Okaloosa,Real Estate,445
+Florida,Okaloosa,Religious,200
+Florida,Okeechobee,Real Estate,41
+Florida,Okeechobee,Religious,35
+Florida,Orange,Real Estate,"3,168"
+Florida,Orange,Religious,991
+Florida,Osceola,Real Estate,642
+Florida,Osceola,Religious,172
+Florida,Palm Beach,Real Estate,"3,597"
+Florida,Palm Beach,Religious,"1,275"
+Florida,Pasco,Real Estate,677
+Florida,Pasco,Religious,282
+Florida,Pinellas,Real Estate,"2,084"
+Florida,Pinellas,Religious,739
+Florida,Polk,Real Estate,760
+Florida,Polk,Religious,558
+Florida,Putnam,Real Estate,45
+Florida,Putnam,Religious,77
+Florida,Santa Rosa,Real Estate,255
+Florida,Santa Rosa,Religious,117
+Florida,Sarasota,Real Estate,"1,189"
+Florida,Sarasota,Religious,466
+Florida,Seminole,Real Estate,907
+Florida,Seminole,Religious,307
+Florida,St. Johns,Real Estate,644
+Florida,St. Johns,Religious,173
+Florida,St. Lucie,Real Estate,328
+Florida,St. Lucie,Religious,205
+Florida,Statewide Florida,Real Estate,7
+Florida,Statewide Florida,Religious,15
+Florida,Sumter,Real Estate,188
+Florida,Sumter,Religious,64
+Florida,Suwannee,Real Estate,28
+Florida,Suwannee,Religious,40
+Florida,Taylor,Real Estate,17
+Florida,Taylor,Religious,31
+Florida,Union,Real Estate,5
+Florida,Union,Religious,8
+Florida,Volusia,Real Estate,819
+Florida,Volusia,Religious,519
+Florida,Wakulla,Real Estate,16
+Florida,Wakulla,Religious,27
+Florida,Walton,Real Estate,411
+Florida,Walton,Religious,87
+Florida,Washington,Real Estate,18
+Florida,Washington,Religious,32
+Georgia,Appling,Real Estate,7
+Georgia,Appling,Religious,32
+Georgia,Bacon,Real Estate,3
+Georgia,Bacon,Religious,10
+Georgia,Baldwin,Real Estate,26
+Georgia,Baldwin,Religious,37
+Georgia,Banks,Real Estate,7
+Georgia,Banks,Religious,16
+Georgia,Barrow,Real Estate,67
+Georgia,Barrow,Religious,51
+Georgia,Bartow,Real Estate,96
+Georgia,Bartow,Religious,81
+Georgia,Ben Hill,Real Estate,9
+Georgia,Ben Hill,Religious,17
+Georgia,Berrien,Real Estate,7
+Georgia,Berrien,Religious,13
+Georgia,Bibb,Real Estate,157
+Georgia,Bibb,Religious,202
+Georgia,Bleckley,Real Estate,5
+Georgia,Bleckley,Religious,16
+Georgia,Brooks,Real Estate,6
+Georgia,Brooks,Religious,19
+Georgia,Bryan,Real Estate,59
+Georgia,Bryan,Religious,34
+Georgia,Bulloch,Real Estate,69
+Georgia,Bulloch,Religious,57
+Georgia,Burke,Real Estate,16
+Georgia,Burke,Religious,21
+Georgia,Butts,Real Estate,18
+Georgia,Butts,Religious,23
+Georgia,Camden,Real Estate,45
+Georgia,Camden,Religious,49
+Georgia,Candler,Real Estate,5
+Georgia,Candler,Religious,10
+Georgia,Carroll,Real Estate,108
+Georgia,Carroll,Religious,121
+Georgia,Catoosa,Real Estate,36
+Georgia,Catoosa,Religious,46
+Georgia,Charlton,Real Estate,3
+Georgia,Charlton,Religious,6
+Georgia,Chatham,Real Estate,454
+Georgia,Chatham,Religious,325
+Georgia,Chattooga,Real Estate,8
+Georgia,Chattooga,Religious,30
+Georgia,Cherokee,Real Estate,352
+Georgia,Cherokee,Religious,157
+Georgia,Clarke,Real Estate,200
+Georgia,Clarke,Religious,134
+Georgia,Clayton,Real Estate,123
+Georgia,Clayton,Religious,137
+Georgia,Cobb,Real Estate,"1,295"
+Georgia,Cobb,Religious,527
+Georgia,Coffee,Real Estate,16
+Georgia,Coffee,Religious,42
+Georgia,Colquitt,Real Estate,22
+Georgia,Colquitt,Religious,51
+Georgia,Columbia,Real Estate,119
+Georgia,Columbia,Religious,102
+Georgia,Coweta,Real Estate,186
+Georgia,Coweta,Religious,100
+Georgia,Crisp,Real Estate,17
+Georgia,Crisp,Religious,23
+Georgia,Dade,Real Estate,4
+Georgia,Dade,Religious,20
+Georgia,Dawson,Real Estate,36
+Georgia,Dawson,Religious,28
+Georgia,DeKalb,Real Estate,"1,167"
+Georgia,DeKalb,Religious,543
+Georgia,Decatur,Real Estate,17
+Georgia,Decatur,Religious,33
+Georgia,Dodge,Real Estate,7
+Georgia,Dodge,Religious,25
+Georgia,Dooly,Real Estate,4
+Georgia,Dooly,Religious,9
+Georgia,Dougherty,Real Estate,86
+Georgia,Dougherty,Religious,96
+Georgia,Douglas,Real Estate,121
+Georgia,Douglas,Religious,79
+Georgia,Early,Real Estate,5
+Georgia,Early,Religious,16
+Georgia,Effingham,Real Estate,37
+Georgia,Effingham,Religious,47
+Georgia,Elbert,Real Estate,4
+Georgia,Elbert,Religious,25
+Georgia,Emanuel,Real Estate,5
+Georgia,Emanuel,Religious,21
+Georgia,Evans,Real Estate,4
+Georgia,Evans,Religious,14
+Georgia,Fannin,Real Estate,55
+Georgia,Fannin,Religious,41
+Georgia,Fayette,Real Estate,260
+Georgia,Fayette,Religious,142
+Georgia,Floyd,Real Estate,71
+Georgia,Floyd,Religious,103
+Georgia,Forsyth,Real Estate,409
+Georgia,Forsyth,Religious,124
+Georgia,Franklin,Real Estate,8
+Georgia,Franklin,Religious,34
+Georgia,Fulton,Real Estate,"2,910"
+Georgia,Fulton,Religious,"1,075"
+Georgia,Gilmer,Real Estate,39
+Georgia,Gilmer,Religious,30
+Georgia,Glynn,Real Estate,156
+Georgia,Glynn,Religious,106
+Georgia,Gordon,Real Estate,29
+Georgia,Gordon,Religious,64
+Georgia,Grady,Real Estate,21
+Georgia,Grady,Religious,27
+Georgia,Greene,Real Estate,24
+Georgia,Greene,Religious,27
+Georgia,Gwinnett,Real Estate,"1,263"
+Georgia,Gwinnett,Religious,635
+Georgia,Habersham,Real Estate,39
+Georgia,Habersham,Religious,60
+Georgia,Hall,Real Estate,269
+Georgia,Hall,Religious,157
+Georgia,Haralson,Real Estate,15
+Georgia,Haralson,Religious,30
+Georgia,Harris,Real Estate,28
+Georgia,Harris,Religious,37
+Georgia,Hart,Real Estate,14
+Georgia,Hart,Religious,35
+Georgia,Heard,Real Estate,3
+Georgia,Heard,Religious,8
+Georgia,Henry,Real Estate,210
+Georgia,Henry,Religious,134
+Georgia,Houston,Real Estate,112
+Georgia,Houston,Religious,110
+Georgia,Irwin,Real Estate,3
+Georgia,Irwin,Religious,7
+Georgia,Jackson,Real Estate,69
+Georgia,Jackson,Religious,61
+Georgia,Jasper,Real Estate,9
+Georgia,Jasper,Religious,11
+Georgia,Jefferson,Real Estate,8
+Georgia,Jefferson,Religious,19
+Georgia,Jones,Real Estate,16
+Georgia,Jones,Religious,20
+Georgia,Lamar,Real Estate,9
+Georgia,Lamar,Religious,19
+Georgia,Laurens,Real Estate,35
+Georgia,Laurens,Religious,59
+Georgia,Lee,Real Estate,22
+Georgia,Lee,Religious,16
+Georgia,Liberty,Real Estate,46
+Georgia,Liberty,Religious,50
+Georgia,Lincoln,Real Estate,4
+Georgia,Lincoln,Religious,13
+Georgia,Long,Real Estate,8
+Georgia,Long,Religious,9
+Georgia,Lowndes,Real Estate,138
+Georgia,Lowndes,Religious,98
+Georgia,Lumpkin,Real Estate,35
+Georgia,Lumpkin,Religious,20
+Georgia,Macon,Real Estate,6
+Georgia,Macon,Religious,13
+Georgia,Madison,Real Estate,14
+Georgia,Madison,Religious,31
+Georgia,McDuffie,Real Estate,9
+Georgia,McDuffie,Religious,29
+Georgia,McIntosh,Real Estate,5
+Georgia,McIntosh,Religious,12
+Georgia,Meriwether,Real Estate,3
+Georgia,Meriwether,Religious,21
+Georgia,Miller,Real Estate,3
+Georgia,Miller,Religious,10
+Georgia,Mitchell,Real Estate,9
+Georgia,Mitchell,Religious,22
+Georgia,Monroe,Real Estate,20
+Georgia,Monroe,Religious,32
+Georgia,Morgan,Real Estate,25
+Georgia,Morgan,Religious,30
+Georgia,Murray,Real Estate,9
+Georgia,Murray,Religious,19
+Georgia,Muscogee,Real Estate,224
+Georgia,Muscogee,Religious,220
+Georgia,Newton,Real Estate,55
+Georgia,Newton,Religious,73
+Georgia,Oconee,Real Estate,102
+Georgia,Oconee,Religious,47
+Georgia,Paulding,Real Estate,111
+Georgia,Paulding,Religious,74
+Georgia,Peach,Real Estate,16
+Georgia,Peach,Religious,16
+Georgia,Pickens,Real Estate,28
+Georgia,Pickens,Religious,37
+Georgia,Pierce,Real Estate,13
+Georgia,Pierce,Religious,22
+Georgia,Pike,Real Estate,10
+Georgia,Pike,Religious,23
+Georgia,Polk,Real Estate,13
+Georgia,Polk,Religious,43
+Georgia,Pulaski,Real Estate,5
+Georgia,Pulaski,Religious,11
+Georgia,Putnam,Real Estate,26
+Georgia,Putnam,Religious,24
+Georgia,Rabun,Real Estate,22
+Georgia,Rabun,Religious,30
+Georgia,Randolph,Real Estate,5
+Georgia,Randolph,Religious,11
+Georgia,Richmond,Real Estate,162
+Georgia,Richmond,Religious,205
+Georgia,Rockdale,Real Estate,64
+Georgia,Rockdale,Religious,73
+Georgia,Seminole,Real Estate,3
+Georgia,Seminole,Religious,11
+Georgia,Spalding,Real Estate,44
+Georgia,Spalding,Religious,64
+Georgia,Stephens,Real Estate,9
+Georgia,Stephens,Religious,36
+Georgia,Stewart,Real Estate,3
+Georgia,Stewart,Religious,6
+Georgia,Sumter,Real Estate,22
+Georgia,Sumter,Religious,39
+Georgia,Tattnall,Real Estate,6
+Georgia,Tattnall,Religious,27
+Georgia,Telfair,Real Estate,3
+Georgia,Telfair,Religious,14
+Georgia,Thomas,Real Estate,43
+Georgia,Thomas,Religious,73
+Georgia,Tift,Real Estate,36
+Georgia,Tift,Religious,52
+Georgia,Toombs,Real Estate,16
+Georgia,Toombs,Religious,38
+Georgia,Towns,Real Estate,15
+Georgia,Towns,Religious,19
+Georgia,Troup,Real Estate,62
+Georgia,Troup,Religious,89
+Georgia,Union,Real Estate,42
+Georgia,Union,Religious,30
+Georgia,Upson,Real Estate,10
+Georgia,Upson,Religious,35
+Georgia,Walker,Real Estate,23
+Georgia,Walker,Religious,68
+Georgia,Walton,Real Estate,95
+Georgia,Walton,Religious,70
+Georgia,Ware,Real Estate,25
+Georgia,Ware,Religious,59
+Georgia,Warren,Real Estate,5
+Georgia,Warren,Religious,9
+Georgia,Washington,Real Estate,13
+Georgia,Washington,Religious,22
+Georgia,Wayne,Real Estate,14
+Georgia,Wayne,Religious,41
+Georgia,White,Real Estate,25
+Georgia,White,Religious,36
+Georgia,Whitfield,Real Estate,57
+Georgia,Whitfield,Religious,95
+Georgia,Wilkinson,Real Estate,4
+Georgia,Wilkinson,Religious,12
+Georgia,Worth,Real Estate,5
+Georgia,Worth,Religious,20
+Hawaii,Hawaii,Real Estate,213
+Hawaii,Hawaii,Religious,230
+Hawaii,Honolulu,Real Estate,"1,079"
+Hawaii,Honolulu,Religious,"1,251"
+Hawaii,Kauai,Real Estate,111
+Hawaii,Kauai,Religious,104
+Hawaii,Maui,Real Estate,262
+Hawaii,Maui,Religious,263
+Idaho,Ada,Real Estate,"1,265"
+Idaho,Ada,Religious,428
+Idaho,Adams,Real Estate,5
+Idaho,Adams,Religious,4
+Idaho,Bannock,Real Estate,120
+Idaho,Bannock,Religious,56
+Idaho,Benewah,Real Estate,8
+Idaho,Benewah,Religious,11
+Idaho,Bingham,Real Estate,36
+Idaho,Bingham,Religious,12
+Idaho,Blaine,Real Estate,162
+Idaho,Blaine,Religious,53
+Idaho,Boise,Real Estate,13
+Idaho,Boise,Religious,10
+Idaho,Bonner,Real Estate,117
+Idaho,Bonner,Religious,60
+Idaho,Bonneville,Real Estate,172
+Idaho,Bonneville,Religious,60
+Idaho,Boundary,Real Estate,12
+Idaho,Boundary,Religious,10
+Idaho,Canyon,Real Estate,233
+Idaho,Canyon,Religious,114
+Idaho,Cassia,Real Estate,37
+Idaho,Cassia,Religious,9
+Idaho,Clearwater,Real Estate,9
+Idaho,Clearwater,Religious,10
+Idaho,Custer,Real Estate,5
+Idaho,Custer,Religious,8
+Idaho,Elmore,Real Estate,16
+Idaho,Elmore,Religious,13
+Idaho,Fremont,Real Estate,20
+Idaho,Fremont,Religious,10
+Idaho,Gem,Real Estate,19
+Idaho,Gem,Religious,16
+Idaho,Gooding,Real Estate,9
+Idaho,Gooding,Religious,11
+Idaho,Idaho,Real Estate,15
+Idaho,Idaho,Religious,11
+Idaho,Jerome,Real Estate,16
+Idaho,Jerome,Religious,15
+Idaho,Kootenai,Real Estate,441
+Idaho,Kootenai,Religious,121
+Idaho,Latah,Real Estate,56
+Idaho,Latah,Religious,58
+Idaho,Lemhi,Real Estate,12
+Idaho,Lemhi,Religious,11
+Idaho,Lewis,Real Estate,3
+Idaho,Lewis,Religious,4
+Idaho,Madison,Real Estate,56
+Idaho,Madison,Religious,7
+Idaho,Minidoka,Real Estate,14
+Idaho,Minidoka,Religious,12
+Idaho,Nez Perce,Real Estate,49
+Idaho,Nez Perce,Religious,45
+Idaho,Owyhee,Real Estate,8
+Idaho,Owyhee,Religious,4
+Idaho,Payette,Real Estate,45
+Idaho,Payette,Religious,17
+Idaho,Power,Real Estate,6
+Idaho,Power,Religious,3
+Idaho,Shoshone,Real Estate,13
+Idaho,Shoshone,Religious,10
+Idaho,Teton,Real Estate,51
+Idaho,Teton,Religious,14
+Idaho,Twin Falls,Real Estate,146
+Idaho,Twin Falls,Religious,79
+Idaho,Valley,Real Estate,65
+Idaho,Valley,Religious,24
+Idaho,Washington,Real Estate,8
+Idaho,Washington,Religious,8
+Illinois,Adams,Real Estate,47
+Illinois,Adams,Religious,105
+Illinois,Bond,Real Estate,4
+Illinois,Bond,Religious,27
+Illinois,Boone,Real Estate,31
+Illinois,Boone,Religious,28
+Illinois,Bureau,Real Estate,11
+Illinois,Bureau,Religious,50
+Illinois,Carroll,Real Estate,7
+Illinois,Carroll,Religious,28
+Illinois,Cass,Real Estate,4
+Illinois,Cass,Religious,21
+Illinois,Champaign,Real Estate,194
+Illinois,Champaign,Religious,251
+Illinois,Christian,Real Estate,12
+Illinois,Christian,Religious,52
+Illinois,Clay,Real Estate,6
+Illinois,Clay,Religious,32
+Illinois,Clinton,Real Estate,13
+Illinois,Clinton,Religious,51
+Illinois,Coles,Real Estate,31
+Illinois,Coles,Religious,66
+Illinois,Cook,Real Estate,"6,201"
+Illinois,Cook,Religious,"4,378"
+Illinois,Crawford,Real Estate,12
+Illinois,Crawford,Religious,37
+Illinois,De Witt,Real Estate,10
+Illinois,De Witt,Religious,24
+Illinois,DeKalb,Real Estate,57
+Illinois,DeKalb,Religious,91
+Illinois,Douglas,Real Estate,8
+Illinois,Douglas,Religious,26
+Illinois,DuPage,Real Estate,"1,285"
+Illinois,DuPage,Religious,752
+Illinois,Edgar,Real Estate,7
+Illinois,Edgar,Religious,27
+Illinois,Effingham,Real Estate,32
+Illinois,Effingham,Religious,51
+Illinois,Fayette,Real Estate,7
+Illinois,Fayette,Religious,37
+Illinois,Ford,Real Estate,6
+Illinois,Ford,Religious,25
+Illinois,Franklin,Real Estate,3
+Illinois,Franklin,Religious,51
+Illinois,Fulton,Real Estate,15
+Illinois,Fulton,Religious,50
+Illinois,Greene,Real Estate,4
+Illinois,Greene,Religious,20
+Illinois,Grundy,Real Estate,34
+Illinois,Grundy,Religious,46
+Illinois,Hamilton,Real Estate,5
+Illinois,Hamilton,Religious,26
+Illinois,Hancock,Real Estate,6
+Illinois,Hancock,Religious,36
+Illinois,Henderson,Real Estate,3
+Illinois,Henderson,Religious,8
+Illinois,Henry,Real Estate,17
+Illinois,Henry,Religious,63
+Illinois,Iroquois,Real Estate,10
+Illinois,Iroquois,Religious,45
+Illinois,Jackson,Real Estate,54
+Illinois,Jackson,Religious,95
+Illinois,Jasper,Real Estate,6
+Illinois,Jasper,Religious,16
+Illinois,Jefferson,Real Estate,20
+Illinois,Jefferson,Religious,66
+Illinois,Jersey,Real Estate,9
+Illinois,Jersey,Religious,27
+Illinois,Jo Daviess,Real Estate,13
+Illinois,Jo Daviess,Religious,31
+Illinois,Johnson,Real Estate,5
+Illinois,Johnson,Religious,18
+Illinois,Kane,Real Estate,435
+Illinois,Kane,Religious,349
+Illinois,Kankakee,Real Estate,79
+Illinois,Kankakee,Religious,102
+Illinois,Kendall,Real Estate,88
+Illinois,Kendall,Religious,59
+Illinois,Knox,Real Estate,31
+Illinois,Knox,Religious,72
+Illinois,LaSalle,Real Estate,48
+Illinois,LaSalle,Religious,126
+Illinois,Lake,Real Estate,781
+Illinois,Lake,Religious,474
+Illinois,Lawrence,Real Estate,7
+Illinois,Lawrence,Religious,29
+Illinois,Lee,Real Estate,23
+Illinois,Lee,Religious,53
+Illinois,Livingston,Real Estate,14
+Illinois,Livingston,Religious,61
+Illinois,Logan,Real Estate,18
+Illinois,Logan,Religious,43
+Illinois,Macon,Real Estate,62
+Illinois,Macon,Religious,157
+Illinois,Macoupin,Real Estate,16
+Illinois,Macoupin,Religious,57
+Illinois,Madison,Real Estate,195
+Illinois,Madison,Religious,315
+Illinois,Marion,Real Estate,19
+Illinois,Marion,Religious,71
+Illinois,Marshall,Real Estate,6
+Illinois,Marshall,Religious,20
+Illinois,Mason,Real Estate,4
+Illinois,Mason,Religious,22
+Illinois,Massac,Real Estate,5
+Illinois,Massac,Religious,26
+Illinois,McDonough,Real Estate,23
+Illinois,McDonough,Religious,43
+Illinois,McHenry,Real Estate,235
+Illinois,McHenry,Religious,170
+Illinois,McLean,Real Estate,102
+Illinois,McLean,Religious,185
+Illinois,Menard,Real Estate,3
+Illinois,Menard,Religious,16
+Illinois,Mercer,Real Estate,5
+Illinois,Mercer,Religious,26
+Illinois,Monroe,Real Estate,24
+Illinois,Monroe,Religious,43
+Illinois,Montgomery,Real Estate,12
+Illinois,Montgomery,Religious,39
+Illinois,Morgan,Real Estate,13
+Illinois,Morgan,Religious,48
+Illinois,Moultrie,Real Estate,4
+Illinois,Moultrie,Religious,23
+Illinois,Ogle,Real Estate,39
+Illinois,Ogle,Religious,68
+Illinois,Peoria,Real Estate,151
+Illinois,Peoria,Religious,238
+Illinois,Perry,Real Estate,5
+Illinois,Perry,Religious,52
+Illinois,Piatt,Real Estate,7
+Illinois,Piatt,Religious,26
+Illinois,Pike,Real Estate,10
+Illinois,Pike,Religious,16
+Illinois,Pope,Real Estate,3
+Illinois,Pope,Religious,9
+Illinois,Randolph,Real Estate,3
+Illinois,Randolph,Religious,58
+Illinois,Richland,Real Estate,4
+Illinois,Richland,Religious,30
+Illinois,Rock Island,Real Estate,99
+Illinois,Rock Island,Religious,193
+Illinois,Saline,Real Estate,7
+Illinois,Saline,Religious,51
+Illinois,Sangamon,Real Estate,182
+Illinois,Sangamon,Religious,375
+Illinois,Schuyler,Real Estate,3
+Illinois,Schuyler,Religious,18
+Illinois,Shelby,Real Estate,9
+Illinois,Shelby,Religious,35
+Illinois,St. Clair,Real Estate,175
+Illinois,St. Clair,Religious,264
+Illinois,Stephenson,Real Estate,35
+Illinois,Stephenson,Religious,57
+Illinois,Tazewell,Real Estate,73
+Illinois,Tazewell,Religious,161
+Illinois,Union,Real Estate,3
+Illinois,Union,Religious,25
+Illinois,Vermilion,Real Estate,23
+Illinois,Vermilion,Religious,92
+Illinois,Wabash,Real Estate,8
+Illinois,Wabash,Religious,27
+Illinois,Warren,Real Estate,9
+Illinois,Warren,Religious,25
+Illinois,Washington,Real Estate,4
+Illinois,Washington,Religious,33
+Illinois,Wayne,Real Estate,4
+Illinois,Wayne,Religious,42
+Illinois,White,Real Estate,7
+Illinois,White,Religious,38
+Illinois,Whiteside,Real Estate,26
+Illinois,Whiteside,Religious,80
+Illinois,Will,Real Estate,496
+Illinois,Will,Religious,395
+Illinois,Williamson,Real Estate,41
+Illinois,Williamson,Religious,113
+Illinois,Winnebago,Real Estate,205
+Illinois,Winnebago,Religious,259
+Illinois,Woodford,Real Estate,11
+Illinois,Woodford,Religious,60
+Indiana,Adams,Real Estate,20
+Indiana,Adams,Religious,52
+Indiana,Allen,Real Estate,429
+Indiana,Allen,Religious,421
+Indiana,Bartholomew,Real Estate,73
+Indiana,Bartholomew,Religious,81
+Indiana,Benton,Real Estate,3
+Indiana,Benton,Religious,8
+Indiana,Blackford,Real Estate,8
+Indiana,Blackford,Religious,21
+Indiana,Boone,Real Estate,90
+Indiana,Boone,Religious,74
+Indiana,Brown,Real Estate,15
+Indiana,Brown,Religious,19
+Indiana,Carroll,Real Estate,15
+Indiana,Carroll,Religious,27
+Indiana,Cass,Real Estate,8
+Indiana,Cass,Religious,50
+Indiana,Clark,Real Estate,98
+Indiana,Clark,Religious,101
+Indiana,Clay,Real Estate,7
+Indiana,Clay,Religious,44
+Indiana,Clinton,Real Estate,9
+Indiana,Clinton,Religious,45
+Indiana,Daviess,Real Estate,13
+Indiana,Daviess,Religious,53
+Indiana,DeKalb,Real Estate,32
+Indiana,DeKalb,Religious,60
+Indiana,Dearborn,Real Estate,27
+Indiana,Dearborn,Religious,55
+Indiana,Decatur,Real Estate,14
+Indiana,Decatur,Religious,35
+Indiana,Delaware,Real Estate,77
+Indiana,Delaware,Religious,149
+Indiana,Dubois,Real Estate,31
+Indiana,Dubois,Religious,59
+Indiana,Elkhart,Real Estate,141
+Indiana,Elkhart,Religious,257
+Indiana,Fayette,Real Estate,9
+Indiana,Fayette,Religious,32
+Indiana,Floyd,Real Estate,100
+Indiana,Floyd,Religious,85
+Indiana,Fountain,Real Estate,6
+Indiana,Fountain,Religious,29
+Indiana,Franklin,Real Estate,15
+Indiana,Franklin,Religious,19
+Indiana,Fulton,Real Estate,9
+Indiana,Fulton,Religious,42
+Indiana,Gibson,Real Estate,11
+Indiana,Gibson,Religious,56
+Indiana,Grant,Real Estate,36
+Indiana,Grant,Religious,105
+Indiana,Greene,Real Estate,12
+Indiana,Greene,Religious,56
+Indiana,Hamilton,Real Estate,644
+Indiana,Hamilton,Religious,285
+Indiana,Hancock,Real Estate,51
+Indiana,Hancock,Religious,70
+Indiana,Harrison,Real Estate,21
+Indiana,Harrison,Religious,36
+Indiana,Hendricks,Real Estate,184
+Indiana,Hendricks,Religious,137
+Indiana,Henry,Real Estate,24
+Indiana,Henry,Religious,65
+Indiana,Howard,Real Estate,55
+Indiana,Howard,Religious,121
+Indiana,Huntington,Real Estate,34
+Indiana,Huntington,Religious,60
+Indiana,Jackson,Real Estate,40
+Indiana,Jackson,Religious,57
+Indiana,Jasper,Real Estate,18
+Indiana,Jasper,Religious,41
+Indiana,Jay,Real Estate,14
+Indiana,Jay,Religious,34
+Indiana,Jefferson,Real Estate,26
+Indiana,Jefferson,Religious,44
+Indiana,Jennings,Real Estate,9
+Indiana,Jennings,Religious,20
+Indiana,Johnson,Real Estate,178
+Indiana,Johnson,Religious,131
+Indiana,Knox,Real Estate,26
+Indiana,Knox,Religious,65
+Indiana,Kosciusko,Real Estate,68
+Indiana,Kosciusko,Religious,123
+Indiana,LaGrange,Real Estate,25
+Indiana,LaGrange,Religious,35
+Indiana,LaPorte,Real Estate,72
+Indiana,LaPorte,Religious,113
+Indiana,Lake,Real Estate,364
+Indiana,Lake,Religious,428
+Indiana,Lawrence,Real Estate,19
+Indiana,Lawrence,Religious,66
+Indiana,Madison,Real Estate,82
+Indiana,Madison,Religious,160
+Indiana,Marion,Real Estate,"1,329"
+Indiana,Marion,Religious,"1,148"
+Indiana,Marshall,Real Estate,21
+Indiana,Marshall,Religious,72
+Indiana,Martin,Real Estate,3
+Indiana,Martin,Religious,18
+Indiana,Miami,Real Estate,16
+Indiana,Miami,Religious,55
+Indiana,Monroe,Real Estate,174
+Indiana,Monroe,Religious,136
+Indiana,Montgomery,Real Estate,24
+Indiana,Montgomery,Religious,50
+Indiana,Morgan,Real Estate,51
+Indiana,Morgan,Religious,66
+Indiana,Newton,Real Estate,7
+Indiana,Newton,Religious,10
+Indiana,Noble,Real Estate,29
+Indiana,Noble,Religious,57
+Indiana,Ohio,Real Estate,4
+Indiana,Ohio,Religious,8
+Indiana,Orange,Real Estate,9
+Indiana,Orange,Religious,26
+Indiana,Owen,Real Estate,5
+Indiana,Owen,Religious,21
+Indiana,Parke,Real Estate,9
+Indiana,Parke,Religious,27
+Indiana,Perry,Real Estate,13
+Indiana,Perry,Religious,21
+Indiana,Pike,Real Estate,7
+Indiana,Pike,Religious,28
+Indiana,Porter,Real Estate,145
+Indiana,Porter,Religious,157
+Indiana,Posey,Real Estate,17
+Indiana,Posey,Religious,31
+Indiana,Pulaski,Real Estate,7
+Indiana,Pulaski,Religious,28
+Indiana,Putnam,Real Estate,27
+Indiana,Putnam,Religious,60
+Indiana,Randolph,Real Estate,14
+Indiana,Randolph,Religious,34
+Indiana,Ripley,Real Estate,19
+Indiana,Ripley,Religious,48
+Indiana,Rush,Real Estate,11
+Indiana,Rush,Religious,29
+Indiana,Scott,Real Estate,13
+Indiana,Scott,Religious,28
+Indiana,Shelby,Real Estate,36
+Indiana,Shelby,Religious,50
+Indiana,Spencer,Real Estate,17
+Indiana,Spencer,Religious,33
+Indiana,St. Joseph,Real Estate,192
+Indiana,St. Joseph,Religious,284
+Indiana,Starke,Real Estate,11
+Indiana,Starke,Religious,27
+Indiana,Steuben,Real Estate,38
+Indiana,Steuben,Religious,54
+Indiana,Sullivan,Real Estate,3
+Indiana,Sullivan,Religious,26
+Indiana,Tippecanoe,Real Estate,207
+Indiana,Tippecanoe,Religious,171
+Indiana,Tipton,Real Estate,8
+Indiana,Tipton,Religious,24
+Indiana,Vanderburgh,Real Estate,190
+Indiana,Vanderburgh,Religious,270
+Indiana,Vermillion,Real Estate,5
+Indiana,Vermillion,Religious,18
+Indiana,Vigo,Real Estate,75
+Indiana,Vigo,Religious,147
+Indiana,Wabash,Real Estate,23
+Indiana,Wabash,Religious,60
+Indiana,Warrick,Real Estate,59
+Indiana,Warrick,Religious,63
+Indiana,Washington,Real Estate,8
+Indiana,Washington,Religious,25
+Indiana,Wayne,Real Estate,52
+Indiana,Wayne,Religious,91
+Indiana,Wells,Real Estate,29
+Indiana,Wells,Religious,53
+Indiana,White,Real Estate,13
+Indiana,White,Religious,28
+Indiana,Whitley,Real Estate,20
+Indiana,Whitley,Religious,43
+Iowa,Adair,Real Estate,4
+Iowa,Adair,Religious,12
+Iowa,Allamakee,Real Estate,12
+Iowa,Allamakee,Religious,24
+Iowa,Appanoose,Real Estate,7
+Iowa,Appanoose,Religious,16
+Iowa,Benton,Real Estate,11
+Iowa,Benton,Religious,35
+Iowa,Black Hawk,Real Estate,120
+Iowa,Black Hawk,Religious,155
+Iowa,Boone,Real Estate,24
+Iowa,Boone,Religious,37
+Iowa,Bremer,Real Estate,9
+Iowa,Bremer,Religious,43
+Iowa,Buchanan,Real Estate,9
+Iowa,Buchanan,Religious,18
+Iowa,Buena Vista,Real Estate,15
+Iowa,Buena Vista,Religious,34
+Iowa,Carroll,Real Estate,17
+Iowa,Carroll,Religious,34
+Iowa,Cass,Real Estate,10
+Iowa,Cass,Religious,24
+Iowa,Cedar,Real Estate,14
+Iowa,Cedar,Religious,24
+Iowa,Cerro Gordo,Real Estate,51
+Iowa,Cerro Gordo,Religious,68
+Iowa,Cherokee,Real Estate,7
+Iowa,Cherokee,Religious,20
+Iowa,Chickasaw,Real Estate,9
+Iowa,Chickasaw,Religious,23
+Iowa,Clarke,Real Estate,4
+Iowa,Clarke,Religious,12
+Iowa,Clay,Real Estate,22
+Iowa,Clay,Religious,27
+Iowa,Clayton,Real Estate,6
+Iowa,Clayton,Religious,37
+Iowa,Clinton,Real Estate,33
+Iowa,Clinton,Religious,60
+Iowa,Crawford,Real Estate,10
+Iowa,Crawford,Religious,16
+Iowa,Dallas,Real Estate,159
+Iowa,Dallas,Religious,74
+Iowa,Davis,Real Estate,4
+Iowa,Davis,Religious,8
+Iowa,Decatur,Real Estate,3
+Iowa,Decatur,Religious,7
+Iowa,Delaware,Real Estate,7
+Iowa,Delaware,Religious,24
+Iowa,Des Moines,Real Estate,34
+Iowa,Des Moines,Religious,67
+Iowa,Dickinson,Real Estate,33
+Iowa,Dickinson,Religious,34
+Iowa,Dubuque,Real Estate,122
+Iowa,Dubuque,Religious,93
+Iowa,Fayette,Real Estate,13
+Iowa,Fayette,Religious,32
+Iowa,Floyd,Real Estate,7
+Iowa,Floyd,Religious,26
+Iowa,Franklin,Real Estate,4
+Iowa,Franklin,Religious,23
+Iowa,Greene,Real Estate,7
+Iowa,Greene,Religious,25
+Iowa,Grundy,Real Estate,5
+Iowa,Grundy,Religious,24
+Iowa,Guthrie,Real Estate,3
+Iowa,Guthrie,Religious,25
+Iowa,Hamilton,Real Estate,9
+Iowa,Hamilton,Religious,26
+Iowa,Hancock,Real Estate,6
+Iowa,Hancock,Religious,27
+Iowa,Hardin,Real Estate,9
+Iowa,Hardin,Religious,38
+Iowa,Harrison,Real Estate,7
+Iowa,Harrison,Religious,26
+Iowa,Henry,Real Estate,8
+Iowa,Henry,Religious,22
+Iowa,Humboldt,Real Estate,6
+Iowa,Humboldt,Religious,16
+Iowa,Ida,Real Estate,7
+Iowa,Ida,Religious,16
+Iowa,Iowa,Real Estate,5
+Iowa,Iowa,Religious,26
+Iowa,Jackson,Real Estate,10
+Iowa,Jackson,Religious,21
+Iowa,Jasper,Real Estate,20
+Iowa,Jasper,Religious,62
+Iowa,Jefferson,Real Estate,21
+Iowa,Jefferson,Religious,30
+Iowa,Johnson,Real Estate,148
+Iowa,Johnson,Religious,124
+Iowa,Jones,Real Estate,16
+Iowa,Jones,Religious,22
+Iowa,Kossuth,Real Estate,11
+Iowa,Kossuth,Religious,36
+Iowa,Lee,Real Estate,22
+Iowa,Lee,Religious,54
+Iowa,Linn,Real Estate,241
+Iowa,Linn,Religious,239
+Iowa,Louisa,Real Estate,5
+Iowa,Louisa,Religious,17
+Iowa,Lucas,Real Estate,5
+Iowa,Lucas,Religious,16
+Iowa,Lyon,Real Estate,6
+Iowa,Lyon,Religious,32
+Iowa,Madison,Real Estate,17
+Iowa,Madison,Religious,22
+Iowa,Mahaska,Real Estate,13
+Iowa,Mahaska,Religious,40
+Iowa,Marion,Real Estate,32
+Iowa,Marion,Religious,56
+Iowa,Marshall,Real Estate,23
+Iowa,Marshall,Religious,52
+Iowa,Mills,Real Estate,15
+Iowa,Mills,Religious,14
+Iowa,Mitchell,Real Estate,5
+Iowa,Mitchell,Religious,21
+Iowa,Monona,Real Estate,6
+Iowa,Monona,Religious,13
+Iowa,Monroe,Real Estate,6
+Iowa,Monroe,Religious,13
+Iowa,Montgomery,Real Estate,10
+Iowa,Montgomery,Religious,17
+Iowa,Muscatine,Real Estate,44
+Iowa,Muscatine,Religious,54
+Iowa,O'Brien,Real Estate,4
+Iowa,O'Brien,Religious,38
+Iowa,Page,Real Estate,9
+Iowa,Page,Religious,41
+Iowa,Palo Alto,Real Estate,4
+Iowa,Palo Alto,Religious,19
+Iowa,Plymouth,Real Estate,21
+Iowa,Plymouth,Religious,36
+Iowa,Pocahontas,Real Estate,3
+Iowa,Pocahontas,Religious,14
+Iowa,Polk,Real Estate,741
+Iowa,Polk,Religious,613
+Iowa,Pottawattamie,Real Estate,76
+Iowa,Pottawattamie,Religious,92
+Iowa,Poweshiek,Real Estate,14
+Iowa,Poweshiek,Religious,29
+Iowa,Ringgold,Real Estate,4
+Iowa,Ringgold,Religious,10
+Iowa,Sac,Real Estate,3
+Iowa,Sac,Religious,21
+Iowa,Scott,Real Estate,198
+Iowa,Scott,Religious,167
+Iowa,Shelby,Real Estate,11
+Iowa,Shelby,Religious,22
+Iowa,Sioux,Real Estate,30
+Iowa,Sioux,Religious,86
+Iowa,Story,Real Estate,130
+Iowa,Story,Religious,112
+Iowa,Tama,Real Estate,8
+Iowa,Tama,Religious,22
+Iowa,Taylor,Real Estate,4
+Iowa,Taylor,Religious,11
+Iowa,Union,Real Estate,5
+Iowa,Union,Religious,18
+Iowa,Van Buren,Real Estate,3
+Iowa,Van Buren,Religious,5
+Iowa,Wapello,Real Estate,12
+Iowa,Wapello,Religious,41
+Iowa,Warren,Real Estate,53
+Iowa,Warren,Religious,51
+Iowa,Washington,Real Estate,14
+Iowa,Washington,Religious,42
+Iowa,Webster,Real Estate,33
+Iowa,Webster,Religious,51
+Iowa,Winnebago,Real Estate,3
+Iowa,Winnebago,Religious,20
+Iowa,Winneshiek,Real Estate,12
+Iowa,Winneshiek,Religious,35
+Iowa,Woodbury,Real Estate,88
+Iowa,Woodbury,Religious,127
+Iowa,Wright,Real Estate,10
+Iowa,Wright,Religious,30
+Kansas,Allen,Real Estate,17
+Kansas,Allen,Religious,17
+Kansas,Anderson,Real Estate,3
+Kansas,Anderson,Religious,8
+Kansas,Atchison,Real Estate,9
+Kansas,Atchison,Religious,29
+Kansas,Barton,Real Estate,27
+Kansas,Barton,Religious,55
+Kansas,Bourbon,Real Estate,9
+Kansas,Bourbon,Religious,28
+Kansas,Brown,Real Estate,4
+Kansas,Brown,Religious,20
+Kansas,Butler,Real Estate,56
+Kansas,Butler,Religious,71
+Kansas,Cherokee,Real Estate,6
+Kansas,Cherokee,Religious,27
+Kansas,Cheyenne,Real Estate,4
+Kansas,Cheyenne,Religious,13
+Kansas,Clay,Real Estate,4
+Kansas,Clay,Religious,24
+Kansas,Cowley,Real Estate,17
+Kansas,Cowley,Religious,61
+Kansas,Crawford,Real Estate,33
+Kansas,Crawford,Religious,49
+Kansas,Decatur,Real Estate,4
+Kansas,Decatur,Religious,7
+Kansas,Dickinson,Real Estate,14
+Kansas,Dickinson,Religious,42
+Kansas,Doniphan,Real Estate,3
+Kansas,Doniphan,Religious,11
+Kansas,Douglas,Real Estate,156
+Kansas,Douglas,Religious,131
+Kansas,Ellis,Real Estate,43
+Kansas,Ellis,Religious,33
+Kansas,Finney,Real Estate,34
+Kansas,Finney,Religious,41
+Kansas,Ford,Real Estate,23
+Kansas,Ford,Religious,30
+Kansas,Franklin,Real Estate,19
+Kansas,Franklin,Religious,34
+Kansas,Geary,Real Estate,47
+Kansas,Geary,Religious,33
+Kansas,Grant,Real Estate,3
+Kansas,Grant,Religious,14
+Kansas,Gray,Real Estate,4
+Kansas,Gray,Religious,20
+Kansas,Harper,Real Estate,4
+Kansas,Harper,Religious,17
+Kansas,Harvey,Real Estate,20
+Kansas,Harvey,Religious,67
+Kansas,Jackson,Real Estate,9
+Kansas,Jackson,Religious,17
+Kansas,Jefferson,Real Estate,8
+Kansas,Jefferson,Religious,21
+Kansas,Johnson,Real Estate,"1,118"
+Kansas,Johnson,Religious,476
+Kansas,Kearny,Real Estate,3
+Kansas,Kearny,Religious,7
+Kansas,Kingman,Real Estate,5
+Kansas,Kingman,Religious,20
+Kansas,Labette,Real Estate,10
+Kansas,Labette,Religious,30
+Kansas,Leavenworth,Real Estate,58
+Kansas,Leavenworth,Religious,61
+Kansas,Linn,Real Estate,4
+Kansas,Linn,Religious,10
+Kansas,Lyon,Real Estate,40
+Kansas,Lyon,Religious,41
+Kansas,Marion,Real Estate,7
+Kansas,Marion,Religious,33
+Kansas,Marshall,Real Estate,6
+Kansas,Marshall,Religious,23
+Kansas,McPherson,Real Estate,29
+Kansas,McPherson,Religious,72
+Kansas,Miami,Real Estate,25
+Kansas,Miami,Religious,44
+Kansas,Mitchell,Real Estate,6
+Kansas,Mitchell,Religious,18
+Kansas,Montgomery,Real Estate,21
+Kansas,Montgomery,Religious,67
+Kansas,Neosho,Real Estate,11
+Kansas,Neosho,Religious,28
+Kansas,Osage,Real Estate,5
+Kansas,Osage,Religious,18
+Kansas,Ottawa,Real Estate,3
+Kansas,Ottawa,Religious,8
+Kansas,Pawnee,Real Estate,4
+Kansas,Pawnee,Religious,11
+Kansas,Pottawatomie,Real Estate,23
+Kansas,Pottawatomie,Religious,27
+Kansas,Pratt,Real Estate,8
+Kansas,Pratt,Religious,20
+Kansas,Reno,Real Estate,46
+Kansas,Reno,Religious,91
+Kansas,Rice,Real Estate,3
+Kansas,Rice,Religious,23
+Kansas,Riley,Real Estate,106
+Kansas,Riley,Religious,88
+Kansas,Russell,Real Estate,5
+Kansas,Russell,Religious,17
+Kansas,Saline,Real Estate,49
+Kansas,Saline,Religious,86
+Kansas,Scott,Real Estate,5
+Kansas,Scott,Religious,14
+Kansas,Sedgwick,Real Estate,553
+Kansas,Sedgwick,Religious,507
+Kansas,Seward,Real Estate,18
+Kansas,Seward,Religious,28
+Kansas,Shawnee,Real Estate,176
+Kansas,Shawnee,Religious,288
+Kansas,Sherman,Real Estate,9
+Kansas,Sherman,Religious,15
+Kansas,Sumner,Real Estate,14
+Kansas,Sumner,Religious,35
+Kansas,Thomas,Real Estate,6
+Kansas,Thomas,Religious,23
+Kansas,Trego,Real Estate,3
+Kansas,Trego,Religious,9
+Kansas,Wabaunsee,Real Estate,3
+Kansas,Wabaunsee,Religious,9
+Kansas,Wallace,Real Estate,3
+Kansas,Wallace,Religious,5
+Kansas,Washington,Real Estate,3
+Kansas,Washington,Religious,22
+Kansas,Wilson,Real Estate,4
+Kansas,Wilson,Religious,22
+Kansas,Wyandotte,Real Estate,86
+Kansas,Wyandotte,Religious,182
+Kentucky,Adair,Real Estate,6
+Kentucky,Adair,Religious,9
+Kentucky,Allen,Real Estate,12
+Kentucky,Allen,Religious,15
+Kentucky,Anderson,Real Estate,11
+Kentucky,Anderson,Religious,29
+Kentucky,Barren,Real Estate,14
+Kentucky,Barren,Religious,35
+Kentucky,Bath,Real Estate,6
+Kentucky,Bath,Religious,5
+Kentucky,Bell,Real Estate,9
+Kentucky,Bell,Religious,22
+Kentucky,Boone,Real Estate,125
+Kentucky,Boone,Religious,69
+Kentucky,Bourbon,Real Estate,9
+Kentucky,Bourbon,Religious,23
+Kentucky,Boyd,Real Estate,26
+Kentucky,Boyd,Religious,79
+Kentucky,Boyle,Real Estate,22
+Kentucky,Boyle,Religious,42
+Kentucky,Breckinridge,Real Estate,4
+Kentucky,Breckinridge,Religious,27
+Kentucky,Bullitt,Real Estate,39
+Kentucky,Bullitt,Religious,49
+Kentucky,Butler,Real Estate,4
+Kentucky,Butler,Religious,19
+Kentucky,Calloway,Real Estate,32
+Kentucky,Calloway,Religious,51
+Kentucky,Campbell,Real Estate,80
+Kentucky,Campbell,Religious,68
+Kentucky,Carlisle,Real Estate,3
+Kentucky,Carlisle,Religious,5
+Kentucky,Carter,Real Estate,10
+Kentucky,Carter,Religious,20
+Kentucky,Casey,Real Estate,3
+Kentucky,Casey,Religious,11
+Kentucky,Christian,Real Estate,49
+Kentucky,Christian,Religious,92
+Kentucky,Clark,Real Estate,22
+Kentucky,Clark,Religious,38
+Kentucky,Clay,Real Estate,5
+Kentucky,Clay,Religious,12
+Kentucky,Crittenden,Real Estate,5
+Kentucky,Crittenden,Religious,14
+Kentucky,Cumberland,Real Estate,4
+Kentucky,Cumberland,Religious,3
+Kentucky,Daviess,Real Estate,96
+Kentucky,Daviess,Religious,126
+Kentucky,Estill,Real Estate,3
+Kentucky,Estill,Religious,17
+Kentucky,Fayette,Real Estate,474
+Kentucky,Fayette,Religious,395
+Kentucky,Fleming,Real Estate,6
+Kentucky,Fleming,Religious,8
+Kentucky,Floyd,Real Estate,17
+Kentucky,Floyd,Religious,26
+Kentucky,Franklin,Real Estate,40
+Kentucky,Franklin,Religious,126
+Kentucky,Garrard,Real Estate,8
+Kentucky,Garrard,Religious,11
+Kentucky,Grant,Real Estate,17
+Kentucky,Grant,Religious,19
+Kentucky,Graves,Real Estate,24
+Kentucky,Graves,Religious,37
+Kentucky,Grayson,Real Estate,7
+Kentucky,Grayson,Religious,18
+Kentucky,Green,Real Estate,3
+Kentucky,Green,Religious,20
+Kentucky,Greenup,Real Estate,10
+Kentucky,Greenup,Religious,30
+Kentucky,Hancock,Real Estate,4
+Kentucky,Hancock,Religious,13
+Kentucky,Hardin,Real Estate,96
+Kentucky,Hardin,Religious,98
+Kentucky,Harlan,Real Estate,5
+Kentucky,Harlan,Religious,27
+Kentucky,Harrison,Real Estate,5
+Kentucky,Harrison,Religious,19
+Kentucky,Hart,Real Estate,8
+Kentucky,Hart,Religious,24
+Kentucky,Henderson,Real Estate,39
+Kentucky,Henderson,Religious,61
+Kentucky,Henry,Real Estate,4
+Kentucky,Henry,Religious,19
+Kentucky,Hopkins,Real Estate,22
+Kentucky,Hopkins,Religious,88
+Kentucky,Jefferson,Real Estate,"1,041"
+Kentucky,Jefferson,Religious,803
+Kentucky,Jessamine,Real Estate,50
+Kentucky,Jessamine,Religious,63
+Kentucky,Johnson,Real Estate,7
+Kentucky,Johnson,Religious,12
+Kentucky,Kenton,Real Estate,142
+Kentucky,Kenton,Religious,106
+Kentucky,Knott,Real Estate,4
+Kentucky,Knott,Religious,8
+Kentucky,Knox,Real Estate,7
+Kentucky,Knox,Religious,24
+Kentucky,Laurel,Real Estate,34
+Kentucky,Laurel,Religious,42
+Kentucky,Lawrence,Real Estate,4
+Kentucky,Lawrence,Religious,10
+Kentucky,Lee,Real Estate,3
+Kentucky,Lee,Religious,3
+Kentucky,Letcher,Real Estate,5
+Kentucky,Letcher,Religious,12
+Kentucky,Livingston,Real Estate,3
+Kentucky,Livingston,Religious,13
+Kentucky,Logan,Real Estate,9
+Kentucky,Logan,Religious,45
+Kentucky,Lyon,Real Estate,6
+Kentucky,Lyon,Religious,11
+Kentucky,Madison,Real Estate,81
+Kentucky,Madison,Religious,78
+Kentucky,Marion,Real Estate,7
+Kentucky,Marion,Religious,12
+Kentucky,Marshall,Real Estate,13
+Kentucky,Marshall,Religious,59
+Kentucky,Martin,Real Estate,4
+Kentucky,Martin,Religious,4
+Kentucky,Mason,Real Estate,5
+Kentucky,Mason,Religious,32
+Kentucky,McCracken,Real Estate,64
+Kentucky,McCracken,Religious,115
+Kentucky,McCreary,Real Estate,5
+Kentucky,McCreary,Religious,7
+Kentucky,Meade,Real Estate,17
+Kentucky,Meade,Religious,21
+Kentucky,Menifee,Real Estate,3
+Kentucky,Menifee,Religious,3
+Kentucky,Mercer,Real Estate,10
+Kentucky,Mercer,Religious,27
+Kentucky,Metcalfe,Real Estate,5
+Kentucky,Metcalfe,Religious,8
+Kentucky,Monroe,Real Estate,7
+Kentucky,Monroe,Religious,8
+Kentucky,Montgomery,Real Estate,15
+Kentucky,Montgomery,Religious,23
+Kentucky,Muhlenberg,Real Estate,5
+Kentucky,Muhlenberg,Religious,66
+Kentucky,Nelson,Real Estate,29
+Kentucky,Nelson,Religious,46
+Kentucky,Ohio,Real Estate,8
+Kentucky,Ohio,Religious,33
+Kentucky,Oldham,Real Estate,76
+Kentucky,Oldham,Religious,49
+Kentucky,Pendleton,Real Estate,3
+Kentucky,Pendleton,Religious,15
+Kentucky,Perry,Real Estate,10
+Kentucky,Perry,Religious,20
+Kentucky,Pike,Real Estate,22
+Kentucky,Pike,Religious,45
+Kentucky,Powell,Real Estate,6
+Kentucky,Powell,Religious,9
+Kentucky,Pulaski,Real Estate,41
+Kentucky,Pulaski,Religious,60
+Kentucky,Rockcastle,Real Estate,4
+Kentucky,Rockcastle,Religious,10
+Kentucky,Rowan,Real Estate,19
+Kentucky,Rowan,Religious,19
+Kentucky,Russell,Real Estate,8
+Kentucky,Russell,Religious,20
+Kentucky,Scott,Real Estate,48
+Kentucky,Scott,Religious,44
+Kentucky,Shelby,Real Estate,36
+Kentucky,Shelby,Religious,53
+Kentucky,Simpson,Real Estate,12
+Kentucky,Simpson,Religious,23
+Kentucky,Spencer,Real Estate,8
+Kentucky,Spencer,Religious,13
+Kentucky,Taylor,Real Estate,19
+Kentucky,Taylor,Religious,42
+Kentucky,Todd,Real Estate,3
+Kentucky,Todd,Religious,24
+Kentucky,Trigg,Real Estate,6
+Kentucky,Trigg,Religious,32
+Kentucky,Union,Real Estate,6
+Kentucky,Union,Religious,17
+Kentucky,Warren,Real Estate,115
+Kentucky,Warren,Religious,112
+Kentucky,Washington,Real Estate,7
+Kentucky,Washington,Religious,19
+Kentucky,Webster,Real Estate,5
+Kentucky,Webster,Religious,24
+Kentucky,Whitley,Real Estate,18
+Kentucky,Whitley,Religious,30
+Kentucky,Woodford,Real Estate,21
+Kentucky,Woodford,Religious,28
+Louisiana,Acadia Parish,Real Estate,31
+Louisiana,Acadia Parish,Religious,41
+Louisiana,Allen Parish,Real Estate,4
+Louisiana,Allen Parish,Religious,29
+Louisiana,Ascension Parish,Real Estate,116
+Louisiana,Ascension Parish,Religious,55
+Louisiana,Assumption Parish,Real Estate,5
+Louisiana,Assumption Parish,Religious,15
+Louisiana,Avoyelles Parish,Real Estate,18
+Louisiana,Avoyelles Parish,Religious,38
+Louisiana,Beauregard Parish,Real Estate,24
+Louisiana,Beauregard Parish,Religious,49
+Louisiana,Bienville Parish,Real Estate,3
+Louisiana,Bienville Parish,Religious,18
+Louisiana,Bossier Parish,Real Estate,137
+Louisiana,Bossier Parish,Religious,84
+Louisiana,Caddo Parish,Real Estate,266
+Louisiana,Caddo Parish,Religious,288
+Louisiana,Calcasieu Parish,Real Estate,164
+Louisiana,Calcasieu Parish,Religious,204
+Louisiana,Cameron Parish,Real Estate,3
+Louisiana,Cameron Parish,Religious,8
+Louisiana,Concordia Parish,Real Estate,6
+Louisiana,Concordia Parish,Religious,20
+Louisiana,De Soto Parish,Real Estate,5
+Louisiana,De Soto Parish,Religious,36
+Louisiana,East Baton Rouge Parish,Real Estate,576
+Louisiana,East Baton Rouge Parish,Religious,533
+Louisiana,East Carroll Parish,Real Estate,4
+Louisiana,East Carroll Parish,Religious,8
+Louisiana,East Feliciana Parish,Real Estate,7
+Louisiana,East Feliciana Parish,Religious,13
+Louisiana,Evangeline Parish,Real Estate,11
+Louisiana,Evangeline Parish,Religious,28
+Louisiana,Franklin Parish,Real Estate,8
+Louisiana,Franklin Parish,Religious,30
+Louisiana,Grant Parish,Real Estate,3
+Louisiana,Grant Parish,Religious,24
+Louisiana,Iberia Parish,Real Estate,39
+Louisiana,Iberia Parish,Religious,41
+Louisiana,Iberville Parish,Real Estate,15
+Louisiana,Iberville Parish,Religious,24
+Louisiana,Jackson Parish,Real Estate,7
+Louisiana,Jackson Parish,Religious,27
+Louisiana,Jefferson Davis Parish,Real Estate,14
+Louisiana,Jefferson Davis Parish,Religious,29
+Louisiana,Jefferson Parish,Real Estate,490
+Louisiana,Jefferson Parish,Religious,283
+Louisiana,Lafayette Parish,Real Estate,401
+Louisiana,Lafayette Parish,Religious,169
+Louisiana,Lafourche Parish,Real Estate,39
+Louisiana,Lafourche Parish,Religious,36
+Louisiana,Lincoln Parish,Real Estate,63
+Louisiana,Lincoln Parish,Religious,62
+Louisiana,Livingston Parish,Real Estate,72
+Louisiana,Livingston Parish,Religious,95
+Louisiana,Madison Parish,Real Estate,10
+Louisiana,Madison Parish,Religious,6
+Louisiana,Morehouse Parish,Real Estate,19
+Louisiana,Morehouse Parish,Religious,42
+Louisiana,Natchitoches Parish,Real Estate,35
+Louisiana,Natchitoches Parish,Religious,60
+Louisiana,Orleans Parish,Real Estate,512
+Louisiana,Orleans Parish,Religious,479
+Louisiana,Ouachita Parish,Real Estate,190
+Louisiana,Ouachita Parish,Religious,193
+Louisiana,Plaquemines Parish,Real Estate,14
+Louisiana,Plaquemines Parish,Religious,14
+Louisiana,Pointe Coupee Parish,Real Estate,11
+Louisiana,Pointe Coupee Parish,Religious,13
+Louisiana,Rapides Parish,Real Estate,144
+Louisiana,Rapides Parish,Religious,163
+Louisiana,Richland Parish,Real Estate,19
+Louisiana,Richland Parish,Religious,25
+Louisiana,Sabine Parish,Real Estate,11
+Louisiana,Sabine Parish,Religious,31
+Louisiana,St. Bernard Parish,Real Estate,17
+Louisiana,St. Bernard Parish,Religious,21
+Louisiana,St. Charles Parish,Real Estate,19
+Louisiana,St. Charles Parish,Religious,41
+Louisiana,St. James Parish,Real Estate,5
+Louisiana,St. James Parish,Religious,14
+Louisiana,St. John the Baptist Parish,Real Estate,14
+Louisiana,St. John the Baptist Parish,Religious,21
+Louisiana,St. Landry Parish,Real Estate,45
+Louisiana,St. Landry Parish,Religious,61
+Louisiana,St. Martin Parish,Real Estate,17
+Louisiana,St. Martin Parish,Religious,27
+Louisiana,St. Mary Parish,Real Estate,29
+Louisiana,St. Mary Parish,Religious,38
+Louisiana,St. Tammany Parish,Real Estate,288
+Louisiana,St. Tammany Parish,Religious,171
+Louisiana,Tangipahoa Parish,Real Estate,103
+Louisiana,Tangipahoa Parish,Religious,114
+Louisiana,Terrebonne Parish,Real Estate,84
+Louisiana,Terrebonne Parish,Religious,46
+Louisiana,Union Parish,Real Estate,10
+Louisiana,Union Parish,Religious,27
+Louisiana,Vermilion Parish,Real Estate,23
+Louisiana,Vermilion Parish,Religious,31
+Louisiana,Vernon Parish,Real Estate,25
+Louisiana,Vernon Parish,Religious,37
+Louisiana,Washington Parish,Real Estate,10
+Louisiana,Washington Parish,Religious,42
+Louisiana,Webster Parish,Real Estate,21
+Louisiana,Webster Parish,Religious,53
+Louisiana,West Baton Rouge Parish,Real Estate,6
+Louisiana,West Baton Rouge Parish,Religious,19
+Louisiana,West Feliciana Parish,Real Estate,12
+Louisiana,West Feliciana Parish,Religious,13
+Louisiana,Winn Parish,Real Estate,4
+Louisiana,Winn Parish,Religious,20
+Maine,Androscoggin,Real Estate,112
+Maine,Androscoggin,Religious,84
+Maine,Aroostook,Real Estate,60
+Maine,Aroostook,Religious,71
+Maine,Cumberland,Real Estate,697
+Maine,Cumberland,Religious,439
+Maine,Franklin,Real Estate,35
+Maine,Franklin,Religious,42
+Maine,Hancock,Real Estate,87
+Maine,Hancock,Religious,82
+Maine,Kennebec,Real Estate,102
+Maine,Kennebec,Religious,200
+Maine,Knox,Real Estate,71
+Maine,Knox,Religious,71
+Maine,Lincoln,Real Estate,48
+Maine,Lincoln,Religious,49
+Maine,Oxford,Real Estate,42
+Maine,Oxford,Religious,65
+Maine,Penobscot,Real Estate,177
+Maine,Penobscot,Religious,142
+Maine,Piscataquis,Real Estate,17
+Maine,Piscataquis,Religious,26
+Maine,Sagadahoc,Real Estate,34
+Maine,Sagadahoc,Religious,35
+Maine,Somerset,Real Estate,35
+Maine,Somerset,Religious,48
+Maine,Waldo,Real Estate,31
+Maine,Waldo,Religious,41
+Maine,Washington,Real Estate,14
+Maine,Washington,Religious,28
+Maine,York,Real Estate,252
+Maine,York,Religious,153
+Maryland,Allegany,Real Estate,38
+Maryland,Allegany,Religious,115
+Maryland,Anne Arundel,Real Estate,624
+Maryland,Anne Arundel,Religious,472
+Maryland,Baltimore,Real Estate,978
+Maryland,Baltimore,Religious,682
+Maryland,Baltimore city,Real Estate,713
+Maryland,Baltimore city,Religious,719
+Maryland,Calvert,Real Estate,85
+Maryland,Calvert,Religious,67
+Maryland,Caroline,Real Estate,11
+Maryland,Caroline,Religious,29
+Maryland,Carroll,Real Estate,145
+Maryland,Carroll,Religious,152
+Maryland,Cecil,Real Estate,88
+Maryland,Cecil,Religious,76
+Maryland,Charles,Real Estate,112
+Maryland,Charles,Religious,101
+Maryland,Dorchester,Real Estate,31
+Maryland,Dorchester,Religious,37
+Maryland,Frederick,Real Estate,260
+Maryland,Frederick,Religious,242
+Maryland,Garrett,Real Estate,34
+Maryland,Garrett,Religious,47
+Maryland,Harford,Real Estate,235
+Maryland,Harford,Religious,165
+Maryland,Howard,Real Estate,404
+Maryland,Howard,Religious,296
+Maryland,Kent,Real Estate,18
+Maryland,Kent,Religious,35
+Maryland,Montgomery,Real Estate,"1,541"
+Maryland,Montgomery,Religious,"1,109"
+Maryland,Prince George's,Real Estate,699
+Maryland,Prince George's,Religious,771
+Maryland,Queen Anne's,Real Estate,58
+Maryland,Queen Anne's,Religious,42
+Maryland,Somerset,Real Estate,13
+Maryland,Somerset,Religious,32
+Maryland,St. Mary's,Real Estate,88
+Maryland,St. Mary's,Religious,83
+Maryland,Talbot,Real Estate,73
+Maryland,Talbot,Religious,65
+Maryland,Washington,Real Estate,130
+Maryland,Washington,Religious,197
+Maryland,Wicomico,Real Estate,135
+Maryland,Wicomico,Religious,101
+Maryland,Worcester,Real Estate,137
+Maryland,Worcester,Religious,116
+Massachusetts,Barnstable,Real Estate,371
+Massachusetts,Barnstable,Religious,295
+Massachusetts,Berkshire,Real Estate,122
+Massachusetts,Berkshire,Religious,145
+Massachusetts,Bristol,Real Estate,425
+Massachusetts,Bristol,Religious,378
+Massachusetts,Dukes,Real Estate,66
+Massachusetts,Dukes,Religious,47
+Massachusetts,Essex,Real Estate,644
+Massachusetts,Essex,Religious,622
+Massachusetts,Franklin,Real Estate,38
+Massachusetts,Franklin,Religious,90
+Massachusetts,Hampden,Real Estate,354
+Massachusetts,Hampden,Religious,381
+Massachusetts,Hampshire,Real Estate,101
+Massachusetts,Hampshire,Religious,154
+Massachusetts,Middlesex,Real Estate,"1,750"
+Massachusetts,Middlesex,Religious,"1,494"
+Massachusetts,Nantucket,Real Estate,73
+Massachusetts,Nantucket,Religious,29
+Massachusetts,Norfolk,Real Estate,856
+Massachusetts,Norfolk,Religious,606
+Massachusetts,Plymouth,Real Estate,365
+Massachusetts,Plymouth,Religious,347
+Massachusetts,Suffolk,Real Estate,"1,330"
+Massachusetts,Suffolk,Religious,"1,017"
+Massachusetts,Worcester,Real Estate,626
+Massachusetts,Worcester,Religious,643
+Michigan,Alcona,Real Estate,3
+Michigan,Alcona,Religious,12
+Michigan,Alger,Real Estate,4
+Michigan,Alger,Religious,17
+Michigan,Allegan,Real Estate,73
+Michigan,Allegan,Religious,123
+Michigan,Alpena,Real Estate,10
+Michigan,Alpena,Religious,45
+Michigan,Antrim,Real Estate,26
+Michigan,Antrim,Religious,34
+Michigan,Arenac,Real Estate,5
+Michigan,Arenac,Religious,11
+Michigan,Barry,Real Estate,15
+Michigan,Barry,Religious,63
+Michigan,Bay,Real Estate,41
+Michigan,Bay,Religious,92
+Michigan,Benzie,Real Estate,21
+Michigan,Benzie,Religious,25
+Michigan,Berrien,Real Estate,137
+Michigan,Berrien,Religious,174
+Michigan,Branch,Real Estate,25
+Michigan,Branch,Religious,44
+Michigan,Calhoun,Real Estate,67
+Michigan,Calhoun,Religious,139
+Michigan,Cass,Real Estate,32
+Michigan,Cass,Religious,44
+Michigan,Charlevoix,Real Estate,39
+Michigan,Charlevoix,Religious,47
+Michigan,Cheboygan,Real Estate,21
+Michigan,Cheboygan,Religious,36
+Michigan,Chippewa,Real Estate,20
+Michigan,Chippewa,Religious,41
+Michigan,Clare,Real Estate,9
+Michigan,Clare,Religious,33
+Michigan,Clinton,Real Estate,73
+Michigan,Clinton,Religious,56
+Michigan,Crawford,Real Estate,5
+Michigan,Crawford,Religious,14
+Michigan,Delta,Real Estate,18
+Michigan,Delta,Religious,49
+Michigan,Dickinson,Real Estate,16
+Michigan,Dickinson,Religious,41
+Michigan,Eaton,Real Estate,83
+Michigan,Eaton,Religious,131
+Michigan,Emmet,Real Estate,52
+Michigan,Emmet,Religious,58
+Michigan,Genesee,Real Estate,276
+Michigan,Genesee,Religious,356
+Michigan,Gladwin,Real Estate,11
+Michigan,Gladwin,Religious,24
+Michigan,Gogebic,Real Estate,10
+Michigan,Gogebic,Religious,24
+Michigan,Grand Traverse,Real Estate,131
+Michigan,Grand Traverse,Religious,115
+Michigan,Gratiot,Real Estate,9
+Michigan,Gratiot,Religious,51
+Michigan,Hillsdale,Real Estate,23
+Michigan,Hillsdale,Religious,55
+Michigan,Houghton,Real Estate,22
+Michigan,Houghton,Religious,51
+Michigan,Huron,Real Estate,12
+Michigan,Huron,Religious,51
+Michigan,Ingham,Real Estate,249
+Michigan,Ingham,Religious,434
+Michigan,Ionia,Real Estate,15
+Michigan,Ionia,Religious,50
+Michigan,Iosco,Real Estate,15
+Michigan,Iosco,Religious,37
+Michigan,Iron,Real Estate,15
+Michigan,Iron,Religious,17
+Michigan,Isabella,Real Estate,47
+Michigan,Isabella,Religious,60
+Michigan,Jackson,Real Estate,94
+Michigan,Jackson,Religious,137
+Michigan,Kalamazoo,Real Estate,212
+Michigan,Kalamazoo,Religious,249
+Michigan,Kalkaska,Real Estate,4
+Michigan,Kalkaska,Religious,12
+Michigan,Kent,Real Estate,639
+Michigan,Kent,Religious,773
+Michigan,Lake,Real Estate,3
+Michigan,Lake,Religious,14
+Michigan,Lapeer,Real Estate,51
+Michigan,Lapeer,Religious,75
+Michigan,Leelanau,Real Estate,27
+Michigan,Leelanau,Religious,36
+Michigan,Lenawee,Real Estate,61
+Michigan,Lenawee,Religious,115
+Michigan,Livingston,Real Estate,148
+Michigan,Livingston,Religious,119
+Michigan,Luce,Real Estate,5
+Michigan,Luce,Religious,13
+Michigan,Mackinac,Real Estate,9
+Michigan,Mackinac,Religious,26
+Michigan,Macomb,Real Estate,567
+Michigan,Macomb,Religious,436
+Michigan,Manistee,Real Estate,19
+Michigan,Manistee,Religious,32
+Michigan,Marquette,Real Estate,50
+Michigan,Marquette,Religious,97
+Michigan,Mason,Real Estate,25
+Michigan,Mason,Religious,37
+Michigan,Mecosta,Real Estate,26
+Michigan,Mecosta,Religious,49
+Michigan,Menominee,Real Estate,10
+Michigan,Menominee,Religious,24
+Michigan,Midland,Real Estate,53
+Michigan,Midland,Religious,95
+Michigan,Missaukee,Real Estate,4
+Michigan,Missaukee,Religious,17
+Michigan,Monroe,Real Estate,61
+Michigan,Monroe,Religious,106
+Michigan,Montcalm,Real Estate,15
+Michigan,Montcalm,Religious,65
+Michigan,Montmorency,Real Estate,4
+Michigan,Montmorency,Religious,12
+Michigan,Muskegon,Real Estate,70
+Michigan,Muskegon,Religious,167
+Michigan,Newaygo,Real Estate,20
+Michigan,Newaygo,Religious,63
+Michigan,Oakland,Real Estate,"1,658"
+Michigan,Oakland,Religious,927
+Michigan,Oceana,Real Estate,11
+Michigan,Oceana,Religious,25
+Michigan,Ogemaw,Real Estate,10
+Michigan,Ogemaw,Religious,22
+Michigan,Osceola,Real Estate,11
+Michigan,Osceola,Religious,35
+Michigan,Oscoda,Real Estate,6
+Michigan,Oscoda,Religious,11
+Michigan,Otsego,Real Estate,22
+Michigan,Otsego,Religious,27
+Michigan,Ottawa,Real Estate,258
+Michigan,Ottawa,Religious,332
+Michigan,Presque Isle,Real Estate,5
+Michigan,Presque Isle,Religious,22
+Michigan,Roscommon,Real Estate,25
+Michigan,Roscommon,Religious,36
+Michigan,Saginaw,Real Estate,101
+Michigan,Saginaw,Religious,204
+Michigan,Sanilac,Real Estate,15
+Michigan,Sanilac,Religious,42
+Michigan,Schoolcraft,Real Estate,3
+Michigan,Schoolcraft,Religious,10
+Michigan,Shiawassee,Real Estate,25
+Michigan,Shiawassee,Religious,69
+Michigan,St. Clair,Real Estate,73
+Michigan,St. Clair,Religious,128
+Michigan,St. Joseph,Real Estate,27
+Michigan,St. Joseph,Religious,77
+Michigan,Tuscola,Real Estate,13
+Michigan,Tuscola,Religious,56
+Michigan,Van Buren,Real Estate,40
+Michigan,Van Buren,Religious,73
+Michigan,Washtenaw,Real Estate,344
+Michigan,Washtenaw,Religious,372
+Michigan,Wayne,Real Estate,"1,022"
+Michigan,Wayne,Religious,"1,251"
+Michigan,Wexford,Real Estate,27
+Michigan,Wexford,Religious,34
+Minnesota,Aitkin,Real Estate,11
+Minnesota,Aitkin,Religious,32
+Minnesota,Anoka,Real Estate,453
+Minnesota,Anoka,Religious,216
+Minnesota,Becker,Real Estate,35
+Minnesota,Becker,Religious,55
+Minnesota,Beltrami,Real Estate,44
+Minnesota,Beltrami,Religious,55
+Minnesota,Benton,Real Estate,38
+Minnesota,Benton,Religious,41
+Minnesota,Big Stone,Real Estate,5
+Minnesota,Big Stone,Religious,16
+Minnesota,Blue Earth,Real Estate,80
+Minnesota,Blue Earth,Religious,82
+Minnesota,Brown,Real Estate,16
+Minnesota,Brown,Religious,43
+Minnesota,Carlton,Real Estate,16
+Minnesota,Carlton,Religious,47
+Minnesota,Carver,Real Estate,144
+Minnesota,Carver,Religious,91
+Minnesota,Cass,Real Estate,40
+Minnesota,Cass,Religious,58
+Minnesota,Chippewa,Real Estate,4
+Minnesota,Chippewa,Religious,37
+Minnesota,Chisago,Real Estate,49
+Minnesota,Chisago,Religious,50
+Minnesota,Clay,Real Estate,51
+Minnesota,Clay,Religious,70
+Minnesota,Cook,Real Estate,8
+Minnesota,Cook,Religious,15
+Minnesota,Cottonwood,Real Estate,7
+Minnesota,Cottonwood,Religious,28
+Minnesota,Crow Wing,Real Estate,106
+Minnesota,Crow Wing,Religious,105
+Minnesota,Dakota,Real Estate,593
+Minnesota,Dakota,Religious,311
+Minnesota,Dodge,Real Estate,7
+Minnesota,Dodge,Religious,31
+Minnesota,Douglas,Real Estate,44
+Minnesota,Douglas,Religious,78
+Minnesota,Faribault,Real Estate,5
+Minnesota,Faribault,Religious,37
+Minnesota,Fillmore,Real Estate,7
+Minnesota,Fillmore,Religious,61
+Minnesota,Freeborn,Real Estate,14
+Minnesota,Freeborn,Religious,56
+Minnesota,Goodhue,Real Estate,36
+Minnesota,Goodhue,Religious,88
+Minnesota,Hennepin,Real Estate,"2,542"
+Minnesota,Hennepin,Religious,"1,463"
+Minnesota,Houston,Real Estate,10
+Minnesota,Houston,Religious,30
+Minnesota,Hubbard,Real Estate,18
+Minnesota,Hubbard,Religious,27
+Minnesota,Isanti,Real Estate,34
+Minnesota,Isanti,Religious,44
+Minnesota,Itasca,Real Estate,31
+Minnesota,Itasca,Religious,65
+Minnesota,Jackson,Real Estate,5
+Minnesota,Jackson,Religious,24
+Minnesota,Kanabec,Real Estate,5
+Minnesota,Kanabec,Religious,25
+Minnesota,Kandiyohi,Real Estate,38
+Minnesota,Kandiyohi,Religious,82
+Minnesota,Koochiching,Real Estate,6
+Minnesota,Koochiching,Religious,20
+Minnesota,Lac qui Parle,Real Estate,4
+Minnesota,Lac qui Parle,Religious,15
+Minnesota,Lake,Real Estate,5
+Minnesota,Lake,Religious,17
+Minnesota,Lake of the Woods,Real Estate,4
+Minnesota,Lake of the Woods,Religious,16
+Minnesota,Le Sueur,Real Estate,24
+Minnesota,Le Sueur,Religious,36
+Minnesota,Lyon,Real Estate,23
+Minnesota,Lyon,Religious,39
+Minnesota,Martin,Real Estate,8
+Minnesota,Martin,Religious,40
+Minnesota,McLeod,Real Estate,32
+Minnesota,McLeod,Religious,64
+Minnesota,Meeker,Real Estate,13
+Minnesota,Meeker,Religious,40
+Minnesota,Mille Lacs,Real Estate,23
+Minnesota,Mille Lacs,Religious,46
+Minnesota,Morrison,Real Estate,11
+Minnesota,Morrison,Religious,68
+Minnesota,Mower,Real Estate,19
+Minnesota,Mower,Religious,59
+Minnesota,Murray,Real Estate,5
+Minnesota,Murray,Religious,28
+Minnesota,Nicollet,Real Estate,22
+Minnesota,Nicollet,Religious,38
+Minnesota,Nobles,Real Estate,5
+Minnesota,Nobles,Religious,37
+Minnesota,Norman,Real Estate,4
+Minnesota,Norman,Religious,13
+Minnesota,Olmsted,Real Estate,184
+Minnesota,Olmsted,Religious,171
+Minnesota,Otter Tail,Real Estate,43
+Minnesota,Otter Tail,Religious,111
+Minnesota,Pennington,Real Estate,12
+Minnesota,Pennington,Religious,23
+Minnesota,Pine,Real Estate,19
+Minnesota,Pine,Religious,43
+Minnesota,Polk,Real Estate,11
+Minnesota,Polk,Religious,62
+Minnesota,Pope,Real Estate,6
+Minnesota,Pope,Religious,34
+Minnesota,Ramsey,Real Estate,719
+Minnesota,Ramsey,Religious,733
+Minnesota,Redwood,Real Estate,15
+Minnesota,Redwood,Religious,38
+Minnesota,Renville,Real Estate,5
+Minnesota,Renville,Religious,42
+Minnesota,Rice,Real Estate,58
+Minnesota,Rice,Religious,76
+Minnesota,Rock,Real Estate,8
+Minnesota,Rock,Religious,24
+Minnesota,Roseau,Real Estate,12
+Minnesota,Roseau,Religious,24
+Minnesota,Scott,Real Estate,176
+Minnesota,Scott,Religious,91
+Minnesota,Sherburne,Real Estate,95
+Minnesota,Sherburne,Religious,68
+Minnesota,Sibley,Real Estate,4
+Minnesota,Sibley,Religious,27
+Minnesota,St. Louis,Real Estate,179
+Minnesota,St. Louis,Religious,308
+Minnesota,Stearns,Real Estate,171
+Minnesota,Stearns,Religious,195
+Minnesota,Steele,Real Estate,19
+Minnesota,Steele,Religious,56
+Minnesota,Stevens,Real Estate,6
+Minnesota,Stevens,Religious,25
+Minnesota,Swift,Real Estate,4
+Minnesota,Swift,Religious,17
+Minnesota,Todd,Real Estate,18
+Minnesota,Todd,Religious,50
+Minnesota,Wabasha,Real Estate,9
+Minnesota,Wabasha,Religious,41
+Minnesota,Wadena,Real Estate,7
+Minnesota,Wadena,Religious,28
+Minnesota,Waseca,Real Estate,7
+Minnesota,Waseca,Religious,30
+Minnesota,Washington,Real Estate,374
+Minnesota,Washington,Religious,162
+Minnesota,Watonwan,Real Estate,4
+Minnesota,Watonwan,Religious,28
+Minnesota,Wilkin,Real Estate,5
+Minnesota,Wilkin,Religious,9
+Minnesota,Winona,Real Estate,33
+Minnesota,Winona,Religious,60
+Minnesota,Wright,Real Estate,153
+Minnesota,Wright,Religious,116
+Mississippi,Adams,Real Estate,24
+Mississippi,Adams,Religious,43
+Mississippi,Alcorn,Real Estate,13
+Mississippi,Alcorn,Religious,40
+Mississippi,Amite,Real Estate,5
+Mississippi,Amite,Religious,19
+Mississippi,Attala,Real Estate,6
+Mississippi,Attala,Religious,26
+Mississippi,Bolivar,Real Estate,33
+Mississippi,Bolivar,Religious,47
+Mississippi,Calhoun,Real Estate,6
+Mississippi,Calhoun,Religious,21
+Mississippi,Carroll,Real Estate,6
+Mississippi,Carroll,Religious,11
+Mississippi,Chickasaw,Real Estate,3
+Mississippi,Chickasaw,Religious,21
+Mississippi,Clay,Real Estate,11
+Mississippi,Clay,Religious,28
+Mississippi,Coahoma,Real Estate,30
+Mississippi,Coahoma,Religious,22
+Mississippi,Copiah,Real Estate,10
+Mississippi,Copiah,Religious,33
+Mississippi,DeSoto,Real Estate,103
+Mississippi,DeSoto,Religious,129
+Mississippi,Forrest,Real Estate,70
+Mississippi,Forrest,Religious,97
+Mississippi,Franklin,Real Estate,3
+Mississippi,Franklin,Religious,19
+Mississippi,George,Real Estate,7
+Mississippi,George,Religious,23
+Mississippi,Grenada,Real Estate,12
+Mississippi,Grenada,Religious,25
+Mississippi,Hancock,Real Estate,31
+Mississippi,Hancock,Religious,32
+Mississippi,Harrison,Real Estate,181
+Mississippi,Harrison,Religious,181
+Mississippi,Hinds,Real Estate,223
+Mississippi,Hinds,Religious,355
+Mississippi,Holmes,Real Estate,12
+Mississippi,Holmes,Religious,19
+Mississippi,Humphreys,Real Estate,4
+Mississippi,Humphreys,Religious,11
+Mississippi,Itawamba,Real Estate,5
+Mississippi,Itawamba,Religious,28
+Mississippi,Jackson,Real Estate,80
+Mississippi,Jackson,Religious,120
+Mississippi,Jones,Real Estate,30
+Mississippi,Jones,Religious,104
+Mississippi,Lafayette,Real Estate,66
+Mississippi,Lafayette,Religious,68
+Mississippi,Lamar,Real Estate,61
+Mississippi,Lamar,Religious,60
+Mississippi,Lauderdale,Real Estate,54
+Mississippi,Lauderdale,Religious,123
+Mississippi,Lawrence,Real Estate,3
+Mississippi,Lawrence,Religious,22
+Mississippi,Leake,Real Estate,7
+Mississippi,Leake,Religious,30
+Mississippi,Lee,Real Estate,72
+Mississippi,Lee,Religious,105
+Mississippi,Leflore,Real Estate,35
+Mississippi,Leflore,Religious,33
+Mississippi,Lincoln,Real Estate,13
+Mississippi,Lincoln,Religious,56
+Mississippi,Lowndes,Real Estate,56
+Mississippi,Lowndes,Religious,77
+Mississippi,Madison,Real Estate,178
+Mississippi,Madison,Religious,126
+Mississippi,Marion,Real Estate,12
+Mississippi,Marion,Religious,48
+Mississippi,Marshall,Real Estate,16
+Mississippi,Marshall,Religious,29
+Mississippi,Monroe,Real Estate,7
+Mississippi,Monroe,Religious,47
+Mississippi,Neshoba,Real Estate,9
+Mississippi,Neshoba,Religious,34
+Mississippi,Newton,Real Estate,6
+Mississippi,Newton,Religious,32
+Mississippi,Oktibbeha,Real Estate,57
+Mississippi,Oktibbeha,Religious,60
+Mississippi,Pearl River,Real Estate,31
+Mississippi,Pearl River,Religious,48
+Mississippi,Pike,Real Estate,27
+Mississippi,Pike,Religious,64
+Mississippi,Pontotoc,Real Estate,16
+Mississippi,Pontotoc,Religious,33
+Mississippi,Prentiss,Real Estate,11
+Mississippi,Prentiss,Religious,26
+Mississippi,Quitman,Real Estate,6
+Mississippi,Quitman,Religious,9
+Mississippi,Rankin,Real Estate,145
+Mississippi,Rankin,Religious,156
+Mississippi,Scott,Real Estate,5
+Mississippi,Scott,Religious,38
+Mississippi,Sharkey,Real Estate,6
+Mississippi,Sharkey,Religious,12
+Mississippi,Simpson,Real Estate,7
+Mississippi,Simpson,Religious,36
+Mississippi,Stone,Real Estate,3
+Mississippi,Stone,Religious,12
+Mississippi,Sunflower,Real Estate,7
+Mississippi,Sunflower,Religious,33
+Mississippi,Tallahatchie,Real Estate,7
+Mississippi,Tallahatchie,Religious,24
+Mississippi,Tate,Real Estate,7
+Mississippi,Tate,Religious,39
+Mississippi,Tishomingo,Real Estate,10
+Mississippi,Tishomingo,Religious,15
+Mississippi,Tunica,Real Estate,12
+Mississippi,Tunica,Religious,6
+Mississippi,Union,Real Estate,12
+Mississippi,Union,Religious,43
+Mississippi,Walthall,Real Estate,8
+Mississippi,Walthall,Religious,20
+Mississippi,Warren,Real Estate,26
+Mississippi,Warren,Religious,63
+Mississippi,Washington,Real Estate,35
+Mississippi,Washington,Religious,79
+Mississippi,Wayne,Real Estate,6
+Mississippi,Wayne,Religious,25
+Mississippi,Wilkinson,Real Estate,4
+Mississippi,Wilkinson,Religious,10
+Mississippi,Winston,Real Estate,27
+Mississippi,Winston,Religious,35
+Mississippi,Yalobusha,Real Estate,4
+Mississippi,Yalobusha,Religious,17
+Mississippi,Yazoo,Real Estate,11
+Mississippi,Yazoo,Religious,24
+Missouri,Adair,Real Estate,14
+Missouri,Adair,Religious,36
+Missouri,Andrew,Real Estate,13
+Missouri,Andrew,Religious,16
+Missouri,Atchison,Real Estate,6
+Missouri,Atchison,Religious,16
+Missouri,Audrain,Real Estate,8
+Missouri,Audrain,Religious,28
+Missouri,Barry,Real Estate,19
+Missouri,Barry,Religious,48
+Missouri,Barton,Real Estate,5
+Missouri,Barton,Religious,16
+Missouri,Bates,Real Estate,7
+Missouri,Bates,Religious,26
+Missouri,Benton,Real Estate,16
+Missouri,Benton,Religious,32
+Missouri,Boone,Real Estate,238
+Missouri,Boone,Religious,183
+Missouri,Buchanan,Real Estate,73
+Missouri,Buchanan,Religious,108
+Missouri,Butler,Real Estate,19
+Missouri,Butler,Religious,39
+Missouri,Caldwell,Real Estate,4
+Missouri,Caldwell,Religious,14
+Missouri,Callaway,Real Estate,23
+Missouri,Callaway,Religious,40
+Missouri,Camden,Real Estate,95
+Missouri,Camden,Religious,53
+Missouri,Cape Girardeau,Real Estate,79
+Missouri,Cape Girardeau,Religious,111
+Missouri,Carroll,Real Estate,4
+Missouri,Carroll,Religious,17
+Missouri,Cass,Real Estate,82
+Missouri,Cass,Religious,98
+Missouri,Cedar,Real Estate,11
+Missouri,Cedar,Religious,21
+Missouri,Chariton,Real Estate,7
+Missouri,Chariton,Religious,18
+Missouri,Christian,Real Estate,93
+Missouri,Christian,Religious,81
+Missouri,Clay,Real Estate,295
+Missouri,Clay,Religious,196
+Missouri,Clinton,Real Estate,18
+Missouri,Clinton,Religious,17
+Missouri,Cole,Real Estate,56
+Missouri,Cole,Religious,191
+Missouri,Cooper,Real Estate,11
+Missouri,Cooper,Religious,20
+Missouri,Crawford,Real Estate,9
+Missouri,Crawford,Religious,28
+Missouri,Dade,Real Estate,4
+Missouri,Dade,Religious,12
+Missouri,Dallas,Real Estate,11
+Missouri,Dallas,Religious,13
+Missouri,Daviess,Real Estate,5
+Missouri,Daviess,Religious,7
+Missouri,DeKalb,Real Estate,12
+Missouri,DeKalb,Religious,12
+Missouri,Dent,Real Estate,6
+Missouri,Dent,Religious,19
+Missouri,Douglas,Real Estate,7
+Missouri,Douglas,Religious,15
+Missouri,Dunklin,Real Estate,15
+Missouri,Dunklin,Religious,41
+Missouri,Franklin,Real Estate,72
+Missouri,Franklin,Religious,143
+Missouri,Gasconade,Real Estate,6
+Missouri,Gasconade,Religious,27
+Missouri,Gentry,Real Estate,5
+Missouri,Gentry,Religious,10
+Missouri,Greene,Real Estate,446
+Missouri,Greene,Religious,380
+Missouri,Grundy,Real Estate,8
+Missouri,Grundy,Religious,27
+Missouri,Harrison,Real Estate,5
+Missouri,Harrison,Religious,8
+Missouri,Henry,Real Estate,27
+Missouri,Henry,Religious,34
+Missouri,Hickory,Real Estate,5
+Missouri,Hickory,Religious,12
+Missouri,Holt,Real Estate,3
+Missouri,Holt,Religious,8
+Missouri,Howard,Real Estate,3
+Missouri,Howard,Religious,13
+Missouri,Howell,Real Estate,41
+Missouri,Howell,Religious,54
+Missouri,Iron,Real Estate,4
+Missouri,Iron,Religious,17
+Missouri,Jackson,Real Estate,840
+Missouri,Jackson,Religious,810
+Missouri,Jasper,Real Estate,103
+Missouri,Jasper,Religious,151
+Missouri,Jefferson,Real Estate,152
+Missouri,Jefferson,Religious,163
+Missouri,Johnson,Real Estate,37
+Missouri,Johnson,Religious,55
+Missouri,Laclede,Real Estate,15
+Missouri,Laclede,Religious,47
+Missouri,Lafayette,Real Estate,25
+Missouri,Lafayette,Religious,52
+Missouri,Lawrence,Real Estate,18
+Missouri,Lawrence,Religious,56
+Missouri,Lewis,Real Estate,4
+Missouri,Lewis,Religious,11
+Missouri,Lincoln,Real Estate,33
+Missouri,Lincoln,Religious,43
+Missouri,Linn,Real Estate,5
+Missouri,Linn,Religious,23
+Missouri,Livingston,Real Estate,9
+Missouri,Livingston,Religious,28
+Missouri,Macon,Real Estate,10
+Missouri,Macon,Religious,16
+Missouri,Madison,Real Estate,3
+Missouri,Madison,Religious,17
+Missouri,Maries,Real Estate,6
+Missouri,Maries,Religious,15
+Missouri,Marion,Real Estate,22
+Missouri,Marion,Religious,49
+Missouri,McDonald,Real Estate,8
+Missouri,McDonald,Religious,17
+Missouri,Mercer,Real Estate,3
+Missouri,Mercer,Religious,7
+Missouri,Miller,Real Estate,44
+Missouri,Miller,Religious,26
+Missouri,Moniteau,Real Estate,4
+Missouri,Moniteau,Religious,26
+Missouri,Monroe,Real Estate,4
+Missouri,Monroe,Religious,9
+Missouri,Montgomery,Real Estate,4
+Missouri,Montgomery,Religious,10
+Missouri,Morgan,Real Estate,21
+Missouri,Morgan,Religious,31
+Missouri,New Madrid,Real Estate,5
+Missouri,New Madrid,Religious,23
+Missouri,Newton,Real Estate,38
+Missouri,Newton,Religious,74
+Missouri,Nodaway,Real Estate,15
+Missouri,Nodaway,Religious,33
+Missouri,Oregon,Real Estate,7
+Missouri,Oregon,Religious,4
+Missouri,Osage,Real Estate,4
+Missouri,Osage,Religious,14
+Missouri,Ozark,Real Estate,3
+Missouri,Ozark,Religious,11
+Missouri,Pemiscot,Real Estate,7
+Missouri,Pemiscot,Religious,24
+Missouri,Perry,Real Estate,12
+Missouri,Perry,Religious,27
+Missouri,Pettis,Real Estate,30
+Missouri,Pettis,Religious,49
+Missouri,Phelps,Real Estate,24
+Missouri,Phelps,Religious,59
+Missouri,Pike,Real Estate,7
+Missouri,Pike,Religious,25
+Missouri,Platte,Real Estate,154
+Missouri,Platte,Religious,88
+Missouri,Polk,Real Estate,20
+Missouri,Polk,Religious,30
+Missouri,Pulaski,Real Estate,31
+Missouri,Pulaski,Religious,46
+Missouri,Putnam,Real Estate,7
+Missouri,Putnam,Religious,3
+Missouri,Ralls,Real Estate,6
+Missouri,Ralls,Religious,10
+Missouri,Randolph,Real Estate,15
+Missouri,Randolph,Religious,37
+Missouri,Ray,Real Estate,8
+Missouri,Ray,Religious,24
+Missouri,Saline,Real Estate,11
+Missouri,Saline,Religious,24
+Missouri,Scotland,Real Estate,3
+Missouri,Scotland,Religious,11
+Missouri,Scott,Real Estate,26
+Missouri,Scott,Religious,60
+Missouri,Shannon,Real Estate,3
+Missouri,Shannon,Religious,7
+Missouri,St. Charles,Real Estate,404
+Missouri,St. Charles,Religious,220
+Missouri,St. Francois,Real Estate,49
+Missouri,St. Francois,Religious,82
+Missouri,St. Louis,Real Estate,"1,308"
+Missouri,St. Louis,Religious,984
+Missouri,St. Louis city,Real Estate,337
+Missouri,St. Louis city,Religious,474
+Missouri,Statewide Missouri,Real Estate,3
+Missouri,Statewide Missouri,Religious,5
+Missouri,Ste. Genevieve,Real Estate,4
+Missouri,Ste. Genevieve,Religious,28
+Missouri,Stoddard,Real Estate,18
+Missouri,Stoddard,Religious,41
+Missouri,Stone,Real Estate,31
+Missouri,Stone,Religious,51
+Missouri,Taney,Real Estate,159
+Missouri,Taney,Religious,80
+Missouri,Texas,Real Estate,6
+Missouri,Texas,Religious,32
+Missouri,Vernon,Real Estate,12
+Missouri,Vernon,Religious,27
+Missouri,Warren,Real Estate,20
+Missouri,Warren,Religious,30
+Missouri,Washington,Real Estate,6
+Missouri,Washington,Religious,23
+Missouri,Webster,Real Estate,33
+Missouri,Webster,Religious,37
+Missouri,Wright,Real Estate,9
+Missouri,Wright,Religious,25
+Montana,Beaverhead,Real Estate,15
+Montana,Beaverhead,Religious,22
+Montana,Big Horn,Real Estate,7
+Montana,Big Horn,Religious,12
+Montana,Broadwater,Real Estate,6
+Montana,Broadwater,Religious,4
+Montana,Carbon,Real Estate,22
+Montana,Carbon,Religious,19
+Montana,Cascade,Real Estate,115
+Montana,Cascade,Religious,104
+Montana,Chouteau,Real Estate,4
+Montana,Chouteau,Religious,7
+Montana,Custer,Real Estate,14
+Montana,Custer,Religious,14
+Montana,Dawson,Real Estate,8
+Montana,Dawson,Religious,17
+Montana,Deer Lodge,Real Estate,9
+Montana,Deer Lodge,Religious,10
+Montana,Fallon,Real Estate,4
+Montana,Fallon,Religious,9
+Montana,Fergus,Real Estate,21
+Montana,Fergus,Religious,21
+Montana,Flathead,Real Estate,315
+Montana,Flathead,Religious,149
+Montana,Gallatin,Real Estate,482
+Montana,Gallatin,Religious,185
+Montana,Glacier,Real Estate,6
+Montana,Glacier,Religious,12
+Montana,Hill,Real Estate,18
+Montana,Hill,Religious,22
+Montana,Jefferson,Real Estate,10
+Montana,Jefferson,Religious,13
+Montana,Lake,Real Estate,29
+Montana,Lake,Religious,38
+Montana,Lewis and Clark,Real Estate,126
+Montana,Lewis and Clark,Religious,162
+Montana,Lincoln,Real Estate,28
+Montana,Lincoln,Religious,31
+Montana,Madison,Real Estate,26
+Montana,Madison,Religious,20
+Montana,Mineral,Real Estate,5
+Montana,Mineral,Religious,3
+Montana,Missoula,Real Estate,248
+Montana,Missoula,Religious,181
+Montana,Musselshell,Real Estate,3
+Montana,Musselshell,Religious,5
+Montana,Park,Real Estate,57
+Montana,Park,Religious,33
+Montana,Phillips,Real Estate,5
+Montana,Phillips,Religious,10
+Montana,Pondera,Real Estate,3
+Montana,Pondera,Religious,12
+Montana,Powell,Real Estate,6
+Montana,Powell,Religious,10
+Montana,Ravalli,Real Estate,91
+Montana,Ravalli,Religious,51
+Montana,Richland,Real Estate,13
+Montana,Richland,Religious,25
+Montana,Roosevelt,Real Estate,9
+Montana,Roosevelt,Religious,9
+Montana,Rosebud,Real Estate,6
+Montana,Rosebud,Religious,18
+Montana,Sanders,Real Estate,15
+Montana,Sanders,Religious,11
+Montana,Silver Bow,Real Estate,46
+Montana,Silver Bow,Religious,38
+Montana,Stillwater,Real Estate,7
+Montana,Stillwater,Religious,17
+Montana,Sweet Grass,Real Estate,8
+Montana,Sweet Grass,Religious,7
+Montana,Teton,Real Estate,6
+Montana,Teton,Religious,18
+Montana,Toole,Real Estate,8
+Montana,Toole,Religious,5
+Montana,Valley,Real Estate,8
+Montana,Valley,Religious,15
+Montana,Yellowstone,Real Estate,328
+Montana,Yellowstone,Religious,212
+Nebraska,Adams,Real Estate,41
+Nebraska,Adams,Religious,43
+Nebraska,Antelope,Real Estate,4
+Nebraska,Antelope,Religious,16
+Nebraska,Boone,Real Estate,5
+Nebraska,Boone,Religious,6
+Nebraska,Box Butte,Real Estate,10
+Nebraska,Box Butte,Religious,24
+Nebraska,Buffalo,Real Estate,65
+Nebraska,Buffalo,Religious,72
+Nebraska,Burt,Real Estate,8
+Nebraska,Burt,Religious,13
+Nebraska,Butler,Real Estate,6
+Nebraska,Butler,Religious,13
+Nebraska,Cass,Real Estate,26
+Nebraska,Cass,Religious,29
+Nebraska,Cedar,Real Estate,5
+Nebraska,Cedar,Religious,12
+Nebraska,Chase,Real Estate,4
+Nebraska,Chase,Religious,8
+Nebraska,Cherry,Real Estate,7
+Nebraska,Cherry,Religious,12
+Nebraska,Cheyenne,Real Estate,8
+Nebraska,Cheyenne,Religious,13
+Nebraska,Clay,Real Estate,3
+Nebraska,Clay,Religious,12
+Nebraska,Colfax,Real Estate,4
+Nebraska,Colfax,Religious,18
+Nebraska,Cuming,Real Estate,6
+Nebraska,Cuming,Religious,14
+Nebraska,Custer,Real Estate,5
+Nebraska,Custer,Religious,16
+Nebraska,Dakota,Real Estate,12
+Nebraska,Dakota,Religious,14
+Nebraska,Dawes,Real Estate,4
+Nebraska,Dawes,Religious,16
+Nebraska,Dawson,Real Estate,11
+Nebraska,Dawson,Religious,47
+Nebraska,Dodge,Real Estate,34
+Nebraska,Dodge,Religious,44
+Nebraska,Douglas,Real Estate,949
+Nebraska,Douglas,Religious,596
+Nebraska,Fillmore,Real Estate,5
+Nebraska,Fillmore,Religious,12
+Nebraska,Furnas,Real Estate,3
+Nebraska,Furnas,Religious,8
+Nebraska,Gage,Real Estate,19
+Nebraska,Gage,Religious,33
+Nebraska,Gosper,Real Estate,4
+Nebraska,Gosper,Religious,4
+Nebraska,Hall,Real Estate,60
+Nebraska,Hall,Religious,88
+Nebraska,Hamilton,Real Estate,11
+Nebraska,Hamilton,Religious,24
+Nebraska,Harlan,Real Estate,3
+Nebraska,Harlan,Religious,6
+Nebraska,Holt,Real Estate,10
+Nebraska,Holt,Religious,16
+Nebraska,Howard,Real Estate,3
+Nebraska,Howard,Religious,7
+Nebraska,Jefferson,Real Estate,7
+Nebraska,Jefferson,Religious,15
+Nebraska,Johnson,Real Estate,3
+Nebraska,Johnson,Religious,7
+Nebraska,Kearney,Real Estate,4
+Nebraska,Kearney,Religious,15
+Nebraska,Keith,Real Estate,16
+Nebraska,Keith,Religious,18
+Nebraska,Knox,Real Estate,10
+Nebraska,Knox,Religious,15
+Nebraska,Lancaster,Real Estate,445
+Nebraska,Lancaster,Religious,438
+Nebraska,Lincoln,Real Estate,29
+Nebraska,Lincoln,Religious,54
+Nebraska,Madison,Real Estate,51
+Nebraska,Madison,Religious,54
+Nebraska,Merrick,Real Estate,5
+Nebraska,Merrick,Religious,19
+Nebraska,Morrill,Real Estate,3
+Nebraska,Morrill,Religious,7
+Nebraska,Nemaha,Real Estate,4
+Nebraska,Nemaha,Religious,12
+Nebraska,Otoe,Real Estate,12
+Nebraska,Otoe,Religious,30
+Nebraska,Phelps,Real Estate,10
+Nebraska,Phelps,Religious,23
+Nebraska,Pierce,Real Estate,5
+Nebraska,Pierce,Religious,11
+Nebraska,Platte,Real Estate,42
+Nebraska,Platte,Religious,39
+Nebraska,Red Willow,Real Estate,13
+Nebraska,Red Willow,Religious,22
+Nebraska,Richardson,Real Estate,4
+Nebraska,Richardson,Religious,21
+Nebraska,Saline,Real Estate,7
+Nebraska,Saline,Religious,21
+Nebraska,Sarpy,Real Estate,202
+Nebraska,Sarpy,Religious,109
+Nebraska,Saunders,Real Estate,20
+Nebraska,Saunders,Religious,35
+Nebraska,Scotts Bluff,Real Estate,37
+Nebraska,Scotts Bluff,Religious,60
+Nebraska,Seward,Real Estate,11
+Nebraska,Seward,Religious,30
+Nebraska,Thayer,Real Estate,5
+Nebraska,Thayer,Religious,16
+Nebraska,Thurston,Real Estate,4
+Nebraska,Thurston,Religious,7
+Nebraska,Washington,Real Estate,13
+Nebraska,Washington,Religious,20
+Nebraska,Wayne,Real Estate,7
+Nebraska,Wayne,Religious,13
+Nebraska,York,Real Estate,17
+Nebraska,York,Religious,33
+Nevada,Carson City,Real Estate,105
+Nevada,Carson City,Religious,58
+Nevada,Churchill,Real Estate,21
+Nevada,Churchill,Religious,20
+Nevada,Clark,Real Estate,"3,427"
+Nevada,Clark,Religious,762
+Nevada,Douglas,Real Estate,120
+Nevada,Douglas,Religious,40
+Nevada,Elko,Real Estate,40
+Nevada,Elko,Religious,26
+Nevada,Humboldt,Real Estate,11
+Nevada,Humboldt,Religious,12
+Nevada,Lander,Real Estate,4
+Nevada,Lander,Religious,6
+Nevada,Lyon,Real Estate,35
+Nevada,Lyon,Religious,27
+Nevada,Nye,Real Estate,48
+Nevada,Nye,Religious,25
+Nevada,Pershing,Real Estate,4
+Nevada,Pershing,Religious,4
+Nevada,Washoe,Real Estate,856
+Nevada,Washoe,Religious,329
+Nevada,White Pine,Real Estate,6
+Nevada,White Pine,Religious,5
+New Hampshire,Belknap,Real Estate,67
+New Hampshire,Belknap,Religious,73
+New Hampshire,Carroll,Real Estate,75
+New Hampshire,Carroll,Religious,69
+New Hampshire,Cheshire,Real Estate,65
+New Hampshire,Cheshire,Religious,73
+New Hampshire,Coos,Real Estate,25
+New Hampshire,Coos,Religious,36
+New Hampshire,Grafton,Real Estate,130
+New Hampshire,Grafton,Religious,130
+New Hampshire,Hillsborough,Real Estate,388
+New Hampshire,Hillsborough,Religious,338
+New Hampshire,Merrimack,Real Estate,124
+New Hampshire,Merrimack,Religious,243
+New Hampshire,Rockingham,Real Estate,300
+New Hampshire,Rockingham,Religious,222
+New Hampshire,Strafford,Real Estate,88
+New Hampshire,Strafford,Religious,85
+New Hampshire,Sullivan,Real Estate,29
+New Hampshire,Sullivan,Religious,36
+New Jersey,Atlantic,Real Estate,203
+New Jersey,Atlantic,Religious,233
+New Jersey,Bergen,Real Estate,"1,380"
+New Jersey,Bergen,Religious,890
+New Jersey,Burlington,Real Estate,357
+New Jersey,Burlington,Religious,332
+New Jersey,Camden,Real Estate,344
+New Jersey,Camden,Religious,372
+New Jersey,Cape May,Real Estate,183
+New Jersey,Cape May,Religious,157
+New Jersey,Cumberland,Real Estate,78
+New Jersey,Cumberland,Religious,141
+New Jersey,Essex,Real Estate,894
+New Jersey,Essex,Religious,669
+New Jersey,Gloucester,Real Estate,164
+New Jersey,Gloucester,Religious,198
+New Jersey,Hudson,Real Estate,675
+New Jersey,Hudson,Religious,366
+New Jersey,Hunterdon,Real Estate,106
+New Jersey,Hunterdon,Religious,105
+New Jersey,Mercer,Real Estate,323
+New Jersey,Mercer,Religious,457
+New Jersey,Middlesex,Real Estate,694
+New Jersey,Middlesex,Religious,496
+New Jersey,Monmouth,Real Estate,645
+New Jersey,Monmouth,Religious,467
+New Jersey,Morris,Real Estate,618
+New Jersey,Morris,Religious,460
+New Jersey,Ocean,Real Estate,877
+New Jersey,Ocean,Religious,533
+New Jersey,Passaic,Real Estate,365
+New Jersey,Passaic,Religious,371
+New Jersey,Salem,Real Estate,33
+New Jersey,Salem,Religious,70
+New Jersey,Somerset,Real Estate,313
+New Jersey,Somerset,Religious,272
+New Jersey,Statewide New Jersey,Real Estate,3
+New Jersey,Statewide New Jersey,Religious,8
+New Jersey,Sussex,Real Estate,69
+New Jersey,Sussex,Religious,122
+New Jersey,Union,Real Estate,503
+New Jersey,Union,Religious,415
+New Jersey,Warren,Real Estate,42
+New Jersey,Warren,Religious,90
+New Mexico,Bernalillo,Real Estate,895
+New Mexico,Bernalillo,Religious,591
+New Mexico,Chaves,Real Estate,45
+New Mexico,Chaves,Religious,63
+New Mexico,Cibola,Real Estate,5
+New Mexico,Cibola,Religious,15
+New Mexico,Colfax,Real Estate,16
+New Mexico,Colfax,Religious,24
+New Mexico,Curry,Real Estate,50
+New Mexico,Curry,Religious,49
+New Mexico,Dona Ana,Real Estate,187
+New Mexico,Dona Ana,Religious,139
+New Mexico,Eddy,Real Estate,44
+New Mexico,Eddy,Religious,64
+New Mexico,Grant,Real Estate,24
+New Mexico,Grant,Religious,39
+New Mexico,Lea,Real Estate,38
+New Mexico,Lea,Religious,71
+New Mexico,Lincoln,Real Estate,43
+New Mexico,Lincoln,Religious,42
+New Mexico,Los Alamos,Real Estate,17
+New Mexico,Los Alamos,Religious,35
+New Mexico,Luna,Real Estate,17
+New Mexico,Luna,Religious,20
+New Mexico,McKinley,Real Estate,30
+New Mexico,McKinley,Religious,38
+New Mexico,Otero,Real Estate,41
+New Mexico,Otero,Religious,63
+New Mexico,Quay,Real Estate,7
+New Mexico,Quay,Religious,13
+New Mexico,Rio Arriba,Real Estate,19
+New Mexico,Rio Arriba,Religious,33
+New Mexico,Roosevelt,Real Estate,14
+New Mexico,Roosevelt,Religious,22
+New Mexico,San Juan,Real Estate,88
+New Mexico,San Juan,Religious,84
+New Mexico,San Miguel,Real Estate,13
+New Mexico,San Miguel,Religious,24
+New Mexico,Sandoval,Real Estate,101
+New Mexico,Sandoval,Religious,67
+New Mexico,Santa Fe,Real Estate,257
+New Mexico,Santa Fe,Religious,226
+New Mexico,Sierra,Real Estate,7
+New Mexico,Sierra,Religious,13
+New Mexico,Socorro,Real Estate,6
+New Mexico,Socorro,Religious,12
+New Mexico,Taos,Real Estate,50
+New Mexico,Taos,Religious,52
+New Mexico,Valencia,Real Estate,43
+New Mexico,Valencia,Religious,44
+New York,Albany,Real Estate,358
+New York,Albany,Religious,489
+New York,Allegany,Real Estate,11
+New York,Allegany,Religious,77
+New York,Bronx,Real Estate,"2,088"
+New York,Bronx,Religious,597
+New York,Broome,Real Estate,109
+New York,Broome,Religious,197
+New York,Cattaraugus,Real Estate,38
+New York,Cattaraugus,Religious,108
+New York,Cayuga,Real Estate,31
+New York,Cayuga,Religious,64
+New York,Chautauqua,Real Estate,68
+New York,Chautauqua,Religious,212
+New York,Chemung,Real Estate,49
+New York,Chemung,Religious,86
+New York,Chenango,Real Estate,21
+New York,Chenango,Religious,47
+New York,Clinton,Real Estate,63
+New York,Clinton,Religious,58
+New York,Columbia,Real Estate,44
+New York,Columbia,Religious,67
+New York,Cortland,Real Estate,30
+New York,Cortland,Religious,44
+New York,Delaware,Real Estate,38
+New York,Delaware,Religious,66
+New York,Dutchess,Real Estate,302
+New York,Dutchess,Religious,234
+New York,Erie,Real Estate,784
+New York,Erie,Religious,862
+New York,Essex,Real Estate,40
+New York,Essex,Religious,64
+New York,Franklin,Real Estate,30
+New York,Franklin,Religious,50
+New York,Fulton,Real Estate,25
+New York,Fulton,Religious,50
+New York,Genesee,Real Estate,25
+New York,Genesee,Religious,62
+New York,Greene,Real Estate,40
+New York,Greene,Religious,48
+New York,Hamilton,Real Estate,6
+New York,Hamilton,Religious,12
+New York,Herkimer,Real Estate,32
+New York,Herkimer,Religious,60
+New York,Jefferson,Real Estate,109
+New York,Jefferson,Religious,120
+New York,Kings,Real Estate,"4,648"
+New York,Kings,Religious,"1,991"
+New York,Lewis,Real Estate,11
+New York,Lewis,Religious,36
+New York,Livingston,Real Estate,29
+New York,Livingston,Religious,66
+New York,Madison,Real Estate,36
+New York,Madison,Religious,59
+New York,Monroe,Real Estate,796
+New York,Monroe,Religious,625
+New York,Montgomery,Real Estate,12
+New York,Montgomery,Religious,42
+New York,Nassau,Real Estate,"2,590"
+New York,Nassau,Religious,"1,240"
+New York,New York,Real Estate,"8,969"
+New York,New York,Religious,"5,486"
+New York,Niagara,Real Estate,130
+New York,Niagara,Religious,188
+New York,Oneida,Real Estate,112
+New York,Oneida,Religious,216
+New York,Onondaga,Real Estate,441
+New York,Onondaga,Religious,456
+New York,Ontario,Real Estate,95
+New York,Ontario,Religious,97
+New York,Orange,Real Estate,358
+New York,Orange,Religious,279
+New York,Orleans,Real Estate,14
+New York,Orleans,Religious,48
+New York,Oswego,Real Estate,73
+New York,Oswego,Religious,93
+New York,Otsego,Real Estate,36
+New York,Otsego,Religious,80
+New York,Putnam,Real Estate,91
+New York,Putnam,Religious,73
+New York,Queens,Real Estate,"2,890"
+New York,Queens,Religious,"1,696"
+New York,Rensselaer,Real Estate,84
+New York,Rensselaer,Religious,138
+New York,Richmond,Real Estate,319
+New York,Richmond,Religious,215
+New York,Rockland,Real Estate,617
+New York,Rockland,Religious,382
+New York,Saratoga,Real Estate,229
+New York,Saratoga,Religious,139
+New York,Schenectady,Real Estate,96
+New York,Schenectady,Religious,106
+New York,Schoharie,Real Estate,12
+New York,Schoharie,Religious,24
+New York,Schuyler,Real Estate,6
+New York,Schuyler,Religious,20
+New York,Seneca,Real Estate,17
+New York,Seneca,Religious,36
+New York,St. Lawrence,Real Estate,44
+New York,St. Lawrence,Religious,106
+New York,Steuben,Real Estate,41
+New York,Steuben,Religious,104
+New York,Suffolk,Real Estate,"1,708"
+New York,Suffolk,Religious,925
+New York,Sullivan,Real Estate,109
+New York,Sullivan,Religious,124
+New York,Tioga,Real Estate,7
+New York,Tioga,Religious,52
+New York,Tompkins,Real Estate,116
+New York,Tompkins,Religious,122
+New York,Ulster,Real Estate,166
+New York,Ulster,Religious,175
+New York,Warren,Real Estate,58
+New York,Warren,Religious,81
+New York,Washington,Real Estate,22
+New York,Washington,Religious,56
+New York,Wayne,Real Estate,51
+New York,Wayne,Religious,79
+New York,Westchester,Real Estate,"1,943"
+New York,Westchester,Religious,"1,124"
+New York,Wyoming,Real Estate,12
+New York,Wyoming,Religious,54
+New York,Yates,Real Estate,25
+New York,Yates,Religious,38
+North Carolina,Alamance,Real Estate,144
+North Carolina,Alamance,Religious,165
+North Carolina,Alexander,Real Estate,13
+North Carolina,Alexander,Religious,55
+North Carolina,Alleghany,Real Estate,10
+North Carolina,Alleghany,Religious,13
+North Carolina,Anson,Real Estate,4
+North Carolina,Anson,Religious,30
+North Carolina,Ashe,Real Estate,28
+North Carolina,Ashe,Religious,31
+North Carolina,Avery,Real Estate,42
+North Carolina,Avery,Religious,36
+North Carolina,Beaufort,Real Estate,37
+North Carolina,Beaufort,Religious,57
+North Carolina,Bertie,Real Estate,3
+North Carolina,Bertie,Religious,47
+North Carolina,Bladen,Real Estate,20
+North Carolina,Bladen,Religious,49
+North Carolina,Brunswick,Real Estate,185
+North Carolina,Brunswick,Religious,101
+North Carolina,Buncombe,Real Estate,636
+North Carolina,Buncombe,Religious,369
+North Carolina,Burke,Real Estate,54
+North Carolina,Burke,Religious,134
+North Carolina,Cabarrus,Real Estate,261
+North Carolina,Cabarrus,Religious,195
+North Carolina,Caldwell,Real Estate,48
+North Carolina,Caldwell,Religious,100
+North Carolina,Camden,Real Estate,5
+North Carolina,Camden,Religious,11
+North Carolina,Carteret,Real Estate,117
+North Carolina,Carteret,Religious,94
+North Carolina,Catawba,Real Estate,191
+North Carolina,Catawba,Religious,219
+North Carolina,Chatham,Real Estate,71
+North Carolina,Chatham,Religious,75
+North Carolina,Cherokee,Real Estate,33
+North Carolina,Cherokee,Religious,32
+North Carolina,Chowan,Real Estate,12
+North Carolina,Chowan,Religious,24
+North Carolina,Clay,Real Estate,9
+North Carolina,Clay,Religious,19
+North Carolina,Cleveland,Real Estate,89
+North Carolina,Cleveland,Religious,175
+North Carolina,Columbus,Real Estate,25
+North Carolina,Columbus,Religious,51
+North Carolina,Craven,Real Estate,111
+North Carolina,Craven,Religious,123
+North Carolina,Cumberland,Real Estate,315
+North Carolina,Cumberland,Religious,289
+North Carolina,Currituck,Real Estate,36
+North Carolina,Currituck,Religious,35
+North Carolina,Dare,Real Estate,142
+North Carolina,Dare,Religious,72
+North Carolina,Davidson,Real Estate,119
+North Carolina,Davidson,Religious,159
+North Carolina,Davie,Real Estate,32
+North Carolina,Davie,Religious,49
+North Carolina,Duplin,Real Estate,28
+North Carolina,Duplin,Religious,58
+North Carolina,Durham,Real Estate,408
+North Carolina,Durham,Religious,387
+North Carolina,Edgecombe,Real Estate,28
+North Carolina,Edgecombe,Religious,62
+North Carolina,Forsyth,Real Estate,425
+North Carolina,Forsyth,Religious,403
+North Carolina,Franklin,Real Estate,37
+North Carolina,Franklin,Religious,60
+North Carolina,Gaston,Real Estate,190
+North Carolina,Gaston,Religious,277
+North Carolina,Graham,Real Estate,8
+North Carolina,Graham,Religious,13
+North Carolina,Granville,Real Estate,44
+North Carolina,Granville,Religious,67
+North Carolina,Greene,Real Estate,5
+North Carolina,Greene,Religious,15
+North Carolina,Guilford,Real Estate,691
+North Carolina,Guilford,Religious,587
+North Carolina,Halifax,Real Estate,32
+North Carolina,Halifax,Religious,56
+North Carolina,Harnett,Real Estate,80
+North Carolina,Harnett,Religious,104
+North Carolina,Haywood,Real Estate,66
+North Carolina,Haywood,Religious,104
+North Carolina,Henderson,Real Estate,163
+North Carolina,Henderson,Religious,137
+North Carolina,Hertford,Real Estate,14
+North Carolina,Hertford,Religious,37
+North Carolina,Hoke,Real Estate,31
+North Carolina,Hoke,Religious,26
+North Carolina,Hyde,Real Estate,7
+North Carolina,Hyde,Religious,5
+North Carolina,Iredell,Real Estate,262
+North Carolina,Iredell,Religious,175
+North Carolina,Jackson,Real Estate,62
+North Carolina,Jackson,Religious,66
+North Carolina,Johnston,Real Estate,136
+North Carolina,Johnston,Religious,154
+North Carolina,Lee,Real Estate,50
+North Carolina,Lee,Religious,91
+North Carolina,Lenoir,Real Estate,35
+North Carolina,Lenoir,Religious,73
+North Carolina,Lincoln,Real Estate,97
+North Carolina,Lincoln,Religious,97
+North Carolina,Macon,Real Estate,80
+North Carolina,Macon,Religious,73
+North Carolina,Madison,Real Estate,21
+North Carolina,Madison,Religious,26
+North Carolina,Martin,Real Estate,8
+North Carolina,Martin,Religious,39
+North Carolina,McDowell,Real Estate,28
+North Carolina,McDowell,Religious,69
+North Carolina,Mecklenburg,Real Estate,"2,536"
+North Carolina,Mecklenburg,Religious,922
+North Carolina,Mitchell,Real Estate,11
+North Carolina,Mitchell,Religious,36
+North Carolina,Montgomery,Real Estate,16
+North Carolina,Montgomery,Religious,33
+North Carolina,Moore,Real Estate,118
+North Carolina,Moore,Religious,117
+North Carolina,Nash,Real Estate,71
+North Carolina,Nash,Religious,114
+North Carolina,New Hanover,Real Estate,580
+North Carolina,New Hanover,Religious,219
+North Carolina,Northampton,Real Estate,5
+North Carolina,Northampton,Religious,26
+North Carolina,Onslow,Real Estate,187
+North Carolina,Onslow,Religious,130
+North Carolina,Orange,Real Estate,202
+North Carolina,Orange,Religious,157
+North Carolina,Pamlico,Real Estate,11
+North Carolina,Pamlico,Religious,17
+North Carolina,Pasquotank,Real Estate,24
+North Carolina,Pasquotank,Religious,50
+North Carolina,Pender,Real Estate,95
+North Carolina,Pender,Religious,50
+North Carolina,Perquimans,Real Estate,4
+North Carolina,Perquimans,Religious,16
+North Carolina,Person,Real Estate,17
+North Carolina,Person,Religious,53
+North Carolina,Pitt,Real Estate,196
+North Carolina,Pitt,Religious,160
+North Carolina,Polk,Real Estate,23
+North Carolina,Polk,Religious,41
+North Carolina,Randolph,Real Estate,79
+North Carolina,Randolph,Religious,147
+North Carolina,Richmond,Real Estate,33
+North Carolina,Richmond,Religious,72
+North Carolina,Robeson,Real Estate,48
+North Carolina,Robeson,Religious,140
+North Carolina,Rockingham,Real Estate,49
+North Carolina,Rockingham,Religious,135
+North Carolina,Rowan,Real Estate,95
+North Carolina,Rowan,Religious,192
+North Carolina,Rutherford,Real Estate,52
+North Carolina,Rutherford,Religious,139
+North Carolina,Sampson,Real Estate,20
+North Carolina,Sampson,Religious,91
+North Carolina,Scotland,Real Estate,19
+North Carolina,Scotland,Religious,47
+North Carolina,Stanly,Real Estate,37
+North Carolina,Stanly,Religious,95
+North Carolina,Statewide North Carolina,Real Estate,3
+North Carolina,Statewide North Carolina,Religious,11
+North Carolina,Stokes,Real Estate,26
+North Carolina,Stokes,Religious,42
+North Carolina,Surry,Real Estate,49
+North Carolina,Surry,Religious,91
+North Carolina,Swain,Real Estate,22
+North Carolina,Swain,Religious,13
+North Carolina,Transylvania,Real Estate,57
+North Carolina,Transylvania,Religious,68
+North Carolina,Union,Real Estate,279
+North Carolina,Union,Religious,174
+North Carolina,Vance,Real Estate,37
+North Carolina,Vance,Religious,71
+North Carolina,Wake,Real Estate,"1,995"
+North Carolina,Wake,Religious,"1,027"
+North Carolina,Warren,Real Estate,13
+North Carolina,Warren,Religious,26
+North Carolina,Washington,Real Estate,4
+North Carolina,Washington,Religious,22
+North Carolina,Watauga,Real Estate,143
+North Carolina,Watauga,Religious,92
+North Carolina,Wayne,Real Estate,66
+North Carolina,Wayne,Religious,159
+North Carolina,Wilkes,Real Estate,33
+North Carolina,Wilkes,Religious,101
+North Carolina,Wilson,Real Estate,67
+North Carolina,Wilson,Religious,84
+North Carolina,Yadkin,Real Estate,16
+North Carolina,Yadkin,Religious,51
+North Carolina,Yancey,Real Estate,13
+North Carolina,Yancey,Religious,23
+North Dakota,Barnes,Real Estate,9
+North Dakota,Barnes,Religious,24
+North Dakota,Bottineau,Real Estate,4
+North Dakota,Bottineau,Religious,16
+North Dakota,Burleigh,Real Estate,157
+North Dakota,Burleigh,Religious,174
+North Dakota,Cass,Real Estate,318
+North Dakota,Cass,Religious,198
+North Dakota,Dickey,Real Estate,3
+North Dakota,Dickey,Religious,16
+North Dakota,Foster,Real Estate,4
+North Dakota,Foster,Religious,9
+North Dakota,Grand Forks,Real Estate,78
+North Dakota,Grand Forks,Religious,79
+North Dakota,McHenry,Real Estate,5
+North Dakota,McHenry,Religious,8
+North Dakota,McKenzie,Real Estate,16
+North Dakota,McKenzie,Religious,16
+North Dakota,McLean,Real Estate,3
+North Dakota,McLean,Religious,20
+North Dakota,Mercer,Real Estate,4
+North Dakota,Mercer,Religious,17
+North Dakota,Morton,Real Estate,32
+North Dakota,Morton,Religious,42
+North Dakota,Mountrail,Real Estate,6
+North Dakota,Mountrail,Religious,16
+North Dakota,Nelson,Real Estate,3
+North Dakota,Nelson,Religious,8
+North Dakota,Pembina,Real Estate,3
+North Dakota,Pembina,Religious,18
+North Dakota,Pierce,Real Estate,3
+North Dakota,Pierce,Religious,8
+North Dakota,Ramsey,Real Estate,9
+North Dakota,Ramsey,Religious,20
+North Dakota,Ransom,Real Estate,9
+North Dakota,Ransom,Religious,20
+North Dakota,Richland,Real Estate,9
+North Dakota,Richland,Religious,34
+North Dakota,Rolette,Real Estate,3
+North Dakota,Rolette,Religious,9
+North Dakota,Sargent,Real Estate,4
+North Dakota,Sargent,Religious,9
+North Dakota,Stark,Real Estate,31
+North Dakota,Stark,Religious,38
+North Dakota,Stutsman,Real Estate,19
+North Dakota,Stutsman,Religious,32
+North Dakota,Traill,Real Estate,5
+North Dakota,Traill,Religious,22
+North Dakota,Walsh,Real Estate,9
+North Dakota,Walsh,Religious,21
+North Dakota,Ward,Real Estate,83
+North Dakota,Ward,Religious,81
+North Dakota,Williams,Real Estate,74
+North Dakota,Williams,Religious,41
+Ohio,Adams,Real Estate,10
+Ohio,Adams,Religious,26
+Ohio,Allen,Real Estate,55
+Ohio,Allen,Religious,153
+Ohio,Ashland,Real Estate,29
+Ohio,Ashland,Religious,101
+Ohio,Ashtabula,Real Estate,56
+Ohio,Ashtabula,Religious,112
+Ohio,Athens,Real Estate,50
+Ohio,Athens,Religious,60
+Ohio,Auglaize,Real Estate,25
+Ohio,Auglaize,Religious,62
+Ohio,Belmont,Real Estate,37
+Ohio,Belmont,Religious,87
+Ohio,Brown,Real Estate,20
+Ohio,Brown,Religious,33
+Ohio,Butler,Real Estate,285
+Ohio,Butler,Religious,275
+Ohio,Carroll,Real Estate,11
+Ohio,Carroll,Religious,39
+Ohio,Champaign,Real Estate,19
+Ohio,Champaign,Religious,42
+Ohio,Clark,Real Estate,82
+Ohio,Clark,Religious,142
+Ohio,Clermont,Real Estate,169
+Ohio,Clermont,Religious,135
+Ohio,Clinton,Real Estate,18
+Ohio,Clinton,Religious,42
+Ohio,Columbiana,Real Estate,30
+Ohio,Columbiana,Religious,148
+Ohio,Coshocton,Real Estate,12
+Ohio,Coshocton,Religious,45
+Ohio,Crawford,Real Estate,14
+Ohio,Crawford,Religious,68
+Ohio,Cuyahoga,Real Estate,"1,420"
+Ohio,Cuyahoga,Religious,"1,201"
+Ohio,Darke,Real Estate,34
+Ohio,Darke,Religious,75
+Ohio,Defiance,Real Estate,22
+Ohio,Defiance,Religious,65
+Ohio,Delaware,Real Estate,242
+Ohio,Delaware,Religious,146
+Ohio,Erie,Real Estate,55
+Ohio,Erie,Religious,86
+Ohio,Fairfield,Real Estate,139
+Ohio,Fairfield,Religious,147
+Ohio,Fayette,Real Estate,11
+Ohio,Fayette,Religious,27
+Ohio,Franklin,Real Estate,"1,678"
+Ohio,Franklin,Religious,"1,233"
+Ohio,Fulton,Real Estate,13
+Ohio,Fulton,Religious,61
+Ohio,Gallia,Real Estate,11
+Ohio,Gallia,Religious,41
+Ohio,Geauga,Real Estate,75
+Ohio,Geauga,Religious,77
+Ohio,Greene,Real Estate,138
+Ohio,Greene,Religious,157
+Ohio,Guernsey,Real Estate,24
+Ohio,Guernsey,Religious,64
+Ohio,Hamilton,Real Estate,958
+Ohio,Hamilton,Religious,859
+Ohio,Hancock,Real Estate,46
+Ohio,Hancock,Religious,99
+Ohio,Hardin,Real Estate,7
+Ohio,Hardin,Religious,40
+Ohio,Harrison,Real Estate,4
+Ohio,Harrison,Religious,22
+Ohio,Henry,Real Estate,10
+Ohio,Henry,Religious,50
+Ohio,Highland,Real Estate,21
+Ohio,Highland,Religious,51
+Ohio,Hocking,Real Estate,21
+Ohio,Hocking,Religious,36
+Ohio,Holmes,Real Estate,16
+Ohio,Holmes,Religious,57
+Ohio,Huron,Real Estate,32
+Ohio,Huron,Religious,72
+Ohio,Jackson,Real Estate,17
+Ohio,Jackson,Religious,43
+Ohio,Jefferson,Real Estate,32
+Ohio,Jefferson,Religious,98
+Ohio,Knox,Real Estate,41
+Ohio,Knox,Religious,83
+Ohio,Lake,Real Estate,167
+Ohio,Lake,Religious,177
+Ohio,Lawrence,Real Estate,25
+Ohio,Lawrence,Religious,51
+Ohio,Licking,Real Estate,128
+Ohio,Licking,Religious,170
+Ohio,Logan,Real Estate,32
+Ohio,Logan,Religious,61
+Ohio,Lorain,Real Estate,186
+Ohio,Lorain,Religious,269
+Ohio,Lucas,Real Estate,338
+Ohio,Lucas,Religious,385
+Ohio,Madison,Real Estate,23
+Ohio,Madison,Religious,48
+Ohio,Mahoning,Real Estate,153
+Ohio,Mahoning,Religious,269
+Ohio,Marion,Real Estate,32
+Ohio,Marion,Religious,87
+Ohio,Medina,Real Estate,142
+Ohio,Medina,Religious,133
+Ohio,Mercer,Real Estate,19
+Ohio,Mercer,Religious,52
+Ohio,Miami,Real Estate,64
+Ohio,Miami,Religious,126
+Ohio,Monroe,Real Estate,3
+Ohio,Monroe,Religious,28
+Ohio,Montgomery,Real Estate,435
+Ohio,Montgomery,Religious,530
+Ohio,Morgan,Real Estate,3
+Ohio,Morgan,Religious,13
+Ohio,Morrow,Real Estate,10
+Ohio,Morrow,Religious,37
+Ohio,Muskingum,Real Estate,40
+Ohio,Muskingum,Religious,107
+Ohio,Noble,Real Estate,4
+Ohio,Noble,Religious,21
+Ohio,Ottawa,Real Estate,44
+Ohio,Ottawa,Religious,65
+Ohio,Paulding,Real Estate,5
+Ohio,Paulding,Religious,29
+Ohio,Perry,Real Estate,10
+Ohio,Perry,Religious,35
+Ohio,Pickaway,Real Estate,26
+Ohio,Pickaway,Religious,49
+Ohio,Pike,Real Estate,5
+Ohio,Pike,Religious,26
+Ohio,Portage,Real Estate,108
+Ohio,Portage,Religious,130
+Ohio,Preble,Real Estate,18
+Ohio,Preble,Religious,41
+Ohio,Putnam,Real Estate,14
+Ohio,Putnam,Religious,45
+Ohio,Richland,Real Estate,87
+Ohio,Richland,Religious,166
+Ohio,Ross,Real Estate,38
+Ohio,Ross,Religious,78
+Ohio,Sandusky,Real Estate,35
+Ohio,Sandusky,Religious,67
+Ohio,Scioto,Real Estate,38
+Ohio,Scioto,Religious,73
+Ohio,Seneca,Real Estate,14
+Ohio,Seneca,Religious,74
+Ohio,Shelby,Real Estate,27
+Ohio,Shelby,Religious,54
+Ohio,Stark,Real Estate,220
+Ohio,Stark,Religious,421
+Ohio,Summit,Real Estate,493
+Ohio,Summit,Religious,580
+Ohio,Trumbull,Real Estate,114
+Ohio,Trumbull,Religious,207
+Ohio,Tuscarawas,Real Estate,56
+Ohio,Tuscarawas,Religious,155
+Ohio,Union,Real Estate,46
+Ohio,Union,Religious,58
+Ohio,Van Wert,Real Estate,7
+Ohio,Van Wert,Religious,44
+Ohio,Vinton,Real Estate,6
+Ohio,Vinton,Religious,6
+Ohio,Warren,Real Estate,221
+Ohio,Warren,Religious,179
+Ohio,Washington,Real Estate,32
+Ohio,Washington,Religious,70
+Ohio,Wayne,Real Estate,53
+Ohio,Wayne,Religious,157
+Ohio,Williams,Real Estate,12
+Ohio,Williams,Religious,69
+Ohio,Wood,Real Estate,95
+Ohio,Wood,Religious,142
+Ohio,Wyandot,Real Estate,10
+Ohio,Wyandot,Religious,46
+Oklahoma,Adair,Real Estate,6
+Oklahoma,Adair,Religious,18
+Oklahoma,Atoka,Real Estate,4
+Oklahoma,Atoka,Religious,19
+Oklahoma,Beaver,Real Estate,3
+Oklahoma,Beaver,Religious,12
+Oklahoma,Beckham,Real Estate,14
+Oklahoma,Beckham,Religious,38
+Oklahoma,Bryan,Real Estate,29
+Oklahoma,Bryan,Religious,48
+Oklahoma,Caddo,Real Estate,8
+Oklahoma,Caddo,Religious,44
+Oklahoma,Canadian,Real Estate,140
+Oklahoma,Canadian,Religious,99
+Oklahoma,Carter,Real Estate,42
+Oklahoma,Carter,Religious,61
+Oklahoma,Cherokee,Real Estate,21
+Oklahoma,Cherokee,Religious,35
+Oklahoma,Choctaw,Real Estate,4
+Oklahoma,Choctaw,Religious,19
+Oklahoma,Cleveland,Real Estate,377
+Oklahoma,Cleveland,Religious,207
+Oklahoma,Comanche,Real Estate,114
+Oklahoma,Comanche,Religious,108
+Oklahoma,Creek,Real Estate,36
+Oklahoma,Creek,Religious,88
+Oklahoma,Custer,Real Estate,26
+Oklahoma,Custer,Religious,45
+Oklahoma,Delaware,Real Estate,29
+Oklahoma,Delaware,Religious,48
+Oklahoma,Garfield,Real Estate,51
+Oklahoma,Garfield,Religious,79
+Oklahoma,Garvin,Real Estate,12
+Oklahoma,Garvin,Religious,40
+Oklahoma,Grady,Real Estate,30
+Oklahoma,Grady,Religious,66
+Oklahoma,Harper,Real Estate,3
+Oklahoma,Harper,Religious,10
+Oklahoma,Hughes,Real Estate,8
+Oklahoma,Hughes,Religious,20
+Oklahoma,Jackson,Real Estate,20
+Oklahoma,Jackson,Religious,29
+Oklahoma,Kay,Real Estate,32
+Oklahoma,Kay,Religious,68
+Oklahoma,Kingfisher,Real Estate,12
+Oklahoma,Kingfisher,Religious,30
+Oklahoma,Le Flore,Real Estate,19
+Oklahoma,Le Flore,Religious,40
+Oklahoma,Lincoln,Real Estate,11
+Oklahoma,Lincoln,Religious,36
+Oklahoma,Logan,Real Estate,40
+Oklahoma,Logan,Religious,42
+Oklahoma,Love,Real Estate,9
+Oklahoma,Love,Religious,12
+Oklahoma,Marshall,Real Estate,9
+Oklahoma,Marshall,Religious,26
+Oklahoma,Mayes,Real Estate,18
+Oklahoma,Mayes,Religious,65
+Oklahoma,McClain,Real Estate,38
+Oklahoma,McClain,Religious,48
+Oklahoma,McCurtain,Real Estate,13
+Oklahoma,McCurtain,Religious,40
+Oklahoma,McIntosh,Real Estate,8
+Oklahoma,McIntosh,Religious,18
+Oklahoma,Murray,Real Estate,4
+Oklahoma,Murray,Religious,19
+Oklahoma,Muskogee,Real Estate,33
+Oklahoma,Muskogee,Religious,78
+Oklahoma,Noble,Real Estate,3
+Oklahoma,Noble,Religious,17
+Oklahoma,Nowata,Real Estate,4
+Oklahoma,Nowata,Religious,15
+Oklahoma,Oklahoma,Real Estate,"1,182"
+Oklahoma,Oklahoma,Religious,865
+Oklahoma,Okmulgee,Real Estate,10
+Oklahoma,Okmulgee,Religious,46
+Oklahoma,Osage,Real Estate,16
+Oklahoma,Osage,Religious,39
+Oklahoma,Ottawa,Real Estate,10
+Oklahoma,Ottawa,Religious,40
+Oklahoma,Payne,Real Estate,82
+Oklahoma,Payne,Religious,104
+Oklahoma,Pittsburg,Real Estate,34
+Oklahoma,Pittsburg,Religious,55
+Oklahoma,Pontotoc,Real Estate,30
+Oklahoma,Pontotoc,Religious,62
+Oklahoma,Pottawatomie,Real Estate,49
+Oklahoma,Pottawatomie,Religious,74
+Oklahoma,Pushmataha,Real Estate,5
+Oklahoma,Pushmataha,Religious,14
+Oklahoma,Rogers,Real Estate,95
+Oklahoma,Rogers,Religious,82
+Oklahoma,Seminole,Real Estate,8
+Oklahoma,Seminole,Religious,29
+Oklahoma,Sequoyah,Real Estate,18
+Oklahoma,Sequoyah,Religious,23
+Oklahoma,Stephens,Real Estate,17
+Oklahoma,Stephens,Religious,67
+Oklahoma,Texas,Real Estate,12
+Oklahoma,Texas,Religious,27
+Oklahoma,Tulsa,Real Estate,873
+Oklahoma,Tulsa,Religious,777
+Oklahoma,Wagoner,Real Estate,48
+Oklahoma,Wagoner,Religious,43
+Oklahoma,Washington,Real Estate,45
+Oklahoma,Washington,Religious,72
+Oklahoma,Washita,Real Estate,3
+Oklahoma,Washita,Religious,18
+Oklahoma,Woods,Real Estate,7
+Oklahoma,Woods,Religious,21
+Oklahoma,Woodward,Real Estate,14
+Oklahoma,Woodward,Religious,33
+Oregon,Baker,Real Estate,16
+Oregon,Baker,Religious,27
+Oregon,Benton,Real Estate,128
+Oregon,Benton,Religious,104
+Oregon,Clackamas,Real Estate,710
+Oregon,Clackamas,Religious,337
+Oregon,Clatsop,Real Estate,83
+Oregon,Clatsop,Religious,70
+Oregon,Columbia,Real Estate,35
+Oregon,Columbia,Religious,44
+Oregon,Coos,Real Estate,66
+Oregon,Coos,Religious,79
+Oregon,Crook,Real Estate,28
+Oregon,Crook,Religious,33
+Oregon,Curry,Real Estate,47
+Oregon,Curry,Religious,24
+Oregon,Deschutes,Real Estate,604
+Oregon,Deschutes,Religious,215
+Oregon,Douglas,Real Estate,108
+Oregon,Douglas,Religious,116
+Oregon,Grant,Real Estate,12
+Oregon,Grant,Religious,10
+Oregon,Harney,Real Estate,7
+Oregon,Harney,Religious,13
+Oregon,Hood River,Real Estate,38
+Oregon,Hood River,Religious,34
+Oregon,Jackson,Real Estate,348
+Oregon,Jackson,Religious,202
+Oregon,Jefferson,Real Estate,24
+Oregon,Jefferson,Religious,20
+Oregon,Josephine,Real Estate,106
+Oregon,Josephine,Religious,71
+Oregon,Klamath,Real Estate,71
+Oregon,Klamath,Religious,74
+Oregon,Lake,Real Estate,5
+Oregon,Lake,Religious,14
+Oregon,Lane,Real Estate,586
+Oregon,Lane,Religious,394
+Oregon,Lincoln,Real Estate,75
+Oregon,Lincoln,Religious,71
+Oregon,Linn,Real Estate,136
+Oregon,Linn,Religious,138
+Oregon,Malheur,Real Estate,24
+Oregon,Malheur,Religious,38
+Oregon,Marion,Real Estate,447
+Oregon,Marion,Religious,348
+Oregon,Morrow,Real Estate,7
+Oregon,Morrow,Religious,11
+Oregon,Multnomah,Real Estate,"1,613"
+Oregon,Multnomah,Religious,"1,100"
+Oregon,Polk,Real Estate,87
+Oregon,Polk,Religious,66
+Oregon,Tillamook,Real Estate,45
+Oregon,Tillamook,Religious,38
+Oregon,Umatilla,Real Estate,67
+Oregon,Umatilla,Religious,77
+Oregon,Union,Real Estate,22
+Oregon,Union,Religious,46
+Oregon,Wallowa,Real Estate,18
+Oregon,Wallowa,Religious,15
+Oregon,Wasco,Real Estate,35
+Oregon,Wasco,Religious,33
+Oregon,Washington,Real Estate,964
+Oregon,Washington,Religious,398
+Oregon,Yamhill,Real Estate,125
+Oregon,Yamhill,Religious,108
+Pennsylvania,Adams,Real Estate,42
+Pennsylvania,Adams,Religious,133
+Pennsylvania,Allegheny,Real Estate,"1,193"
+Pennsylvania,Allegheny,Religious,"1,462"
+Pennsylvania,Armstrong,Real Estate,26
+Pennsylvania,Armstrong,Religious,122
+Pennsylvania,Beaver,Real Estate,64
+Pennsylvania,Beaver,Religious,218
+Pennsylvania,Bedford,Real Estate,9
+Pennsylvania,Bedford,Religious,84
+Pennsylvania,Berks,Real Estate,243
+Pennsylvania,Berks,Religious,418
+Pennsylvania,Blair,Real Estate,82
+Pennsylvania,Blair,Religious,214
+Pennsylvania,Bradford,Real Estate,24
+Pennsylvania,Bradford,Religious,84
+Pennsylvania,Bucks,Real Estate,670
+Pennsylvania,Bucks,Religious,433
+Pennsylvania,Butler,Real Estate,141
+Pennsylvania,Butler,Religious,214
+Pennsylvania,Cambria,Real Estate,57
+Pennsylvania,Cambria,Religious,255
+Pennsylvania,Carbon,Real Estate,36
+Pennsylvania,Carbon,Religious,87
+Pennsylvania,Centre,Real Estate,130
+Pennsylvania,Centre,Religious,200
+Pennsylvania,Chester,Real Estate,582
+Pennsylvania,Chester,Religious,489
+Pennsylvania,Clarion,Real Estate,22
+Pennsylvania,Clarion,Religious,61
+Pennsylvania,Clearfield,Real Estate,22
+Pennsylvania,Clearfield,Religious,144
+Pennsylvania,Clinton,Real Estate,21
+Pennsylvania,Clinton,Religious,52
+Pennsylvania,Columbia,Real Estate,27
+Pennsylvania,Columbia,Religious,95
+Pennsylvania,Crawford,Real Estate,35
+Pennsylvania,Crawford,Religious,125
+Pennsylvania,Cumberland,Real Estate,204
+Pennsylvania,Cumberland,Religious,337
+Pennsylvania,Dauphin,Real Estate,203
+Pennsylvania,Dauphin,Religious,553
+Pennsylvania,Delaware,Real Estate,440
+Pennsylvania,Delaware,Religious,398
+Pennsylvania,Elk,Real Estate,10
+Pennsylvania,Elk,Religious,52
+Pennsylvania,Erie,Real Estate,136
+Pennsylvania,Erie,Religious,324
+Pennsylvania,Fayette,Real Estate,49
+Pennsylvania,Fayette,Religious,166
+Pennsylvania,Franklin,Real Estate,90
+Pennsylvania,Franklin,Religious,217
+Pennsylvania,Fulton,Real Estate,4
+Pennsylvania,Fulton,Religious,24
+Pennsylvania,Greene,Real Estate,5
+Pennsylvania,Greene,Religious,55
+Pennsylvania,Huntingdon,Real Estate,9
+Pennsylvania,Huntingdon,Religious,79
+Pennsylvania,Indiana,Real Estate,35
+Pennsylvania,Indiana,Religious,123
+Pennsylvania,Jefferson,Real Estate,17
+Pennsylvania,Jefferson,Religious,85
+Pennsylvania,Juniata,Real Estate,6
+Pennsylvania,Juniata,Religious,53
+Pennsylvania,Lackawanna,Real Estate,125
+Pennsylvania,Lackawanna,Religious,216
+Pennsylvania,Lancaster,Real Estate,351
+Pennsylvania,Lancaster,Religious,748
+Pennsylvania,Lawrence,Real Estate,37
+Pennsylvania,Lawrence,Religious,129
+Pennsylvania,Lebanon,Real Estate,64
+Pennsylvania,Lebanon,Religious,199
+Pennsylvania,Lehigh,Real Estate,297
+Pennsylvania,Lehigh,Religious,352
+Pennsylvania,Luzerne,Real Estate,174
+Pennsylvania,Luzerne,Religious,310
+Pennsylvania,Lycoming,Real Estate,90
+Pennsylvania,Lycoming,Religious,186
+Pennsylvania,McKean,Real Estate,7
+Pennsylvania,McKean,Religious,72
+Pennsylvania,Mercer,Real Estate,59
+Pennsylvania,Mercer,Religious,166
+Pennsylvania,Mifflin,Real Estate,15
+Pennsylvania,Mifflin,Religious,75
+Pennsylvania,Monroe,Real Estate,137
+Pennsylvania,Monroe,Religious,146
+Pennsylvania,Montgomery,Real Estate,"1,041"
+Pennsylvania,Montgomery,Religious,858
+Pennsylvania,Montour,Real Estate,10
+Pennsylvania,Montour,Religious,33
+Pennsylvania,Northampton,Real Estate,197
+Pennsylvania,Northampton,Religious,288
+Pennsylvania,Northumberland,Real Estate,30
+Pennsylvania,Northumberland,Religious,146
+Pennsylvania,Perry,Real Estate,13
+Pennsylvania,Perry,Religious,71
+Pennsylvania,Philadelphia,Real Estate,"1,345"
+Pennsylvania,Philadelphia,Religious,"1,356"
+Pennsylvania,Pike,Real Estate,43
+Pennsylvania,Pike,Religious,64
+Pennsylvania,Potter,Real Estate,6
+Pennsylvania,Potter,Religious,31
+Pennsylvania,Schuylkill,Real Estate,44
+Pennsylvania,Schuylkill,Religious,191
+Pennsylvania,Snyder,Real Estate,7
+Pennsylvania,Snyder,Religious,58
+Pennsylvania,Somerset,Real Estate,28
+Pennsylvania,Somerset,Religious,158
+Pennsylvania,Statewide Pennsylvania,Real Estate,3
+Pennsylvania,Statewide Pennsylvania,Religious,8
+Pennsylvania,Sullivan,Real Estate,6
+Pennsylvania,Sullivan,Religious,12
+Pennsylvania,Susquehanna,Real Estate,11
+Pennsylvania,Susquehanna,Religious,45
+Pennsylvania,Tioga,Real Estate,20
+Pennsylvania,Tioga,Religious,68
+Pennsylvania,Union,Real Estate,17
+Pennsylvania,Union,Religious,66
+Pennsylvania,Venango,Real Estate,17
+Pennsylvania,Venango,Religious,103
+Pennsylvania,Warren,Real Estate,16
+Pennsylvania,Warren,Religious,69
+Pennsylvania,Washington,Real Estate,144
+Pennsylvania,Washington,Religious,252
+Pennsylvania,Wayne,Real Estate,36
+Pennsylvania,Wayne,Religious,66
+Pennsylvania,Westmoreland,Real Estate,223
+Pennsylvania,Westmoreland,Religious,451
+Pennsylvania,Wyoming,Real Estate,12
+Pennsylvania,Wyoming,Religious,28
+Pennsylvania,York,Real Estate,250
+Pennsylvania,York,Religious,510
+Rhode Island,Bristol,Real Estate,57
+Rhode Island,Bristol,Religious,45
+Rhode Island,Kent,Real Estate,152
+Rhode Island,Kent,Religious,132
+Rhode Island,Newport,Real Estate,101
+Rhode Island,Newport,Religious,108
+Rhode Island,Providence,Real Estate,611
+Rhode Island,Providence,Religious,614
+Rhode Island,Washington,Real Estate,129
+Rhode Island,Washington,Religious,142
+South Carolina,Abbeville,Real Estate,3
+South Carolina,Abbeville,Religious,33
+South Carolina,Aiken,Real Estate,116
+South Carolina,Aiken,Religious,172
+South Carolina,Anderson,Real Estate,145
+South Carolina,Anderson,Religious,259
+South Carolina,Bamberg,Real Estate,3
+South Carolina,Bamberg,Religious,26
+South Carolina,Barnwell,Real Estate,5
+South Carolina,Barnwell,Religious,38
+South Carolina,Beaufort,Real Estate,555
+South Carolina,Beaufort,Religious,170
+South Carolina,Berkeley,Real Estate,234
+South Carolina,Berkeley,Religious,139
+South Carolina,Calhoun,Real Estate,4
+South Carolina,Calhoun,Religious,21
+South Carolina,Charleston,Real Estate,"1,109"
+South Carolina,Charleston,Religious,479
+South Carolina,Cherokee,Real Estate,23
+South Carolina,Cherokee,Religious,95
+South Carolina,Chester,Real Estate,11
+South Carolina,Chester,Religious,53
+South Carolina,Chesterfield,Real Estate,13
+South Carolina,Chesterfield,Religious,53
+South Carolina,Clarendon,Real Estate,14
+South Carolina,Clarendon,Religious,41
+South Carolina,Colleton,Real Estate,32
+South Carolina,Colleton,Religious,45
+South Carolina,Darlington,Real Estate,25
+South Carolina,Darlington,Religious,93
+South Carolina,Dillon,Real Estate,21
+South Carolina,Dillon,Religious,37
+South Carolina,Dorchester,Real Estate,171
+South Carolina,Dorchester,Religious,97
+South Carolina,Edgefield,Real Estate,14
+South Carolina,Edgefield,Religious,31
+South Carolina,Fairfield,Real Estate,8
+South Carolina,Fairfield,Religious,38
+South Carolina,Florence,Real Estate,89
+South Carolina,Florence,Religious,162
+South Carolina,Georgetown,Real Estate,101
+South Carolina,Georgetown,Religious,106
+South Carolina,Greenville,Real Estate,894
+South Carolina,Greenville,Religious,593
+South Carolina,Greenwood,Real Estate,38
+South Carolina,Greenwood,Religious,97
+South Carolina,Hampton,Real Estate,3
+South Carolina,Hampton,Religious,19
+South Carolina,Horry,Real Estate,850
+South Carolina,Horry,Religious,272
+South Carolina,Jasper,Real Estate,26
+South Carolina,Jasper,Religious,27
+South Carolina,Kershaw,Real Estate,32
+South Carolina,Kershaw,Religious,71
+South Carolina,Lancaster,Real Estate,74
+South Carolina,Lancaster,Religious,113
+South Carolina,Laurens,Real Estate,18
+South Carolina,Laurens,Religious,82
+South Carolina,Lexington,Real Estate,281
+South Carolina,Lexington,Religious,313
+South Carolina,Marion,Real Estate,12
+South Carolina,Marion,Religious,36
+South Carolina,Marlboro,Real Estate,10
+South Carolina,Marlboro,Religious,22
+South Carolina,McCormick,Real Estate,4
+South Carolina,McCormick,Religious,14
+South Carolina,Newberry,Real Estate,18
+South Carolina,Newberry,Religious,56
+South Carolina,Oconee,Real Estate,102
+South Carolina,Oconee,Religious,122
+South Carolina,Orangeburg,Real Estate,31
+South Carolina,Orangeburg,Religious,117
+South Carolina,Pickens,Real Estate,88
+South Carolina,Pickens,Religious,145
+South Carolina,Richland,Real Estate,508
+South Carolina,Richland,Religious,520
+South Carolina,Spartanburg,Real Estate,250
+South Carolina,Spartanburg,Religious,385
+South Carolina,Statewide South Carolina,Real Estate,4
+South Carolina,Statewide South Carolina,Religious,11
+South Carolina,Sumter,Real Estate,47
+South Carolina,Sumter,Religious,100
+South Carolina,Union,Real Estate,11
+South Carolina,Union,Religious,52
+South Carolina,Williamsburg,Real Estate,11
+South Carolina,Williamsburg,Religious,34
+South Carolina,York,Real Estate,357
+South Carolina,York,Religious,297
+South Dakota,Beadle,Real Estate,23
+South Dakota,Beadle,Religious,39
+South Dakota,Bon Homme,Real Estate,5
+South Dakota,Bon Homme,Religious,12
+South Dakota,Brookings,Real Estate,38
+South Dakota,Brookings,Religious,53
+South Dakota,Brown,Real Estate,53
+South Dakota,Brown,Religious,59
+South Dakota,Butte,Real Estate,8
+South Dakota,Butte,Religious,13
+South Dakota,Charles Mix,Real Estate,5
+South Dakota,Charles Mix,Religious,16
+South Dakota,Clay,Real Estate,14
+South Dakota,Clay,Religious,23
+South Dakota,Codington,Real Estate,66
+South Dakota,Codington,Religious,43
+South Dakota,Custer,Real Estate,11
+South Dakota,Custer,Religious,16
+South Dakota,Davison,Real Estate,18
+South Dakota,Davison,Religious,29
+South Dakota,Day,Real Estate,5
+South Dakota,Day,Religious,12
+South Dakota,Edmunds,Real Estate,3
+South Dakota,Edmunds,Religious,6
+South Dakota,Fall River,Real Estate,8
+South Dakota,Fall River,Religious,19
+South Dakota,Grant,Real Estate,6
+South Dakota,Grant,Religious,19
+South Dakota,Hughes,Real Estate,18
+South Dakota,Hughes,Religious,53
+South Dakota,Lake,Real Estate,10
+South Dakota,Lake,Religious,19
+South Dakota,Lawrence,Real Estate,74
+South Dakota,Lawrence,Religious,48
+South Dakota,Lincoln,Real Estate,96
+South Dakota,Lincoln,Religious,65
+South Dakota,Lyman,Real Estate,3
+South Dakota,Lyman,Religious,5
+South Dakota,Marshall,Real Estate,3
+South Dakota,Marshall,Religious,11
+South Dakota,McCook,Real Estate,6
+South Dakota,McCook,Religious,9
+South Dakota,Meade,Real Estate,35
+South Dakota,Meade,Religious,26
+South Dakota,Minnehaha,Real Estate,286
+South Dakota,Minnehaha,Religious,254
+South Dakota,Moody,Real Estate,4
+South Dakota,Moody,Religious,10
+South Dakota,Pennington,Real Estate,233
+South Dakota,Pennington,Religious,155
+South Dakota,Roberts,Real Estate,3
+South Dakota,Roberts,Religious,17
+South Dakota,Spink,Real Estate,3
+South Dakota,Spink,Religious,12
+South Dakota,Tripp,Real Estate,3
+South Dakota,Tripp,Religious,9
+South Dakota,Turner,Real Estate,4
+South Dakota,Turner,Religious,21
+South Dakota,Union,Real Estate,26
+South Dakota,Union,Religious,20
+South Dakota,Walworth,Real Estate,4
+South Dakota,Walworth,Religious,11
+South Dakota,Yankton,Real Estate,29
+South Dakota,Yankton,Religious,42
+Tennessee,Anderson,Real Estate,45
+Tennessee,Anderson,Religious,116
+Tennessee,Bedford,Real Estate,30
+Tennessee,Bedford,Religious,45
+Tennessee,Benton,Real Estate,4
+Tennessee,Benton,Religious,21
+Tennessee,Bledsoe,Real Estate,6
+Tennessee,Bledsoe,Religious,7
+Tennessee,Blount,Real Estate,70
+Tennessee,Blount,Religious,154
+Tennessee,Bradley,Real Estate,57
+Tennessee,Bradley,Religious,143
+Tennessee,Campbell,Real Estate,18
+Tennessee,Campbell,Religious,39
+Tennessee,Cannon,Real Estate,7
+Tennessee,Cannon,Religious,14
+Tennessee,Carroll,Real Estate,10
+Tennessee,Carroll,Religious,40
+Tennessee,Carter,Real Estate,21
+Tennessee,Carter,Religious,81
+Tennessee,Cheatham,Real Estate,18
+Tennessee,Cheatham,Religious,34
+Tennessee,Chester,Real Estate,6
+Tennessee,Chester,Religious,22
+Tennessee,Claiborne,Real Estate,16
+Tennessee,Claiborne,Religious,23
+Tennessee,Clay,Real Estate,4
+Tennessee,Clay,Religious,3
+Tennessee,Cocke,Real Estate,11
+Tennessee,Cocke,Religious,38
+Tennessee,Coffee,Real Estate,22
+Tennessee,Coffee,Religious,65
+Tennessee,Crockett,Real Estate,7
+Tennessee,Crockett,Religious,30
+Tennessee,Cumberland,Real Estate,39
+Tennessee,Cumberland,Religious,71
+Tennessee,Davidson,Real Estate,"1,021"
+Tennessee,Davidson,Religious,987
+Tennessee,DeKalb,Real Estate,13
+Tennessee,DeKalb,Religious,17
+Tennessee,Decatur,Real Estate,4
+Tennessee,Decatur,Religious,9
+Tennessee,Dickson,Real Estate,23
+Tennessee,Dickson,Religious,50
+Tennessee,Dyer,Real Estate,17
+Tennessee,Dyer,Religious,45
+Tennessee,Fayette,Real Estate,19
+Tennessee,Fayette,Religious,41
+Tennessee,Fentress,Real Estate,9
+Tennessee,Fentress,Religious,16
+Tennessee,Franklin,Real Estate,14
+Tennessee,Franklin,Religious,55
+Tennessee,Gibson,Real Estate,22
+Tennessee,Gibson,Religious,82
+Tennessee,Giles,Real Estate,13
+Tennessee,Giles,Religious,31
+Tennessee,Grainger,Real Estate,8
+Tennessee,Grainger,Religious,18
+Tennessee,Greene,Real Estate,30
+Tennessee,Greene,Religious,72
+Tennessee,Grundy,Real Estate,5
+Tennessee,Grundy,Religious,10
+Tennessee,Hamblen,Real Estate,37
+Tennessee,Hamblen,Religious,85
+Tennessee,Hamilton,Real Estate,384
+Tennessee,Hamilton,Religious,504
+Tennessee,Hardeman,Real Estate,4
+Tennessee,Hardeman,Religious,39
+Tennessee,Hardin,Real Estate,20
+Tennessee,Hardin,Religious,34
+Tennessee,Hawkins,Real Estate,24
+Tennessee,Hawkins,Religious,49
+Tennessee,Haywood,Real Estate,9
+Tennessee,Haywood,Religious,41
+Tennessee,Henderson,Real Estate,6
+Tennessee,Henderson,Religious,23
+Tennessee,Henry,Real Estate,22
+Tennessee,Henry,Religious,49
+Tennessee,Hickman,Real Estate,3
+Tennessee,Hickman,Religious,12
+Tennessee,Humphreys,Real Estate,5
+Tennessee,Humphreys,Religious,30
+Tennessee,Jackson,Real Estate,5
+Tennessee,Jackson,Religious,5
+Tennessee,Jefferson,Real Estate,22
+Tennessee,Jefferson,Religious,53
+Tennessee,Johnson,Real Estate,10
+Tennessee,Johnson,Religious,24
+Tennessee,Knox,Real Estate,515
+Tennessee,Knox,Religious,559
+Tennessee,Lake,Real Estate,5
+Tennessee,Lake,Religious,7
+Tennessee,Lauderdale,Real Estate,12
+Tennessee,Lauderdale,Religious,20
+Tennessee,Lawrence,Real Estate,16
+Tennessee,Lawrence,Religious,52
+Tennessee,Lewis,Real Estate,7
+Tennessee,Lewis,Religious,15
+Tennessee,Lincoln,Real Estate,14
+Tennessee,Lincoln,Religious,28
+Tennessee,Loudon,Real Estate,35
+Tennessee,Loudon,Religious,65
+Tennessee,Macon,Real Estate,9
+Tennessee,Macon,Religious,11
+Tennessee,Madison,Real Estate,88
+Tennessee,Madison,Religious,143
+Tennessee,Marion,Real Estate,9
+Tennessee,Marion,Religious,26
+Tennessee,Marshall,Real Estate,17
+Tennessee,Marshall,Religious,28
+Tennessee,Maury,Real Estate,58
+Tennessee,Maury,Religious,106
+Tennessee,McMinn,Real Estate,29
+Tennessee,McMinn,Religious,80
+Tennessee,McNairy,Real Estate,5
+Tennessee,McNairy,Religious,26
+Tennessee,Monroe,Real Estate,27
+Tennessee,Monroe,Religious,56
+Tennessee,Montgomery,Real Estate,178
+Tennessee,Montgomery,Religious,129
+Tennessee,Obion,Real Estate,13
+Tennessee,Obion,Religious,54
+Tennessee,Overton,Real Estate,4
+Tennessee,Overton,Religious,20
+Tennessee,Perry,Real Estate,3
+Tennessee,Perry,Religious,6
+Tennessee,Polk,Real Estate,4
+Tennessee,Polk,Religious,28
+Tennessee,Putnam,Real Estate,61
+Tennessee,Putnam,Religious,87
+Tennessee,Rhea,Real Estate,14
+Tennessee,Rhea,Religious,36
+Tennessee,Roane,Real Estate,20
+Tennessee,Roane,Religious,67
+Tennessee,Robertson,Real Estate,39
+Tennessee,Robertson,Religious,74
+Tennessee,Rutherford,Real Estate,230
+Tennessee,Rutherford,Religious,222
+Tennessee,Scott,Real Estate,7
+Tennessee,Scott,Religious,15
+Tennessee,Sequatchie,Real Estate,6
+Tennessee,Sequatchie,Religious,9
+Tennessee,Sevier,Real Estate,196
+Tennessee,Sevier,Religious,117
+Tennessee,Shelby,Real Estate,807
+Tennessee,Shelby,Religious,891
+Tennessee,Smith,Real Estate,5
+Tennessee,Smith,Religious,14
+Tennessee,Statewide Tennessee,Real Estate,18
+Tennessee,Statewide Tennessee,Religious,8
+Tennessee,Stewart,Real Estate,4
+Tennessee,Stewart,Religious,13
+Tennessee,Sullivan,Real Estate,91
+Tennessee,Sullivan,Religious,207
+Tennessee,Sumner,Real Estate,156
+Tennessee,Sumner,Religious,146
+Tennessee,Tipton,Real Estate,20
+Tennessee,Tipton,Religious,52
+Tennessee,Unicoi,Real Estate,5
+Tennessee,Unicoi,Religious,29
+Tennessee,Warren,Real Estate,20
+Tennessee,Warren,Religious,45
+Tennessee,Washington,Real Estate,117
+Tennessee,Washington,Religious,167
+Tennessee,Wayne,Real Estate,7
+Tennessee,Wayne,Religious,13
+Tennessee,Weakley,Real Estate,14
+Tennessee,Weakley,Religious,50
+Tennessee,White,Real Estate,13
+Tennessee,White,Religious,23
+Tennessee,Williamson,Real Estate,381
+Tennessee,Williamson,Religious,306
+Tennessee,Wilson,Real Estate,125
+Tennessee,Wilson,Religious,136
+Texas,Anderson,Real Estate,25
+Texas,Anderson,Religious,58
+Texas,Andrews,Real Estate,6
+Texas,Andrews,Religious,14
+Texas,Angelina,Real Estate,65
+Texas,Angelina,Religious,97
+Texas,Aransas,Real Estate,26
+Texas,Aransas,Religious,25
+Texas,Archer,Real Estate,3
+Texas,Archer,Religious,11
+Texas,Atascosa,Real Estate,20
+Texas,Atascosa,Religious,33
+Texas,Austin,Real Estate,19
+Texas,Austin,Religious,33
+Texas,Bandera,Real Estate,24
+Texas,Bandera,Religious,30
+Texas,Bastrop,Real Estate,47
+Texas,Bastrop,Religious,63
+Texas,Bee,Real Estate,17
+Texas,Bee,Religious,20
+Texas,Bell,Real Estate,294
+Texas,Bell,Religious,274
+Texas,Bexar,Real Estate,"2,091"
+Texas,Bexar,Religious,"1,123"
+Texas,Blanco,Real Estate,26
+Texas,Blanco,Religious,22
+Texas,Bosque,Real Estate,12
+Texas,Bosque,Religious,27
+Texas,Bowie,Real Estate,109
+Texas,Bowie,Religious,113
+Texas,Brazoria,Real Estate,260
+Texas,Brazoria,Religious,236
+Texas,Brazos,Real Estate,284
+Texas,Brazos,Religious,175
+Texas,Brewster,Real Estate,12
+Texas,Brewster,Religious,19
+Texas,Brown,Real Estate,26
+Texas,Brown,Religious,66
+Texas,Burleson,Real Estate,12
+Texas,Burleson,Religious,21
+Texas,Burnet,Real Estate,65
+Texas,Burnet,Religious,64
+Texas,Caldwell,Real Estate,19
+Texas,Caldwell,Religious,38
+Texas,Calhoun,Real Estate,12
+Texas,Calhoun,Religious,25
+Texas,Callahan,Real Estate,5
+Texas,Callahan,Religious,16
+Texas,Cameron,Real Estate,241
+Texas,Cameron,Religious,293
+Texas,Camp,Real Estate,6
+Texas,Camp,Religious,15
+Texas,Cass,Real Estate,18
+Texas,Cass,Religious,58
+Texas,Chambers,Real Estate,18
+Texas,Chambers,Religious,25
+Texas,Cherokee,Real Estate,27
+Texas,Cherokee,Religious,62
+Texas,Childress,Real Estate,5
+Texas,Childress,Religious,10
+Texas,Coleman,Real Estate,3
+Texas,Coleman,Religious,18
+Texas,Collin,Real Estate,"1,698"
+Texas,Collin,Religious,563
+Texas,Colorado,Real Estate,13
+Texas,Colorado,Religious,32
+Texas,Comal,Real Estate,248
+Texas,Comal,Religious,132
+Texas,Comanche,Real Estate,7
+Texas,Comanche,Religious,15
+Texas,Cooke,Real Estate,27
+Texas,Cooke,Religious,46
+Texas,Coryell,Real Estate,33
+Texas,Coryell,Religious,54
+Texas,Crockett,Real Estate,5
+Texas,Crockett,Religious,6
+Texas,Crosby,Real Estate,3
+Texas,Crosby,Religious,6
+Texas,Dallam,Real Estate,3
+Texas,Dallam,Religious,13
+Texas,Dallas,Real Estate,"3,955"
+Texas,Dallas,Religious,"2,044"
+Texas,Dawson,Real Estate,4
+Texas,Dawson,Religious,21
+Texas,DeWitt,Real Estate,10
+Texas,DeWitt,Religious,32
+Texas,Deaf Smith,Real Estate,6
+Texas,Deaf Smith,Religious,18
+Texas,Denton,Real Estate,"1,000"
+Texas,Denton,Religious,446
+Texas,Dimmit,Real Estate,9
+Texas,Dimmit,Religious,8
+Texas,Eastland,Real Estate,15
+Texas,Eastland,Religious,30
+Texas,Ector,Real Estate,102
+Texas,Ector,Religious,117
+Texas,El Paso,Real Estate,788
+Texas,El Paso,Religious,357
+Texas,Ellis,Real Estate,147
+Texas,Ellis,Religious,155
+Texas,Erath,Real Estate,44
+Texas,Erath,Religious,52
+Texas,Falls,Real Estate,6
+Texas,Falls,Religious,23
+Texas,Fannin,Real Estate,17
+Texas,Fannin,Religious,40
+Texas,Fayette,Real Estate,28
+Texas,Fayette,Religious,52
+Texas,Fort Bend,Real Estate,798
+Texas,Fort Bend,Religious,330
+Texas,Franklin,Real Estate,8
+Texas,Franklin,Religious,17
+Texas,Freestone,Real Estate,6
+Texas,Freestone,Religious,26
+Texas,Frio,Real Estate,6
+Texas,Frio,Religious,13
+Texas,Gaines,Real Estate,6
+Texas,Gaines,Religious,28
+Texas,Galveston,Real Estate,329
+Texas,Galveston,Religious,257
+Texas,Gillespie,Real Estate,42
+Texas,Gillespie,Religious,47
+Texas,Goliad,Real Estate,4
+Texas,Goliad,Religious,10
+Texas,Gonzales,Real Estate,12
+Texas,Gonzales,Religious,29
+Texas,Gray,Real Estate,10
+Texas,Gray,Religious,36
+Texas,Grayson,Real Estate,110
+Texas,Grayson,Religious,137
+Texas,Gregg,Real Estate,128
+Texas,Gregg,Religious,153
+Texas,Grimes,Real Estate,15
+Texas,Grimes,Religious,24
+Texas,Guadalupe,Real Estate,118
+Texas,Guadalupe,Religious,87
+Texas,Hale,Real Estate,22
+Texas,Hale,Religious,44
+Texas,Hansford,Real Estate,4
+Texas,Hansford,Religious,11
+Texas,Hardin,Real Estate,21
+Texas,Hardin,Religious,67
+Texas,Harris,Real Estate,"5,387"
+Texas,Harris,Religious,"2,566"
+Texas,Harrison,Real Estate,39
+Texas,Harrison,Religious,70
+Texas,Hartley,Real Estate,5
+Texas,Hartley,Religious,8
+Texas,Haskell,Real Estate,3
+Texas,Haskell,Religious,12
+Texas,Hays,Real Estate,286
+Texas,Hays,Religious,138
+Texas,Hemphill,Real Estate,4
+Texas,Hemphill,Religious,8
+Texas,Henderson,Real Estate,49
+Texas,Henderson,Religious,95
+Texas,Hidalgo,Real Estate,474
+Texas,Hidalgo,Religious,301
+Texas,Hill,Real Estate,23
+Texas,Hill,Religious,36
+Texas,Hockley,Real Estate,10
+Texas,Hockley,Religious,25
+Texas,Hood,Real Estate,62
+Texas,Hood,Religious,71
+Texas,Hopkins,Real Estate,21
+Texas,Hopkins,Religious,39
+Texas,Houston,Real Estate,10
+Texas,Houston,Religious,31
+Texas,Howard,Real Estate,35
+Texas,Howard,Religious,45
+Texas,Hunt,Real Estate,70
+Texas,Hunt,Religious,99
+Texas,Hutchinson,Real Estate,5
+Texas,Hutchinson,Religious,36
+Texas,Jack,Real Estate,7
+Texas,Jack,Religious,13
+Texas,Jackson,Real Estate,15
+Texas,Jackson,Religious,21
+Texas,Jasper,Real Estate,14
+Texas,Jasper,Religious,43
+Texas,Jeff Davis,Real Estate,3
+Texas,Jeff Davis,Religious,12
+Texas,Jefferson,Real Estate,194
+Texas,Jefferson,Religious,288
+Texas,Jim Wells,Real Estate,15
+Texas,Jim Wells,Religious,24
+Texas,Johnson,Real Estate,132
+Texas,Johnson,Religious,127
+Texas,Jones,Real Estate,6
+Texas,Jones,Religious,23
+Texas,Karnes,Real Estate,13
+Texas,Karnes,Religious,21
+Texas,Kaufman,Real Estate,84
+Texas,Kaufman,Religious,90
+Texas,Kendall,Real Estate,96
+Texas,Kendall,Religious,45
+Texas,Kerr,Real Estate,94
+Texas,Kerr,Religious,93
+Texas,Kimble,Real Estate,4
+Texas,Kimble,Religious,9
+Texas,Kleberg,Real Estate,24
+Texas,Kleberg,Religious,22
+Texas,La Salle,Real Estate,3
+Texas,La Salle,Religious,7
+Texas,Lamar,Real Estate,38
+Texas,Lamar,Religious,72
+Texas,Lampasas,Real Estate,16
+Texas,Lampasas,Religious,31
+Texas,Lavaca,Real Estate,8
+Texas,Lavaca,Religious,29
+Texas,Lee,Real Estate,8
+Texas,Lee,Religious,22
+Texas,Leon,Real Estate,12
+Texas,Leon,Religious,33
+Texas,Liberty,Real Estate,29
+Texas,Liberty,Religious,70
+Texas,Limestone,Real Estate,6
+Texas,Limestone,Religious,26
+Texas,Live Oak,Real Estate,6
+Texas,Live Oak,Religious,13
+Texas,Llano,Real Estate,32
+Texas,Llano,Religious,26
+Texas,Lubbock,Real Estate,419
+Texas,Lubbock,Religious,259
+Texas,Madison,Real Estate,13
+Texas,Madison,Religious,15
+Texas,Marion,Real Estate,3
+Texas,Marion,Religious,10
+Texas,Mason,Real Estate,5
+Texas,Mason,Religious,9
+Texas,Matagorda,Real Estate,20
+Texas,Matagorda,Religious,48
+Texas,Maverick,Real Estate,25
+Texas,Maverick,Religious,20
+Texas,McCulloch,Real Estate,9
+Texas,McCulloch,Religious,14
+Texas,McLennan,Real Estate,209
+Texas,McLennan,Religious,292
+Texas,Medina,Real Estate,29
+Texas,Medina,Religious,38
+Texas,Midland,Real Estate,232
+Texas,Midland,Religious,167
+Texas,Milam,Real Estate,14
+Texas,Milam,Religious,30
+Texas,Mills,Real Estate,3
+Texas,Mills,Religious,9
+Texas,Montague,Real Estate,11
+Texas,Montague,Religious,31
+Texas,Montgomery,Real Estate,669
+Texas,Montgomery,Religious,328
+Texas,Moore,Real Estate,15
+Texas,Moore,Religious,33
+Texas,Morris,Real Estate,4
+Texas,Morris,Religious,20
+Texas,Nacogdoches,Real Estate,50
+Texas,Nacogdoches,Religious,65
+Texas,Navarro,Real Estate,34
+Texas,Navarro,Religious,46
+Texas,Nolan,Real Estate,9
+Texas,Nolan,Religious,24
+Texas,Nueces,Real Estate,331
+Texas,Nueces,Religious,272
+Texas,Ochiltree,Real Estate,4
+Texas,Ochiltree,Religious,22
+Texas,Orange,Real Estate,43
+Texas,Orange,Religious,82
+Texas,Palo Pinto,Real Estate,23
+Texas,Palo Pinto,Religious,37
+Texas,Panola,Real Estate,11
+Texas,Panola,Religious,27
+Texas,Parker,Real Estate,139
+Texas,Parker,Religious,125
+Texas,Parmer,Real Estate,6
+Texas,Parmer,Religious,15
+Texas,Pecos,Real Estate,7
+Texas,Pecos,Religious,14
+Texas,Polk,Real Estate,22
+Texas,Polk,Religious,51
+Texas,Potter,Real Estate,126
+Texas,Potter,Religious,133
+Texas,Rains,Real Estate,6
+Texas,Rains,Religious,14
+Texas,Randall,Real Estate,127
+Texas,Randall,Religious,111
+Texas,Real,Real Estate,6
+Texas,Real,Religious,7
+Texas,Red River,Real Estate,5
+Texas,Red River,Religious,16
+Texas,Refugio,Real Estate,5
+Texas,Refugio,Religious,6
+Texas,Robertson,Real Estate,7
+Texas,Robertson,Religious,23
+Texas,Rockwall,Real Estate,130
+Texas,Rockwall,Religious,80
+Texas,Rusk,Real Estate,20
+Texas,Rusk,Religious,67
+Texas,Sabine,Real Estate,7
+Texas,Sabine,Religious,17
+Texas,San Jacinto,Real Estate,7
+Texas,San Jacinto,Religious,12
+Texas,San Patricio,Real Estate,43
+Texas,San Patricio,Religious,53
+Texas,San Saba,Real Estate,3
+Texas,San Saba,Religious,10
+Texas,Scurry,Real Estate,13
+Texas,Scurry,Religious,21
+Texas,Shelby,Real Estate,18
+Texas,Shelby,Religious,27
+Texas,Smith,Real Estate,298
+Texas,Smith,Religious,300
+Texas,Somervell,Real Estate,11
+Texas,Somervell,Religious,12
+Texas,Starr,Real Estate,8
+Texas,Starr,Religious,14
+Texas,Statewide Texas,Real Estate,6
+Texas,Statewide Texas,Religious,11
+Texas,Stephens,Real Estate,5
+Texas,Stephens,Religious,10
+Texas,Tarrant,Real Estate,"2,156"
+Texas,Tarrant,Religious,"1,378"
+Texas,Taylor,Real Estate,137
+Texas,Taylor,Religious,185
+Texas,Titus,Real Estate,18
+Texas,Titus,Religious,34
+Texas,Tom Green,Real Estate,117
+Texas,Tom Green,Religious,130
+Texas,Travis,Real Estate,"2,703"
+Texas,Travis,Religious,"1,200"
+Texas,Trinity,Real Estate,3
+Texas,Trinity,Religious,24
+Texas,Tyler,Real Estate,9
+Texas,Tyler,Religious,28
+Texas,Upshur,Real Estate,10
+Texas,Upshur,Religious,36
+Texas,Uvalde,Real Estate,23
+Texas,Uvalde,Religious,29
+Texas,Val Verde,Real Estate,27
+Texas,Val Verde,Religious,40
+Texas,Van Zandt,Real Estate,23
+Texas,Van Zandt,Religious,70
+Texas,Victoria,Real Estate,75
+Texas,Victoria,Religious,84
+Texas,Walker,Real Estate,52
+Texas,Walker,Religious,51
+Texas,Waller,Real Estate,32
+Texas,Waller,Religious,33
+Texas,Ward,Real Estate,7
+Texas,Ward,Religious,10
+Texas,Washington,Real Estate,38
+Texas,Washington,Religious,53
+Texas,Webb,Real Estate,189
+Texas,Webb,Religious,92
+Texas,Wharton,Real Estate,38
+Texas,Wharton,Religious,63
+Texas,Wheeler,Real Estate,6
+Texas,Wheeler,Religious,12
+Texas,Wichita,Real Estate,120
+Texas,Wichita,Religious,146
+Texas,Wilbarger,Real Estate,8
+Texas,Wilbarger,Religious,18
+Texas,Willacy,Real Estate,6
+Texas,Willacy,Religious,11
+Texas,Williamson,Real Estate,723
+Texas,Williamson,Religious,335
+Texas,Wilson,Real Estate,19
+Texas,Wilson,Religious,34
+Texas,Winkler,Real Estate,4
+Texas,Winkler,Religious,6
+Texas,Wise,Real Estate,47
+Texas,Wise,Religious,75
+Texas,Wood,Real Estate,28
+Texas,Wood,Religious,69
+Texas,Young,Real Estate,14
+Texas,Young,Religious,28
+Utah,Box Elder,Real Estate,65
+Utah,Box Elder,Religious,16
+Utah,Cache,Real Estate,244
+Utah,Cache,Religious,36
+Utah,Carbon,Real Estate,16
+Utah,Carbon,Religious,13
+Utah,Davis,Real Estate,577
+Utah,Davis,Religious,72
+Utah,Duchesne,Real Estate,17
+Utah,Duchesne,Religious,7
+Utah,Grand,Real Estate,41
+Utah,Grand,Religious,18
+Utah,Iron,Real Estate,122
+Utah,Iron,Religious,28
+Utah,Kane,Real Estate,27
+Utah,Kane,Religious,4
+Utah,Morgan,Real Estate,17
+Utah,Morgan,Religious,3
+Utah,Salt Lake,Real Estate,"2,478"
+Utah,Salt Lake,Religious,579
+Utah,San Juan,Real Estate,5
+Utah,San Juan,Religious,4
+Utah,Sanpete,Real Estate,16
+Utah,Sanpete,Religious,4
+Utah,Sevier,Real Estate,16
+Utah,Sevier,Religious,7
+Utah,Summit,Real Estate,347
+Utah,Summit,Religious,52
+Utah,Tooele,Real Estate,70
+Utah,Tooele,Religious,19
+Utah,Uintah,Real Estate,54
+Utah,Uintah,Religious,11
+Utah,Utah,Real Estate,"1,028"
+Utah,Utah,Religious,113
+Utah,Wasatch,Real Estate,87
+Utah,Wasatch,Religious,14
+Utah,Washington,Real Estate,484
+Utah,Washington,Religious,49
+Utah,Weber,Real Estate,394
+Utah,Weber,Religious,82
+Vermont,Addison,Real Estate,33
+Vermont,Addison,Religious,51
+Vermont,Bennington,Real Estate,46
+Vermont,Bennington,Religious,57
+Vermont,Caledonia,Real Estate,14
+Vermont,Caledonia,Religious,44
+Vermont,Chittenden,Real Estate,230
+Vermont,Chittenden,Religious,237
+Vermont,Franklin,Real Estate,29
+Vermont,Franklin,Religious,42
+Vermont,Grand Isle,Real Estate,6
+Vermont,Grand Isle,Religious,10
+Vermont,Lamoille,Real Estate,42
+Vermont,Lamoille,Religious,35
+Vermont,Orange,Real Estate,14
+Vermont,Orange,Religious,38
+Vermont,Orleans,Real Estate,14
+Vermont,Orleans,Religious,36
+Vermont,Rutland,Real Estate,55
+Vermont,Rutland,Religious,78
+Vermont,Washington,Real Estate,46
+Vermont,Washington,Religious,173
+Vermont,Windham,Real Estate,72
+Vermont,Windham,Religious,72
+Vermont,Windsor,Real Estate,97
+Vermont,Windsor,Religious,91
+Virginia,Accomack,Real Estate,37
+Virginia,Accomack,Religious,48
+Virginia,Albemarle,Real Estate,164
+Virginia,Albemarle,Religious,127
+Virginia,Alexandria city,Real Estate,257
+Virginia,Alexandria city,Religious,385
+Virginia,Alleghany,Real Estate,3
+Virginia,Alleghany,Religious,30
+Virginia,Amelia,Real Estate,9
+Virginia,Amelia,Religious,14
+Virginia,Amherst,Real Estate,11
+Virginia,Amherst,Religious,46
+Virginia,Appomattox,Real Estate,9
+Virginia,Appomattox,Religious,30
+Virginia,Arlington,Real Estate,481
+Virginia,Arlington,Religious,429
+Virginia,Augusta,Real Estate,64
+Virginia,Augusta,Religious,108
+Virginia,Bath,Real Estate,5
+Virginia,Bath,Religious,10
+Virginia,Bedford,Real Estate,111
+Virginia,Bedford,Religious,112
+Virginia,Botetourt,Real Estate,28
+Virginia,Botetourt,Religious,61
+Virginia,Bristol city,Real Estate,17
+Virginia,Bristol city,Religious,41
+Virginia,Brunswick,Real Estate,8
+Virginia,Brunswick,Religious,14
+Virginia,Buchanan,Real Estate,5
+Virginia,Buchanan,Religious,21
+Virginia,Buckingham,Real Estate,5
+Virginia,Buckingham,Religious,20
+Virginia,Buena Vista city,Real Estate,4
+Virginia,Buena Vista city,Religious,8
+Virginia,Campbell,Real Estate,46
+Virginia,Campbell,Religious,69
+Virginia,Caroline,Real Estate,14
+Virginia,Caroline,Religious,37
+Virginia,Carroll,Real Estate,13
+Virginia,Carroll,Religious,38
+Virginia,Charles City,Real Estate,5
+Virginia,Charles City,Religious,11
+Virginia,Charlotte,Real Estate,6
+Virginia,Charlotte,Religious,15
+Virginia,Charlottesville city,Real Estate,91
+Virginia,Charlottesville city,Religious,130
+Virginia,Chesapeake city,Real Estate,311
+Virginia,Chesapeake city,Religious,212
+Virginia,Chesterfield,Real Estate,373
+Virginia,Chesterfield,Religious,276
+Virginia,Clarke,Real Estate,23
+Virginia,Clarke,Religious,31
+Virginia,Colonial Heights city,Real Estate,29
+Virginia,Colonial Heights city,Religious,25
+Virginia,Covington city,Real Estate,6
+Virginia,Covington city,Religious,23
+Virginia,Culpeper,Real Estate,30
+Virginia,Culpeper,Religious,51
+Virginia,Cumberland,Real Estate,5
+Virginia,Cumberland,Religious,4
+Virginia,Danville city,Real Estate,34
+Virginia,Danville city,Religious,84
+Virginia,Dinwiddie,Real Estate,12
+Virginia,Dinwiddie,Religious,19
+Virginia,Emporia city,Real Estate,10
+Virginia,Emporia city,Religious,16
+Virginia,Essex,Real Estate,6
+Virginia,Essex,Religious,14
+Virginia,Fairfax,Real Estate,"1,708"
+Virginia,Fairfax,Religious,"1,047"
+Virginia,Fairfax city,Real Estate,68
+Virginia,Fairfax city,Religious,66
+Virginia,Falls Church city,Real Estate,40
+Virginia,Falls Church city,Religious,26
+Virginia,Fauquier,Real Estate,91
+Virginia,Fauquier,Religious,103
+Virginia,Floyd,Real Estate,6
+Virginia,Floyd,Religious,24
+Virginia,Fluvanna,Real Estate,17
+Virginia,Fluvanna,Religious,23
+Virginia,Franklin,Real Estate,41
+Virginia,Franklin,Religious,50
+Virginia,Franklin city,Real Estate,11
+Virginia,Franklin city,Religious,17
+Virginia,Frederick,Real Estate,72
+Virginia,Frederick,Religious,72
+Virginia,Fredericksburg city,Real Estate,66
+Virginia,Fredericksburg city,Religious,56
+Virginia,Galax city,Real Estate,12
+Virginia,Galax city,Religious,16
+Virginia,Giles,Real Estate,5
+Virginia,Giles,Religious,20
+Virginia,Gloucester,Real Estate,38
+Virginia,Gloucester,Religious,36
+Virginia,Goochland,Real Estate,24
+Virginia,Goochland,Religious,36
+Virginia,Grayson,Real Estate,8
+Virginia,Grayson,Religious,9
+Virginia,Greene,Real Estate,15
+Virginia,Greene,Religious,11
+Virginia,Greensville,Real Estate,3
+Virginia,Greensville,Religious,3
+Virginia,Halifax,Real Estate,16
+Virginia,Halifax,Religious,54
+Virginia,Hampton city,Real Estate,122
+Virginia,Hampton city,Religious,122
+Virginia,Hanover,Real Estate,135
+Virginia,Hanover,Religious,122
+Virginia,Harrisonburg city,Real Estate,50
+Virginia,Harrisonburg city,Religious,77
+Virginia,Henrico,Real Estate,485
+Virginia,Henrico,Religious,404
+Virginia,Henry,Real Estate,18
+Virginia,Henry,Religious,76
+Virginia,Hopewell city,Real Estate,13
+Virginia,Hopewell city,Religious,35
+Virginia,Isle of Wight,Real Estate,46
+Virginia,Isle of Wight,Religious,48
+Virginia,James City,Real Estate,95
+Virginia,James City,Religious,61
+Virginia,King George,Real Estate,19
+Virginia,King George,Religious,25
+Virginia,King William,Real Estate,11
+Virginia,King William,Religious,14
+Virginia,King and Queen,Real Estate,5
+Virginia,King and Queen,Religious,11
+Virginia,Lancaster,Real Estate,19
+Virginia,Lancaster,Religious,30
+Virginia,Lee,Real Estate,6
+Virginia,Lee,Religious,12
+Virginia,Lexington city,Real Estate,11
+Virginia,Lexington city,Religious,25
+Virginia,Loudoun,Real Estate,501
+Virginia,Loudoun,Religious,267
+Virginia,Louisa,Real Estate,50
+Virginia,Louisa,Religious,34
+Virginia,Lynchburg city,Real Estate,106
+Virginia,Lynchburg city,Religious,134
+Virginia,Madison,Real Estate,13
+Virginia,Madison,Religious,17
+Virginia,Manassas Park city,Real Estate,9
+Virginia,Manassas Park city,Religious,6
+Virginia,Manassas city,Real Estate,47
+Virginia,Manassas city,Religious,47
+Virginia,Martinsville city,Real Estate,18
+Virginia,Martinsville city,Religious,48
+Virginia,Mathews,Real Estate,7
+Virginia,Mathews,Religious,18
+Virginia,Mecklenburg,Real Estate,29
+Virginia,Mecklenburg,Religious,43
+Virginia,Middlesex,Real Estate,13
+Virginia,Middlesex,Religious,18
+Virginia,Montgomery,Real Estate,88
+Virginia,Montgomery,Religious,110
+Virginia,Nelson,Real Estate,17
+Virginia,Nelson,Religious,22
+Virginia,New Kent,Real Estate,21
+Virginia,New Kent,Religious,25
+Virginia,Newport News city,Real Estate,259
+Virginia,Newport News city,Religious,191
+Virginia,Norfolk city,Real Estate,296
+Virginia,Norfolk city,Religious,291
+Virginia,Northampton,Real Estate,17
+Virginia,Northampton,Religious,19
+Virginia,Northumberland,Real Estate,15
+Virginia,Northumberland,Religious,28
+Virginia,Norton city,Real Estate,3
+Virginia,Norton city,Religious,5
+Virginia,Nottoway,Real Estate,10
+Virginia,Nottoway,Religious,27
+Virginia,Orange,Real Estate,25
+Virginia,Orange,Religious,41
+Virginia,Page,Real Estate,10
+Virginia,Page,Religious,29
+Virginia,Patrick,Real Estate,3
+Virginia,Patrick,Religious,18
+Virginia,Petersburg city,Real Estate,24
+Virginia,Petersburg city,Religious,54
+Virginia,Pittsylvania,Real Estate,23
+Virginia,Pittsylvania,Religious,86
+Virginia,Poquoson city,Real Estate,12
+Virginia,Poquoson city,Religious,10
+Virginia,Portsmouth city,Real Estate,73
+Virginia,Portsmouth city,Religious,101
+Virginia,Powhatan,Real Estate,30
+Virginia,Powhatan,Religious,27
+Virginia,Prince Edward,Real Estate,20
+Virginia,Prince Edward,Religious,29
+Virginia,Prince George,Real Estate,19
+Virginia,Prince George,Religious,29
+Virginia,Prince William,Real Estate,417
+Virginia,Prince William,Religious,273
+Virginia,Pulaski,Real Estate,18
+Virginia,Pulaski,Religious,50
+Virginia,Radford city,Real Estate,23
+Virginia,Radford city,Religious,28
+Virginia,Rappahannock,Real Estate,8
+Virginia,Rappahannock,Religious,15
+Virginia,Richmond,Real Estate,3
+Virginia,Richmond,Religious,17
+Virginia,Richmond city,Real Estate,335
+Virginia,Richmond city,Religious,386
+Virginia,Roanoke,Real Estate,117
+Virginia,Roanoke,Religious,104
+Virginia,Roanoke city,Real Estate,140
+Virginia,Roanoke city,Religious,163
+Virginia,Rockbridge,Real Estate,9
+Virginia,Rockbridge,Religious,28
+Virginia,Rockingham,Real Estate,49
+Virginia,Rockingham,Religious,112
+Virginia,Russell,Real Estate,7
+Virginia,Russell,Religious,23
+Virginia,Salem city,Real Estate,39
+Virginia,Salem city,Religious,44
+Virginia,Scott,Real Estate,5
+Virginia,Scott,Religious,10
+Virginia,Shenandoah,Real Estate,29
+Virginia,Shenandoah,Religious,73
+Virginia,Smyth,Real Estate,9
+Virginia,Smyth,Religious,31
+Virginia,Southampton,Real Estate,13
+Virginia,Southampton,Religious,23
+Virginia,Spotsylvania,Real Estate,128
+Virginia,Spotsylvania,Religious,92
+Virginia,Stafford,Real Estate,118
+Virginia,Stafford,Religious,83
+Virginia,Statewide Virginia,Real Estate,4
+Virginia,Statewide Virginia,Religious,10
+Virginia,Staunton city,Real Estate,37
+Virginia,Staunton city,Religious,58
+Virginia,Suffolk city,Real Estate,79
+Virginia,Suffolk city,Religious,105
+Virginia,Surry,Real Estate,4
+Virginia,Surry,Religious,10
+Virginia,Sussex,Real Estate,7
+Virginia,Sussex,Religious,19
+Virginia,Tazewell,Real Estate,28
+Virginia,Tazewell,Religious,52
+Virginia,Virginia Beach city,Real Estate,818
+Virginia,Virginia Beach city,Religious,335
+Virginia,Warren,Real Estate,32
+Virginia,Warren,Religious,48
+Virginia,Washington,Real Estate,38
+Virginia,Washington,Religious,61
+Virginia,Waynesboro city,Real Estate,33
+Virginia,Waynesboro city,Religious,41
+Virginia,Westmoreland,Real Estate,7
+Virginia,Westmoreland,Religious,39
+Virginia,Williamsburg city,Real Estate,46
+Virginia,Williamsburg city,Religious,25
+Virginia,Winchester city,Real Estate,64
+Virginia,Winchester city,Religious,57
+Virginia,Wise,Real Estate,13
+Virginia,Wise,Religious,30
+Virginia,Wythe,Real Estate,20
+Virginia,Wythe,Religious,33
+Virginia,York,Real Estate,65
+Virginia,York,Religious,52
+Washington,Adams,Real Estate,14
+Washington,Adams,Religious,23
+Washington,Asotin,Real Estate,18
+Washington,Asotin,Religious,22
+Washington,Benton,Real Estate,323
+Washington,Benton,Religious,160
+Washington,Chelan,Real Estate,145
+Washington,Chelan,Religious,124
+Washington,Clallam,Real Estate,108
+Washington,Clallam,Religious,83
+Washington,Clark,Real Estate,686
+Washington,Clark,Religious,339
+Washington,Columbia,Real Estate,4
+Washington,Columbia,Religious,6
+Washington,Cowlitz,Real Estate,107
+Washington,Cowlitz,Religious,93
+Washington,Douglas,Real Estate,43
+Washington,Douglas,Religious,28
+Washington,Ferry,Real Estate,8
+Washington,Ferry,Religious,7
+Washington,Franklin,Real Estate,71
+Washington,Franklin,Religious,46
+Washington,Grant,Real Estate,106
+Washington,Grant,Religious,82
+Washington,Grays Harbor,Real Estate,72
+Washington,Grays Harbor,Religious,85
+Washington,Island,Real Estate,125
+Washington,Island,Religious,89
+Washington,Jefferson,Real Estate,54
+Washington,Jefferson,Religious,56
+Washington,King,Real Estate,"5,237"
+Washington,King,Religious,"2,223"
+Washington,Kitsap,Real Estate,418
+Washington,Kitsap,Religious,244
+Washington,Kittitas,Real Estate,63
+Washington,Kittitas,Religious,49
+Washington,Klickitat,Real Estate,30
+Washington,Klickitat,Religious,25
+Washington,Lewis,Real Estate,92
+Washington,Lewis,Religious,67
+Washington,Lincoln,Real Estate,9
+Washington,Lincoln,Religious,18
+Washington,Mason,Real Estate,55
+Washington,Mason,Religious,47
+Washington,Okanogan,Real Estate,47
+Washington,Okanogan,Religious,52
+Washington,Pacific,Real Estate,28
+Washington,Pacific,Religious,30
+Washington,Pend Oreille,Real Estate,10
+Washington,Pend Oreille,Religious,18
+Washington,Pierce,Real Estate,"1,281"
+Washington,Pierce,Religious,628
+Washington,San Juan,Real Estate,59
+Washington,San Juan,Religious,39
+Washington,Skagit,Real Estate,162
+Washington,Skagit,Religious,150
+Washington,Skamania,Real Estate,7
+Washington,Skamania,Religious,12
+Washington,Snohomish,Real Estate,"1,147"
+Washington,Snohomish,Religious,585
+Washington,Spokane,Real Estate,785
+Washington,Spokane,Religious,482
+Washington,Statewide Washington,Real Estate,4
+Washington,Statewide Washington,Religious,13
+Washington,Stevens,Real Estate,28
+Washington,Stevens,Religious,47
+Washington,Thurston,Real Estate,353
+Washington,Thurston,Religious,272
+Washington,Wahkiakum,Real Estate,3
+Washington,Wahkiakum,Religious,4
+Washington,Walla Walla,Real Estate,69
+Washington,Walla Walla,Religious,55
+Washington,Whatcom,Real Estate,419
+Washington,Whatcom,Religious,239
+Washington,Whitman,Real Estate,46
+Washington,Whitman,Religious,44
+Washington,Yakima,Real Estate,224
+Washington,Yakima,Religious,197
+West Virginia,Barbour,Real Estate,6
+West Virginia,Barbour,Religious,10
+West Virginia,Berkeley,Real Estate,69
+West Virginia,Berkeley,Religious,96
+West Virginia,Boone,Real Estate,3
+West Virginia,Boone,Religious,17
+West Virginia,Brooke,Real Estate,4
+West Virginia,Brooke,Religious,35
+West Virginia,Cabell,Real Estate,89
+West Virginia,Cabell,Religious,141
+West Virginia,Fayette,Real Estate,20
+West Virginia,Fayette,Religious,49
+West Virginia,Grant,Real Estate,5
+West Virginia,Grant,Religious,16
+West Virginia,Greenbrier,Real Estate,32
+West Virginia,Greenbrier,Religious,50
+West Virginia,Hampshire,Real Estate,11
+West Virginia,Hampshire,Religious,20
+West Virginia,Hancock,Real Estate,15
+West Virginia,Hancock,Religious,39
+West Virginia,Hardy,Real Estate,11
+West Virginia,Hardy,Religious,13
+West Virginia,Harrison,Real Estate,47
+West Virginia,Harrison,Religious,116
+West Virginia,Jackson,Real Estate,7
+West Virginia,Jackson,Religious,29
+West Virginia,Jefferson,Real Estate,47
+West Virginia,Jefferson,Religious,60
+West Virginia,Kanawha,Real Estate,160
+West Virginia,Kanawha,Religious,334
+West Virginia,Lewis,Real Estate,5
+West Virginia,Lewis,Religious,24
+West Virginia,Logan,Real Estate,9
+West Virginia,Logan,Religious,24
+West Virginia,Marion,Real Estate,30
+West Virginia,Marion,Religious,85
+West Virginia,Marshall,Real Estate,7
+West Virginia,Marshall,Religious,44
+West Virginia,Mason,Real Estate,12
+West Virginia,Mason,Religious,40
+West Virginia,Mercer,Real Estate,32
+West Virginia,Mercer,Religious,78
+West Virginia,Mineral,Real Estate,13
+West Virginia,Mineral,Religious,35
+West Virginia,Mingo,Real Estate,9
+West Virginia,Mingo,Religious,20
+West Virginia,Monongalia,Real Estate,128
+West Virginia,Monongalia,Religious,103
+West Virginia,Morgan,Real Estate,8
+West Virginia,Morgan,Religious,27
+West Virginia,Nicholas,Real Estate,10
+West Virginia,Nicholas,Religious,31
+West Virginia,Ohio,Real Estate,46
+West Virginia,Ohio,Religious,96
+West Virginia,Pocahontas,Real Estate,7
+West Virginia,Pocahontas,Religious,16
+West Virginia,Preston,Real Estate,16
+West Virginia,Preston,Religious,30
+West Virginia,Putnam,Real Estate,44
+West Virginia,Putnam,Religious,58
+West Virginia,Raleigh,Real Estate,51
+West Virginia,Raleigh,Religious,85
+West Virginia,Randolph,Real Estate,15
+West Virginia,Randolph,Religious,40
+West Virginia,Ritchie,Real Estate,3
+West Virginia,Ritchie,Religious,12
+West Virginia,Roane,Real Estate,3
+West Virginia,Roane,Religious,9
+West Virginia,Taylor,Real Estate,3
+West Virginia,Taylor,Religious,24
+West Virginia,Tucker,Real Estate,8
+West Virginia,Tucker,Religious,11
+West Virginia,Upshur,Real Estate,13
+West Virginia,Upshur,Religious,33
+West Virginia,Wayne,Real Estate,12
+West Virginia,Wayne,Religious,28
+West Virginia,Wetzel,Real Estate,7
+West Virginia,Wetzel,Religious,26
+West Virginia,Wood,Real Estate,46
+West Virginia,Wood,Religious,141
+West Virginia,Wyoming,Real Estate,4
+West Virginia,Wyoming,Religious,21
+Wisconsin,Adams,Real Estate,20
+Wisconsin,Adams,Religious,19
+Wisconsin,Ashland,Real Estate,5
+Wisconsin,Ashland,Religious,24
+Wisconsin,Barron,Real Estate,28
+Wisconsin,Barron,Religious,65
+Wisconsin,Bayfield,Real Estate,18
+Wisconsin,Bayfield,Religious,30
+Wisconsin,Brown,Real Estate,201
+Wisconsin,Brown,Religious,194
+Wisconsin,Buffalo,Real Estate,4
+Wisconsin,Buffalo,Religious,15
+Wisconsin,Burnett,Real Estate,15
+Wisconsin,Burnett,Religious,27
+Wisconsin,Calumet,Real Estate,23
+Wisconsin,Calumet,Religious,35
+Wisconsin,Chippewa,Real Estate,21
+Wisconsin,Chippewa,Religious,64
+Wisconsin,Clark,Real Estate,7
+Wisconsin,Clark,Religious,42
+Wisconsin,Columbia,Real Estate,41
+Wisconsin,Columbia,Religious,65
+Wisconsin,Crawford,Real Estate,8
+Wisconsin,Crawford,Religious,18
+Wisconsin,Dane,Real Estate,753
+Wisconsin,Dane,Religious,667
+Wisconsin,Dodge,Real Estate,27
+Wisconsin,Dodge,Religious,85
+Wisconsin,Door,Real Estate,45
+Wisconsin,Door,Religious,71
+Wisconsin,Douglas,Real Estate,30
+Wisconsin,Douglas,Religious,47
+Wisconsin,Dunn,Real Estate,25
+Wisconsin,Dunn,Religious,45
+Wisconsin,Eau Claire,Real Estate,108
+Wisconsin,Eau Claire,Religious,127
+Wisconsin,Fond du Lac,Real Estate,58
+Wisconsin,Fond du Lac,Religious,109
+Wisconsin,Forest,Real Estate,8
+Wisconsin,Forest,Religious,14
+Wisconsin,Grant,Real Estate,44
+Wisconsin,Grant,Religious,53
+Wisconsin,Green,Real Estate,23
+Wisconsin,Green,Religious,36
+Wisconsin,Green Lake,Real Estate,14
+Wisconsin,Green Lake,Religious,31
+Wisconsin,Iowa,Real Estate,18
+Wisconsin,Iowa,Religious,27
+Wisconsin,Iron,Real Estate,3
+Wisconsin,Iron,Religious,6
+Wisconsin,Jackson,Real Estate,7
+Wisconsin,Jackson,Religious,23
+Wisconsin,Jefferson,Real Estate,67
+Wisconsin,Jefferson,Religious,82
+Wisconsin,Juneau,Real Estate,19
+Wisconsin,Juneau,Religious,27
+Wisconsin,Kenosha,Real Estate,129
+Wisconsin,Kenosha,Religious,104
+Wisconsin,Kewaunee,Real Estate,7
+Wisconsin,Kewaunee,Religious,19
+Wisconsin,La Crosse,Real Estate,136
+Wisconsin,La Crosse,Religious,139
+Wisconsin,Lafayette,Real Estate,7
+Wisconsin,Lafayette,Religious,17
+Wisconsin,Langlade,Real Estate,14
+Wisconsin,Langlade,Religious,31
+Wisconsin,Lincoln,Real Estate,15
+Wisconsin,Lincoln,Religious,45
+Wisconsin,Manitowoc,Real Estate,41
+Wisconsin,Manitowoc,Religious,72
+Wisconsin,Marathon,Real Estate,75
+Wisconsin,Marathon,Religious,165
+Wisconsin,Marinette,Real Estate,20
+Wisconsin,Marinette,Religious,53
+Wisconsin,Marquette,Real Estate,4
+Wisconsin,Marquette,Religious,15
+Wisconsin,Milwaukee,Real Estate,793
+Wisconsin,Milwaukee,Religious,805
+Wisconsin,Monroe,Real Estate,25
+Wisconsin,Monroe,Religious,50
+Wisconsin,Oconto,Real Estate,13
+Wisconsin,Oconto,Religious,34
+Wisconsin,Oneida,Real Estate,49
+Wisconsin,Oneida,Religious,60
+Wisconsin,Outagamie,Real Estate,150
+Wisconsin,Outagamie,Religious,166
+Wisconsin,Ozaukee,Real Estate,105
+Wisconsin,Ozaukee,Religious,98
+Wisconsin,Pepin,Real Estate,5
+Wisconsin,Pepin,Religious,7
+Wisconsin,Pierce,Real Estate,23
+Wisconsin,Pierce,Religious,42
+Wisconsin,Polk,Real Estate,31
+Wisconsin,Polk,Religious,62
+Wisconsin,Portage,Real Estate,45
+Wisconsin,Portage,Religious,81
+Wisconsin,Price,Real Estate,12
+Wisconsin,Price,Religious,26
+Wisconsin,Racine,Real Estate,112
+Wisconsin,Racine,Religious,171
+Wisconsin,Richland,Real Estate,8
+Wisconsin,Richland,Religious,17
+Wisconsin,Rock,Real Estate,119
+Wisconsin,Rock,Religious,144
+Wisconsin,Sauk,Real Estate,94
+Wisconsin,Sauk,Religious,85
+Wisconsin,Sawyer,Real Estate,29
+Wisconsin,Sawyer,Religious,18
+Wisconsin,Shawano,Real Estate,13
+Wisconsin,Shawano,Religious,60
+Wisconsin,Sheboygan,Real Estate,62
+Wisconsin,Sheboygan,Religious,152
+Wisconsin,St. Croix,Real Estate,74
+Wisconsin,St. Croix,Religious,80
+Wisconsin,Statewide Wisconsin,Real Estate,3
+Wisconsin,Statewide Wisconsin,Religious,8
+Wisconsin,Taylor,Real Estate,10
+Wisconsin,Taylor,Religious,18
+Wisconsin,Trempealeau,Real Estate,12
+Wisconsin,Trempealeau,Religious,37
+Wisconsin,Vernon,Real Estate,18
+Wisconsin,Vernon,Religious,39
+Wisconsin,Vilas,Real Estate,29
+Wisconsin,Vilas,Religious,46
+Wisconsin,Walworth,Real Estate,102
+Wisconsin,Walworth,Religious,109
+Wisconsin,Washburn,Real Estate,26
+Wisconsin,Washburn,Religious,24
+Wisconsin,Washington,Real Estate,74
+Wisconsin,Washington,Religious,118
+Wisconsin,Waukesha,Real Estate,438
+Wisconsin,Waukesha,Religious,379
+Wisconsin,Waupaca,Real Estate,32
+Wisconsin,Waupaca,Religious,68
+Wisconsin,Waushara,Real Estate,12
+Wisconsin,Waushara,Religious,36
+Wisconsin,Winnebago,Real Estate,114
+Wisconsin,Winnebago,Religious,171
+Wisconsin,Wood,Real Estate,34
+Wisconsin,Wood,Religious,93
+Wyoming,Albany,Real Estate,57
+Wyoming,Albany,Religious,53
+Wyoming,Big Horn,Real Estate,9
+Wyoming,Big Horn,Religious,12
+Wyoming,Campbell,Real Estate,62
+Wyoming,Campbell,Religious,46
+Wyoming,Carbon,Real Estate,30
+Wyoming,Carbon,Religious,18
+Wyoming,Converse,Real Estate,17
+Wyoming,Converse,Religious,19
+Wyoming,Crook,Real Estate,8
+Wyoming,Crook,Religious,8
+Wyoming,Fremont,Real Estate,51
+Wyoming,Fremont,Religious,51
+Wyoming,Goshen,Real Estate,12
+Wyoming,Goshen,Religious,28
+Wyoming,Hot Springs,Real Estate,8
+Wyoming,Hot Springs,Religious,7
+Wyoming,Johnson,Real Estate,18
+Wyoming,Johnson,Religious,17
+Wyoming,Laramie,Real Estate,179
+Wyoming,Laramie,Religious,143
+Wyoming,Lincoln,Real Estate,35
+Wyoming,Lincoln,Religious,13
+Wyoming,Natrona,Real Estate,117
+Wyoming,Natrona,Religious,114
+Wyoming,Park,Real Estate,63
+Wyoming,Park,Religious,59
+Wyoming,Platte,Real Estate,8
+Wyoming,Platte,Religious,19
+Wyoming,Sheridan,Real Estate,106
+Wyoming,Sheridan,Religious,62
+Wyoming,Sublette,Real Estate,23
+Wyoming,Sublette,Religious,11
+Wyoming,Sweetwater,Real Estate,46
+Wyoming,Sweetwater,Religious,39
+Wyoming,Teton,Real Estate,214
+Wyoming,Teton,Religious,81
+Wyoming,Uinta,Real Estate,27
+Wyoming,Uinta,Religious,9
+Wyoming,Washakie,Real Estate,10
+Wyoming,Washakie,Religious,16
